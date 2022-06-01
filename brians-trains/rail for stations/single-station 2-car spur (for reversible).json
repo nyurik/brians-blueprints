@@ -1,0 +1,69 @@
+{
+  "index": 0,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Single-Station 2-Car Spur (for reversible)",
+    "description": "The chain-signal between the two branches is important.  Without it, deadlock can occur if a second train is waiting to enter the stub as it'll prevent the current one from leaving.",
+    "shift_x": 143,
+    "shift_y": -147,
+    "version": 281479275544576,
+    "entities": [
+      {"name": "straight-rail", "position": {"x": 0, "y": 0}},
+      {"name": "straight-rail", "position": {"x": 0, "y": 2}},
+      {"name": "logistic-train-stop-output", "position": {"x": 1.5, "y": -0.5}},
+      {
+        "name": "logistic-train-stop-input",
+        "control_behavior": {
+          "use_colors": true,
+          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-anything", "type": "virtual"}}
+        },
+        "position": {"x": 2.5, "y": -0.5}
+      },
+      {
+        "name": "logistic-train-stop",
+        "station": "",
+        "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
+        "position": {"x": 2, "y": 0}
+      },
+      {"name": "straight-rail", "position": {"x": 0, "y": 4}},
+      {"name": "straight-rail", "position": {"x": 0, "y": 6}},
+      {"name": "straight-rail", "position": {"x": 0, "y": 8}},
+      {"name": "straight-rail", "position": {"x": 0, "y": 10}},
+      {"name": "straight-rail", "position": {"x": 0, "y": 12}},
+      {"name": "straight-rail", "position": {"x": 0, "y": 14}},
+      {"name": "straight-rail", "position": {"x": 0, "y": 16}},
+      {"name": "straight-rail", "position": {"x": 0, "y": 18}},
+      {"name": "straight-rail", "position": {"x": 0, "y": 20}},
+      {"name": "straight-rail", "position": {"x": 0, "y": 22}},
+      {"name": "straight-rail", "position": {"x": 0, "y": 24}},
+      {"name": "straight-rail", "position": {"x": 0, "y": 26}},
+      {"name": "straight-rail", "position": {"x": 0, "y": 28}},
+      {"name": "curved-rail", "direction": 5, "position": {"x": -1, "y": 33}},
+      {"name": "curved-rail", "direction": 4, "position": {"x": 1, "y": 33}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": -10, "y": 40}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": -8, "y": 40}},
+      {"name": "rail-signal", "direction": 1, "position": {"x": -4.5, "y": 35.5}},
+      {"name": "straight-rail", "direction": 3, "position": {"x": -4, "y": 36}},
+      {"name": "rail-chain-signal", "direction": 2, "position": {"x": 0.5, "y": 38.5}},
+      {"name": "curved-rail", "direction": 2, "position": {"x": -7, "y": 39}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": -6, "y": 40}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": -4, "y": 40}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": -2, "y": 40}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 0, "y": 40}},
+      {"name": "rail-signal", "direction": 3, "position": {"x": 4.5, "y": 35.5}},
+      {"name": "straight-rail", "direction": 5, "position": {"x": 4, "y": 36}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 2, "y": 40}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 4, "y": 40}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 6, "y": 40}},
+      {"name": "curved-rail", "direction": 7, "position": {"x": 7, "y": 39}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 8, "y": 40}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 10, "y": 40}}
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "train-stop", "type": "item"}},
+      {"index": 2, "signal": {"name": "signal-1", "type": "virtual"}},
+      {"index": 3, "signal": {"name": "cargo-wagon", "type": "item"}},
+      {"index": 4, "signal": {"name": "signal-2", "type": "virtual"}}
+    ]
+  }
+}
