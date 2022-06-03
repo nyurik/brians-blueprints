@@ -1,0 +1,32 @@
+{
+  "index": 6,
+  "upgrade_planner": {
+    "item": "upgrade-planner",
+    "label": "Yellow to Red",
+    "version": 281479275544576,
+    "settings": {
+      "mappers": [
+        {
+          "index": 0,
+          "from": {"name": "transport-belt", "type": "entity"},
+          "to": {"name": "fast-transport-belt", "type": "entity"}
+        },
+        {
+          "index": 4,
+          "from": {"name": "splitter", "type": "entity"},
+          "to": {"name": "fast-splitter", "type": "entity"}
+        },
+        {
+          "index": 8,
+          "from": {"name": "underground-belt", "type": "entity"},
+          "to": {"name": "fast-underground-belt", "type": "entity"}
+        },
+        {
+          "index": 12,
+          "from": {"name": "loader", "type": "entity"},
+          "to": {"name": "fast-loader", "type": "entity"}
+        }
+      ]
+    }
+  }
+}

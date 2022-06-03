@@ -1,0 +1,10 @@
+{
+  "index": 37,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "Construction",
+    "active_index": 0,
+    "version": 281479275544576,
+    "icons": [{"index": 1, "signal": {"name": "assembling-machine-3", "type": "item"}}]
+  }
+}

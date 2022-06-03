@@ -1,0 +1,147 @@
+{
+  "index": 1,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Waterfill",
+    "description": "From only coal and water.\n\nEventually the Coke storage chest will get full but not until 1600 waterfill are produced.",
+    "shift_x": -651,
+    "shift_y": -97,
+    "version": 281479275544576,
+    "entities": [
+      {"name": "wooden-chest", "bar": 1, "position": {"x": 9.5, "y": -1.5}},
+      {"name": "inserter", "direction": 2, "position": {"x": 10.5, "y": -1.5}},
+      {"name": "small-electric-pole", "neighbours": ["5,4", "0,5"], "position": {"x": 10.5, "y": 0.5}},
+      {"name": "clarifier", "position": {"x": -0.5, "y": 3.5}},
+      {"name": "pipe", "position": {"x": -0.5, "y": 6.5}},
+      {"name": "pipe", "position": {"x": 0.5, "y": 6.5}},
+      {"name": "pipe", "position": {"x": 1.5, "y": 6.5}},
+      {"name": "small-electric-pole", "neighbours": ["4,-3"], "position": {"x": -0.5, "y": 7.5}},
+      {"name": "clarifier", "direction": 6, "position": {"x": 6.5, "y": 2.5}},
+      {"name": "small-electric-pole", "neighbours": ["7,1", "-4,3"], "position": {"x": 3.5, "y": 4.5}},
+      {"name": "pipe", "position": {"x": 9.5, "y": 2.5}},
+      {"name": "pipe", "position": {"x": 9.5, "y": 3.5}},
+      {"name": "pipe", "position": {"x": 9.5, "y": 4.5}},
+      {
+        "name": "inserter",
+        "direction": 6,
+        "drop_position": {"x": 2.203125, "y": 0},
+        "pickup_position": {"x": -2, "y": 2},
+        "position": {"x": 10.5, "y": 4.5}
+      },
+      {
+        "name": "hydro-plant",
+        "direction": 2,
+        "recipe": "yellow-waste-water-purification",
+        "position": {"x": 5.5, "y": 8.5}
+      },
+      {"name": "pipe-to-ground", "position": {"x": 9.5, "y": 5.5}},
+      {
+        "name": "small-electric-pole",
+        "neighbours": ["0,-5", "-7,-1", "4,6"],
+        "position": {"x": 10.5, "y": 5.5}
+      },
+      {"name": "pipe", "position": {"x": 9.5, "y": 6.5}},
+      {"name": "pipe", "position": {"x": 10.5, "y": 6.5}},
+      {"name": "iron-chest", "position": {"x": 9.5, "y": 7.5}},
+      {"name": "inserter", "direction": 2, "position": {"x": 10.5, "y": 7.5}},
+      {"name": "clarifier", "direction": 6, "position": {"x": -0.5, "y": 10.5}},
+      {"name": "pipe-to-ground", "direction": 4, "position": {"x": 9.5, "y": 9.5}},
+      {"name": "pipe", "position": {"x": 9.5, "y": 10.5}},
+      {"name": "pipe-to-ground", "direction": 6, "position": {"x": 10.5, "y": 10.5}},
+      {
+        "name": "assembling-machine-2",
+        "direction": 2,
+        "recipe": "waterfill",
+        "position": {"x": 12.5, "y": -0.5}
+      },
+      {"name": "pipe", "position": {"x": 14.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": 15.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": 16.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": 17.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": 18.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": 19.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": 20.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": 21.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": 22.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": 22.5, "y": 0.5}},
+      {"name": "pipe", "position": {"x": 23.5, "y": -0.5}},
+      {"name": "pipe", "position": {"x": 24.5, "y": -0.5}},
+      {"name": "inserter", "direction": 4, "position": {"x": 12.5, "y": 1.5}},
+      {
+        "name": "inserter",
+        "direction": 2,
+        "pickup_position": {"x": 0, "y": 1},
+        "position": {"x": 14.5, "y": 2.5}
+      },
+      {
+        "name": "angels-chemical-plant",
+        "direction": 4,
+        "recipe": "explosives",
+        "position": {"x": 12.5, "y": 3.5}
+      },
+      {"name": "basic-transport-belt", "direction": 4, "position": {"x": 14.5, "y": 3.5}},
+      {
+        "name": "basic-underground-belt",
+        "direction": 4,
+        "type": "input",
+        "position": {"x": 14.5, "y": 4.5}
+      },
+      {"name": "basic-transport-belt", "direction": 6, "position": {"x": 15.5, "y": 3.5}},
+      {"name": "basic-transport-belt", "direction": 6, "position": {"x": 16.5, "y": 3.5}},
+      {"name": "small-electric-pole", "neighbours": ["-5,-4", "-1,7"], "position": {"x": 15.5, "y": 4.5}},
+      {"name": "basic-transport-belt", "direction": 6, "position": {"x": 17.5, "y": 3.5}},
+      {"name": "basic-transport-belt", "direction": 6, "position": {"x": 18.5, "y": 3.5}},
+      {"name": "inserter", "direction": 4, "position": {"x": 12.5, "y": 5.5}},
+      {"name": "pipe", "position": {"x": 13.5, "y": 5.5}},
+      {"name": "pipe", "position": {"x": 14.5, "y": 5.5}},
+      {"name": "pipe", "position": {"x": 14.5, "y": 6.5}},
+      {
+        "name": "angels-chemical-plant",
+        "direction": 2,
+        "recipe": "solid-coke-sulfur",
+        "position": {"x": 12.5, "y": 7.5}
+      },
+      {
+        "name": "basic-underground-belt",
+        "direction": 4,
+        "type": "output",
+        "position": {"x": 14.5, "y": 7.5}
+      },
+      {"name": "basic-transport-belt", "direction": 4, "position": {"x": 14.5, "y": 8.5}},
+      {
+        "name": "hydro-plant",
+        "direction": 2,
+        "recipe": "water-purification",
+        "position": {"x": 18.5, "y": 8.5}
+      },
+      {"name": "pipe", "position": {"x": 22.5, "y": 1.5}},
+      {"name": "pipe", "position": {"x": 22.5, "y": 2.5}},
+      {"name": "basic-transport-belt", "direction": 6, "position": {"x": 19.5, "y": 3.5}},
+      {"name": "basic-transport-belt", "direction": 6, "position": {"x": 20.5, "y": 3.5}},
+      {
+        "name": "basic-underground-belt",
+        "direction": 6,
+        "type": "output",
+        "position": {"x": 21.5, "y": 3.5}
+      },
+      {"name": "pipe", "position": {"x": 22.5, "y": 3.5}},
+      {"name": "pipe", "position": {"x": 22.5, "y": 4.5}},
+      {
+        "name": "basic-underground-belt",
+        "direction": 6,
+        "type": "input",
+        "position": {"x": 23.5, "y": 3.5}
+      },
+      {"name": "basic-transport-belt", "direction": 6, "position": {"x": 24.5, "y": 3.5}},
+      {"name": "pipe", "position": {"x": 22.5, "y": 5.5}},
+      {"name": "pipe", "position": {"x": 22.5, "y": 6.5}},
+      {"name": "inserter", "direction": 4, "position": {"x": 12.5, "y": 9.5}},
+      {"name": "inserter", "pickup_position": {"x": 1, "y": 0}, "position": {"x": 13.5, "y": 9.5}},
+      {"name": "basic-transport-belt", "direction": 4, "position": {"x": 14.5, "y": 9.5}},
+      {"name": "pipe-to-ground", "direction": 2, "position": {"x": 14.5, "y": 10.5}},
+      {"name": "ore-crusher", "recipe": "coal-crushed", "position": {"x": 12.5, "y": 11.5}},
+      {"name": "small-electric-pole", "neighbours": ["1,-7", "-4,-6"], "position": {"x": 14.5, "y": 11.5}}
+    ],
+    "icons": [{"index": 1, "signal": {"name": "waterfill", "type": "item"}}]
+  }
+}
