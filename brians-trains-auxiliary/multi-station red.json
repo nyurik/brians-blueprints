@@ -1,0 +1,74 @@
+{
+  "index": 32,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Multi-Station Red",
+    "shift_x": 146,
+    "shift_y": 176,
+    "version": 281479275347968,
+    "entities": [
+      {"name": "medium-electric-pole", "neighbours": ["0,7"], "position": {"x": -1.5, "y": 0.5}},
+      {"name": "fast-underground-belt", "direction": 6, "type": "input", "position": {"x": 0.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 1.5, "y": 0.5}},
+      {
+        "name": "stack-filter-inserter",
+        "direction": 6,
+        "control_behavior": {
+          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 0.5, "y": 1.5}
+      },
+      {"name": "express-transport-belt", "position": {"x": 1.5, "y": 1.5}},
+      {
+        "name": "stack-filter-inserter",
+        "direction": 6,
+        "control_behavior": {
+          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 0.5, "y": 2.5}
+      },
+      {"name": "express-transport-belt", "position": {"x": 1.5, "y": 2.5}},
+      {
+        "name": "stack-filter-inserter",
+        "direction": 6,
+        "control_behavior": {
+          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 0.5, "y": 3.5}
+      },
+      {"name": "express-transport-belt", "position": {"x": 1.5, "y": 3.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 2.5, "y": 3.5}},
+      {
+        "name": "stack-filter-inserter",
+        "direction": 6,
+        "control_behavior": {
+          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 0.5, "y": 4.5}
+      },
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 1.5, "y": 4.5}},
+      {
+        "name": "stack-filter-inserter",
+        "direction": 6,
+        "control_behavior": {
+          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 0.5, "y": 5.5}
+      },
+      {"name": "express-transport-belt", "position": {"x": 1.5, "y": 5.5}},
+      {"name": "medium-electric-pole", "neighbours": ["0,-7"], "position": {"x": -1.5, "y": 7.5}},
+      {
+        "name": "stack-filter-inserter",
+        "direction": 6,
+        "control_behavior": {
+          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 0.5, "y": 6.5}
+      },
+      {"name": "express-transport-belt", "position": {"x": 1.5, "y": 6.5}},
+      {"name": "express-transport-belt", "position": {"x": 2.5, "y": 4.5}},
+      {"name": "express-transport-belt", "position": {"x": 2.5, "y": 5.5}}
+    ],
+    "icons": [{"index": 1, "signal": {"name": "fast-transport-belt", "type": "item"}}]
+  }
+}
