@@ -7,7 +7,7 @@
     "absolute-snapping": true,
     "shift_x": -167,
     "shift_y": 53,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {"name": "straight-rail", "direction": 7, "position": {"x": -6, "y": -6}},
       {"name": "curved-rail", "direction": 6, "position": {"x": -3, "y": -9}},
@@ -207,7 +207,7 @@
         "connections": {
           "1": {
             "green": [{"circuit_id": 1, "entity_rel": "0,-1.5"}, {"entity_rel": "2,0"}],
-            "red": [{"entity_rel": "2,-1"}, {"circuit_id": 1, "entity_rel": "0,-1.5"}]
+            "red": [{"circuit_id": 1, "entity_rel": "0,-1.5"}, {"entity_rel": "2,-1"}]
           }
         },
         "control_behavior": {
@@ -655,7 +655,7 @@
         "connections": {
           "1": {
             "green": [{"circuit_id": 1, "entity_rel": "0,-1.5"}, {"entity_rel": "2,0"}],
-            "red": [{"entity_rel": "2,-1"}, {"circuit_id": 1, "entity_rel": "0,-1.5"}]
+            "red": [{"circuit_id": 1, "entity_rel": "0,-1.5"}, {"entity_rel": "2,-1"}]
           }
         },
         "control_behavior": {
@@ -1025,7 +1025,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "0,-20"}, {"circuit_id": 2, "entity_rel": "0,1.5"}, {"entity_rel": "0,20"}],
-            "red": [{"circuit_id": 1, "entity_rel": "-1.5,1"}, {"entity_rel": "0,-20"}, {"entity_rel": "0,20"}]
+            "red": [{"entity_rel": "0,-20"}, {"circuit_id": 1, "entity_rel": "-1.5,1"}, {"entity_rel": "0,20"}]
           }
         },
         "neighbours": ["0,-20", "3.5,1.5", "0,20"],
@@ -4652,7 +4652,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "0,-20"}, {"circuit_id": 2, "entity_rel": "0,1.5"}, {"entity_rel": "0,20"}],
-            "red": [{"circuit_id": 1, "entity_rel": "-1.5,1"}, {"entity_rel": "0,-20"}, {"entity_rel": "0,20"}]
+            "red": [{"entity_rel": "0,-20"}, {"circuit_id": 1, "entity_rel": "-1.5,1"}, {"entity_rel": "0,20"}]
           }
         },
         "neighbours": ["0,-20", "3.5,1.5", "0,20"],
@@ -5243,7 +5243,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "0,-20"}, {"circuit_id": 2, "entity_rel": "0,1.5"}],
-            "red": [{"circuit_id": 1, "entity_rel": "-1.5,1"}, {"entity_rel": "0,-20"}]
+            "red": [{"entity_rel": "0,-20"}, {"circuit_id": 1, "entity_rel": "-1.5,1"}]
           }
         },
         "neighbours": ["0,-20", "3.5,0.5"],
@@ -11832,7 +11832,7 @@
             "red": [{"entity_rel": "-22,0"}, {"entity_rel": "22,0"}]
           }
         },
-        "neighbours": ["-22,0", "-10,-16", "22,0"],
+        "neighbours": ["-10,-16", "-22,0", "22,0"],
         "position": {"x": 134, "y": 222}
       },
       {"name": "straight-rail", "direction": 2, "position": {"x": 128, "y": 224}},
@@ -15128,7 +15128,7 @@
             "red": [{"entity_rel": "-22,0"}, {"entity_rel": "18,0"}]
           }
         },
-        "neighbours": ["-22,0", "5,-16", "18,0"],
+        "neighbours": ["5,-16", "-22,0", "18,0"],
         "position": {"x": 178, "y": 222}
       },
       {"name": "straight-rail", "direction": 2, "position": {"x": 180, "y": 220}},
@@ -15210,7 +15210,7 @@
             "red": [{"entity_rel": "0,-26"}, {"entity_rel": "-26,0"}]
           }
         },
-        "neighbours": ["-26,0", "0,-26"],
+        "neighbours": ["0,-26", "-26,0"],
         "position": {"x": 222, "y": 222}
       },
       {"name": "curved-rail", "direction": 7, "position": {"x": 217, "y": 233}},

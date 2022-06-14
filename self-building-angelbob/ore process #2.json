@@ -6,7 +6,7 @@
     "absolute-snapping": true,
     "shift_x": 53,
     "shift_y": 53,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {"name": "straight-rail", "direction": 7, "position": {"x": -6, "y": -6}},
       {"name": "rail-chain-signal", "direction": 2, "position": {"x": 2.5, "y": -11.5}},
@@ -322,8 +322,8 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"circuit_id": 2, "entity_rel": "-1.5,0"}, {"entity_rel": "-14,-8"}],
-            "red": [{"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "-14,-8"}]
+            "green": [{"entity_rel": "-14,-8"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}],
+            "red": [{"entity_rel": "-14,-8"}, {"circuit_id": 1, "entity_rel": "-1,-1.5"}]
           }
         },
         "neighbours": ["-14,-8", "-1.5,3.5"],
@@ -22230,7 +22230,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "-3,0", "8.5,-2.5", "0,7"],
+        "neighbours": ["0,-7", "8.5,-2.5", "-3,0", "0,7"],
         "position": {"x": 213.5, "y": 158.5}
       },
       {
@@ -22846,7 +22846,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,-7"}, {"entity_rel": "-3,0"}], "red": [{"entity_rel": "0,-7"}]}},
-        "neighbours": ["0,-7", "-3,0", "8.5,-1.5", "-4,5"],
+        "neighbours": ["0,-7", "8.5,-1.5", "-3,0", "-4,5"],
         "position": {"x": 213.5, "y": 179.5}
       },
       {"name": "straight-rail", "position": {"x": 212, "y": 182}},
@@ -23023,7 +23023,7 @@
             "red": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["-14,0", "1.5,-3.5", "14,0"],
+        "neighbours": ["1.5,-3.5", "-14,0", "14,0"],
         "position": {"x": 42, "y": 204}
       },
       {"name": "straight-rail", "direction": 3, "position": {"x": 42, "y": 210}},
@@ -23058,11 +23058,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-26,0"}, {"entity_rel": "0,-18"}, {"entity_rel": "18,0"}],
-            "red": [{"entity_rel": "-26,0"}, {"entity_rel": "0,-18"}, {"entity_rel": "18,0"}]
+            "green": [{"entity_rel": "0,-18"}, {"entity_rel": "-26,0"}, {"entity_rel": "18,0"}],
+            "red": [{"entity_rel": "0,-18"}, {"entity_rel": "-26,0"}, {"entity_rel": "18,0"}]
           }
         },
-        "neighbours": ["-26,0", "0,-18", "18,0"],
+        "neighbours": ["0,-18", "-26,0", "18,0"],
         "position": {"x": 28, "y": 222}
       },
       {"name": "small-lamp", "position": {"x": 29.5, "y": 221.5}},
@@ -23126,7 +23126,7 @@
             "red": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["-14,0", "0.5,-3.5", "14,0"],
+        "neighbours": ["0.5,-3.5", "-14,0", "14,0"],
         "position": {"x": 56, "y": 204}
       },
       {"name": "rail-signal", "position": {"x": 58.5, "y": 203.5}},
@@ -23184,7 +23184,7 @@
             "red": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["-14,0", "1.5,-3.5", "14,0"],
+        "neighbours": ["1.5,-3.5", "-14,0", "14,0"],
         "position": {"x": 70, "y": 204}
       },
       {"name": "rail-signal", "position": {"x": 72.5, "y": 203.5}},
@@ -23300,7 +23300,7 @@
             "red": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["-14,0", "0.5,-3.5", "14,0"],
+        "neighbours": ["0.5,-3.5", "-14,0", "14,0"],
         "position": {"x": 84, "y": 204}
       },
       {"name": "rail-signal", "position": {"x": 86.5, "y": 203.5}},
@@ -23358,7 +23358,7 @@
             "red": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["-14,0", "0.5,-3.5", "14,0"],
+        "neighbours": ["0.5,-3.5", "-14,0", "14,0"],
         "position": {"x": 98, "y": 204}
       },
       {"name": "straight-rail", "direction": 3, "position": {"x": 98, "y": 210}},
@@ -23464,7 +23464,7 @@
             "red": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["-14,0", "0.5,-3.5", "14,0"],
+        "neighbours": ["0.5,-3.5", "-14,0", "14,0"],
         "position": {"x": 112, "y": 204}
       },
       {"name": "rail-signal", "position": {"x": 114.5, "y": 203.5}},
@@ -23523,7 +23523,7 @@
             "red": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["-14,0", "0.5,-3.5", "14,0"],
+        "neighbours": ["0.5,-3.5", "-14,0", "14,0"],
         "position": {"x": 126, "y": 204}
       },
       {"name": "rail-signal", "position": {"x": 128.5, "y": 203.5}},
@@ -23641,7 +23641,7 @@
             "red": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["-14,0", "0.5,-3.5", "14,0"],
+        "neighbours": ["0.5,-3.5", "-14,0", "14,0"],
         "position": {"x": 140, "y": 204}
       },
       {"name": "rail-signal", "position": {"x": 142.5, "y": 203.5}},
@@ -23690,7 +23690,7 @@
             "red": [{"entity_rel": "-14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["-14,0", "0.5,-3.5", "2,18"],
+        "neighbours": ["0.5,-3.5", "-14,0", "2,18"],
         "position": {"x": 154, "y": 204}
       },
       {"name": "straight-rail", "direction": 3, "position": {"x": 154, "y": 210}},
@@ -23763,7 +23763,7 @@
             "red": [{"entity_rel": "-22,0"}, {"entity_rel": "22,0"}]
           }
         },
-        "neighbours": ["-22,0", "-2,-18", "22,0"],
+        "neighbours": ["-2,-18", "-22,0", "22,0"],
         "position": {"x": 156, "y": 222}
       },
       {"name": "small-lamp", "position": {"x": 157.5, "y": 221.5}},
@@ -23900,7 +23900,7 @@
             "red": [{"entity_rel": "0,-26"}, {"entity_rel": "-26,0"}]
           }
         },
-        "neighbours": ["-26,0", "0,-26"],
+        "neighbours": ["0,-26", "-26,0"],
         "position": {"x": 222, "y": 222}
       },
       {"name": "straight-rail", "position": {"x": 234, "y": 222}},

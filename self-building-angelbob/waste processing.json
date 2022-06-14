@@ -7,7 +7,7 @@
     "absolute-snapping": true,
     "shift_x": -167,
     "shift_y": -167,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {"name": "rail-chain-signal", "direction": 2, "position": {"x": 2.5, "y": -11.5}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 2, "y": -10}},
@@ -10919,8 +10919,8 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-20,0"}, {"entity_rel": "0,-18"}],
-            "red": [{"entity_rel": "-20,0"}, {"entity_rel": "0,-18"}]
+            "green": [{"entity_rel": "0,-18"}, {"entity_rel": "-20,0"}],
+            "red": [{"entity_rel": "0,-18"}, {"entity_rel": "-20,0"}]
           }
         },
         "neighbours": ["0,-18", "-20,0"],
@@ -11523,8 +11523,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 169.5, "y": 42.5}
@@ -11614,8 +11614,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 174.5, "y": 42.5}
@@ -17398,7 +17398,7 @@
       },
       {
         "name": "medium-electric-pole",
-        "neighbours": ["-8,0", "7,-4"],
+        "neighbours": ["7,-4", "-8,0"],
         "position": {"x": 136.5, "y": 178.5}
       },
       {"name": "valve-overflow", "position": {"x": 140.5, "y": 175.5}},

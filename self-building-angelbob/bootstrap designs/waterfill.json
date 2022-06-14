@@ -6,7 +6,7 @@
     "description": "From only coal and water.\n\nEventually the Coke storage chest will get full but not until 1600 waterfill are produced.",
     "shift_x": -651,
     "shift_y": -97,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {"name": "wooden-chest", "bar": 1, "position": {"x": 9.5, "y": -1.5}},
       {"name": "inserter", "direction": 2, "position": {"x": 10.5, "y": -1.5}},

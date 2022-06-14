@@ -6,7 +6,7 @@
     "absolute-snapping": true,
     "shift_x": -167,
     "shift_y": 53,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {"name": "straight-rail", "direction": 7, "position": {"x": -6, "y": -6}},
       {"name": "curved-rail", "direction": 6, "position": {"x": -3, "y": -9}},
@@ -867,14 +867,14 @@
         "connections": {
           "1": {
             "green": [
-              {"entity_rel": "-14,-4"},
               {"entity_rel": "-1.5,-5.5"},
+              {"entity_rel": "-14,-4"},
               {"circuit_id": 2, "entity_rel": "-0.5,-2"},
               {"circuit_id": 2, "entity_rel": "-2,-0.5"}
             ],
             "red": [
-              {"entity_rel": "-14,-4"},
               {"entity_rel": "-1.5,-5.5"},
+              {"entity_rel": "-14,-4"},
               {"circuit_id": 1, "entity_rel": "-2,-1.5"},
               {"circuit_id": 1, "entity_rel": "0.5,-2"},
               {"entity_rel": "-2.5,0.5"},
@@ -4328,8 +4328,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}, {"entity_rel": "-1,0"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}, {"entity_rel": "-1,0"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 110.5, "y": 35.5}
@@ -7468,7 +7468,7 @@
         "direction": 2,
         "connections": {
           "1": {
-            "green": [{"circuit_id": 2, "entity_rel": "0,0"}, {"circuit_id": 2, "entity_rel": "0,1"}],
+            "green": [{"circuit_id": 2, "entity_rel": "0,1"}, {"circuit_id": 2, "entity_rel": "0,0"}],
             "red": [{"circuit_id": 1, "entity_rel": "-2,-1"}]
           },
           "2": {"green": [{"circuit_id": 1, "entity_rel": "0,0"}, {"circuit_id": 1, "entity_rel": "0,-1"}]}
@@ -21222,11 +21222,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-26,0"}, {"entity_rel": "0,-18"}, {"entity_rel": "18,0"}],
-            "red": [{"entity_rel": "-26,0"}, {"entity_rel": "0,-18"}, {"entity_rel": "18,0"}]
+            "green": [{"entity_rel": "0,-18"}, {"entity_rel": "-26,0"}, {"entity_rel": "18,0"}],
+            "red": [{"entity_rel": "0,-18"}, {"entity_rel": "-26,0"}, {"entity_rel": "18,0"}]
           }
         },
-        "neighbours": ["-26,0", "0,-18", "18,0"],
+        "neighbours": ["0,-18", "-26,0", "18,0"],
         "position": {"x": 28, "y": 222}
       },
       {"name": "small-lamp", "position": {"x": 29.5, "y": 221.5}},
@@ -21918,7 +21918,7 @@
             "red": [{"entity_rel": "-22,0"}, {"entity_rel": "22,0"}]
           }
         },
-        "neighbours": ["-22,0", "-2,-18", "22,0"],
+        "neighbours": ["-2,-18", "-22,0", "22,0"],
         "position": {"x": 156, "y": 222}
       },
       {"name": "small-lamp", "position": {"x": 157.5, "y": 221.5}},
@@ -23922,7 +23922,7 @@
             "red": [{"entity_rel": "0,-22"}, {"entity_rel": "0,22"}]
           }
         },
-        "neighbours": ["0,-22", "-14,-22", "-28,-1", "0,22"],
+        "neighbours": ["-14,-22", "0,-22", "-28,-1", "0,22"],
         "position": {"x": 222, "y": 156}
       },
       {"name": "straight-rail", "position": {"x": 220, "y": 158}},
@@ -24180,7 +24180,7 @@
             "red": [{"entity_rel": "0,-26"}, {"entity_rel": "-26,0"}]
           }
         },
-        "neighbours": ["-26,0", "0,-26"],
+        "neighbours": ["0,-26", "-26,0"],
         "position": {"x": 222, "y": 222}
       },
       {"name": "curved-rail", "direction": 7, "position": {"x": 217, "y": 233}},

@@ -7,7 +7,7 @@
     "absolute-snapping": true,
     "shift_x": 61,
     "shift_y": 53,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {"name": "straight-rail", "direction": 7, "position": {"x": -14, "y": -6}},
       {"name": "rail-chain-signal", "direction": 2, "position": {"x": -5.5, "y": -11.5}},
@@ -934,7 +934,7 @@
       {"name": "large-accumulator", "position": {"x": 179, "y": 9}},
       {"name": "large-accumulator", "position": {"x": 181, "y": 9}},
       {"name": "large-accumulator", "position": {"x": 183, "y": 9}},
-      {"name": "substation", "neighbours": ["-18,0", "3,-7", "0,18"], "position": {"x": 185, "y": 9}},
+      {"name": "substation", "neighbours": ["3,-7", "-18,0", "0,18"], "position": {"x": 185, "y": 9}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 188, "y": 4}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 190, "y": 4}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 192, "y": 4}},
@@ -2420,7 +2420,7 @@
       {
         "name": "big-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,-26"}], "red": [{"entity_rel": "0,-26"}]}},
-        "neighbours": ["-11,-1", "0,-26"],
+        "neighbours": ["0,-26", "-11,-1"],
         "position": {"x": 214, "y": 28}
       },
       {"name": "straight-rail", "position": {"x": 212, "y": 30}},

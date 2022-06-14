@@ -7,7 +7,7 @@
     "absolute-snapping": true,
     "shift_x": -167,
     "shift_y": -167,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {"name": "rail-chain-signal", "direction": 2, "position": {"x": 2.5, "y": -11.5}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 2, "y": -10}},
@@ -19382,11 +19382,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-14,-8"}, {"entity_rel": "0,-18"}, {"entity_rel": "0,26"}],
-            "red": [{"entity_rel": "-14,-8"}, {"entity_rel": "0,-18"}, {"entity_rel": "0,26"}]
+            "green": [{"entity_rel": "0,-18"}, {"entity_rel": "-14,-8"}, {"entity_rel": "0,26"}],
+            "red": [{"entity_rel": "0,-18"}, {"entity_rel": "-14,-8"}, {"entity_rel": "0,26"}]
           }
         },
-        "neighbours": ["-14,-8", "0,-18", "0,26"],
+        "neighbours": ["0,-18", "-14,-8", "0,26"],
         "position": {"x": 222, "y": 196}
       },
       {"name": "straight-rail", "position": {"x": 220, "y": 198}},
@@ -19994,11 +19994,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-26,0"}, {"entity_rel": "0,-26"}],
-            "red": [{"entity_rel": "-26,0"}, {"entity_rel": "0,-26"}]
+            "green": [{"entity_rel": "0,-26"}, {"entity_rel": "-26,0"}],
+            "red": [{"entity_rel": "0,-26"}, {"entity_rel": "-26,0"}]
           }
         },
-        "neighbours": ["-26,0", "0,-26"],
+        "neighbours": ["0,-26", "-26,0"],
         "position": {"x": 222, "y": 222}
       },
       {"name": "straight-rail", "direction": 3, "position": {"x": 230, "y": 230}},

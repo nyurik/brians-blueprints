@@ -6,7 +6,7 @@
     "absolute-snapping": true,
     "shift_x": 53,
     "shift_y": -167,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {"name": "rail-chain-signal", "direction": 2, "position": {"x": 2.5, "y": -11.5}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 2, "y": -10}},
@@ -6314,7 +6314,7 @@
       },
       {
         "name": "big-electric-pole",
-        "neighbours": ["-3.5,-1.5", "13,-17", "18,14"],
+        "neighbours": ["13,-17", "-3.5,-1.5", "18,14"],
         "position": {"x": 148, "y": 160}
       },
       {"name": "straight-rail", "direction": 2, "position": {"x": 156, "y": 156}},

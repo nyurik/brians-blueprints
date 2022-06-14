@@ -6,7 +6,7 @@
     "absolute-snapping": true,
     "shift_x": 53,
     "shift_y": 53,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {"name": "straight-rail", "direction": 7, "position": {"x": -6, "y": -6}},
       {"name": "rail-chain-signal", "direction": 2, "position": {"x": 2.5, "y": -11.5}},
@@ -372,7 +372,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "-18,0"}, {"circuit_id": 2, "entity_rel": "0,1.5"}, {"entity_rel": "0,14"}],
-            "red": [{"circuit_id": 1, "entity_rel": "-1.5,1"}, {"entity_rel": "-18,0"}, {"entity_rel": "0,14"}]
+            "red": [{"entity_rel": "-18,0"}, {"circuit_id": 1, "entity_rel": "-1.5,1"}, {"entity_rel": "0,14"}]
           }
         },
         "neighbours": ["-0.5,-8.5", "-18,0", "3.5,1.5", "0,14"],
@@ -22298,7 +22298,7 @@
             "red": [{"entity_rel": "-22,0"}, {"entity_rel": "22,0"}]
           }
         },
-        "neighbours": ["-22,0", "-2,-14", "22,0"],
+        "neighbours": ["-2,-14", "-22,0", "22,0"],
         "position": {"x": 112, "y": 222}
       },
       {"name": "small-lamp", "position": {"x": 113.5, "y": 221.5}},
@@ -22489,7 +22489,7 @@
             "red": [{"entity_rel": "0,-26"}, {"entity_rel": "-26,0"}]
           }
         },
-        "neighbours": ["-26,0", "0,-26"],
+        "neighbours": ["0,-26", "-26,0"],
         "position": {"x": 222, "y": 222}
       },
       {"name": "straight-rail", "position": {"x": 234, "y": 222}},
@@ -22508,11 +22508,11 @@
     ],
     "snap-to-grid": {"x": 110, "y": 110},
     "tiles": [
-      {"name": "water", "position": {"x": 133, "y": 71}},
       {"name": "water", "position": {"x": 132, "y": 71}},
-      {"name": "water", "position": {"x": 134, "y": 71}},
-      {"name": "water", "position": {"x": 133, "y": 72}},
       {"name": "water", "position": {"x": 132, "y": 72}},
+      {"name": "water", "position": {"x": 133, "y": 71}},
+      {"name": "water", "position": {"x": 133, "y": 72}},
+      {"name": "water", "position": {"x": 134, "y": 71}},
       {"name": "water", "position": {"x": 134, "y": 72}}
     ]
   }

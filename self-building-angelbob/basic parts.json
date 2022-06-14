@@ -6,7 +6,7 @@
     "absolute-snapping": true,
     "shift_x": -167,
     "shift_y": 53,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {"name": "straight-rail", "direction": 7, "position": {"x": -6, "y": -6}},
       {"name": "curved-rail", "direction": 6, "position": {"x": -3, "y": -9}},
@@ -8096,7 +8096,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["-3,0", "0,-7", "0,7"],
+        "neighbours": ["0,-7", "-3,0", "0,7"],
         "position": {"x": 53.5, "y": 174.5}
       },
       {
@@ -9127,7 +9127,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "0,-2"}, {"circuit_id": 1, "entity_rel": "-1.5,0"}],
-            "red": [{"circuit_id": 1, "entity_rel": "-1.5,0"}, {"entity_rel": "-1,-2"}]
+            "red": [{"entity_rel": "-1,-2"}, {"circuit_id": 1, "entity_rel": "-1.5,0"}]
           }
         },
         "control_behavior": {
@@ -14282,11 +14282,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-26,0"}, {"entity_rel": "0,-18"}, {"entity_rel": "18,0"}],
-            "red": [{"entity_rel": "-26,0"}, {"entity_rel": "0,-18"}, {"entity_rel": "18,0"}]
+            "green": [{"entity_rel": "0,-18"}, {"entity_rel": "-26,0"}, {"entity_rel": "18,0"}],
+            "red": [{"entity_rel": "0,-18"}, {"entity_rel": "-26,0"}, {"entity_rel": "18,0"}]
           }
         },
-        "neighbours": ["-26,0", "0,-18", "18,0"],
+        "neighbours": ["0,-18", "-26,0", "18,0"],
         "position": {"x": 28, "y": 222}
       },
       {"name": "small-lamp", "position": {"x": 29.5, "y": 221.5}},
@@ -15181,11 +15181,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-20,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}, {"entity_rel": "0,-18"}],
-            "red": [{"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "-20,0"}, {"entity_rel": "0,-18"}]
+            "green": [{"entity_rel": "0,-18"}, {"entity_rel": "-20,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}],
+            "red": [{"entity_rel": "0,-18"}, {"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "-20,0"}]
           }
         },
-        "neighbours": ["-20,0", "0,-18", "-1.5,3.5"],
+        "neighbours": ["0,-18", "-20,0", "-1.5,3.5"],
         "position": {"x": 196, "y": 20}
       },
       {
@@ -17437,7 +17437,7 @@
             "red": [{"entity_rel": "0,-26"}, {"entity_rel": "-26,0"}]
           }
         },
-        "neighbours": ["-26,0", "0,-26"],
+        "neighbours": ["0,-26", "-26,0"],
         "position": {"x": 222, "y": 222}
       },
       {"name": "curved-rail", "direction": 7, "position": {"x": 217, "y": 233}},
@@ -17460,10 +17460,10 @@
     "tiles": [
       {"name": "water", "position": {"x": -70, "y": 150}},
       {"name": "water", "position": {"x": -70, "y": 151}},
-      {"name": "water", "position": {"x": -69, "y": 151}},
       {"name": "water", "position": {"x": -69, "y": 150}},
-      {"name": "water", "position": {"x": -68, "y": 151}},
-      {"name": "water", "position": {"x": -68, "y": 150}}
+      {"name": "water", "position": {"x": -69, "y": 151}},
+      {"name": "water", "position": {"x": -68, "y": 150}},
+      {"name": "water", "position": {"x": -68, "y": 151}}
     ]
   }
 }

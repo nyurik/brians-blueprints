@@ -5,7 +5,7 @@
     "label": "Construction Supply",
     "shift_x": -1607,
     "shift_y": -507,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {
         "name": "logistic-chest-requester",
@@ -308,7 +308,7 @@
         "direction": 2,
         "connections": {
           "1": {
-            "green": [{"circuit_id": 2, "entity_rel": "0,1"}, {"circuit_id": 2, "entity_rel": "-2,-1"}],
+            "green": [{"circuit_id": 2, "entity_rel": "-2,-1"}, {"circuit_id": 2, "entity_rel": "0,1"}],
             "red": [{"circuit_id": 2, "entity_rel": "-4.5,4.5"}]
           },
           "2": {"red": [{"entity_rel": "1.5,-1"}]}
@@ -385,7 +385,7 @@
         "name": "medium-electric-pole",
         "connections": {
           "1": {
-            "green": [{"circuit_id": 1, "entity_rel": "-2.5,1"}, {"entity_rel": "0,-7"}],
+            "green": [{"entity_rel": "0,-7"}, {"circuit_id": 1, "entity_rel": "-2.5,1"}],
             "red": [{"entity_rel": "0,-2"}, {"circuit_id": 2, "entity_rel": "0,4.5"}]
           }
         },
@@ -627,7 +627,7 @@
         "direction": 6,
         "connections": {
           "1": {
-            "green": [{"circuit_id": 2, "entity_rel": "0,0"}, {"circuit_id": 2, "entity_rel": "2,-1"}],
+            "green": [{"circuit_id": 2, "entity_rel": "2,-1"}, {"circuit_id": 2, "entity_rel": "0,0"}],
             "red": [{"circuit_id": 1, "entity_rel": "-2,-1"}, {"entity_rel": "0,4.5"}]
           },
           "2": {
@@ -908,7 +908,7 @@
         "connections": {
           "1": {"red": [{"circuit_id": 1, "entity_rel": "-3,1"}, {"entity_rel": "2,0.5"}]},
           "2": {
-            "green": [{"circuit_id": 2, "entity_rel": "0,1"}, {"circuit_id": 1, "entity_rel": "-2,0"}],
+            "green": [{"circuit_id": 1, "entity_rel": "-2,0"}, {"circuit_id": 2, "entity_rel": "0,1"}],
             "red": [{"circuit_id": 1, "entity_rel": "0,1"}]
           }
         },
@@ -962,9 +962,9 @@
               {"entity_rel": "1.5,5.5"}
             ],
             "red": [
+              {"circuit_id": 2, "entity_rel": "1.5,-7"},
               {"circuit_id": 1, "entity_rel": "0,-4.5"},
               {"circuit_id": 1, "entity_rel": "-2,-0.5"},
-              {"circuit_id": 2, "entity_rel": "1.5,-7"},
               {"entity_rel": "2.5,-0.5"},
               {"circuit_id": 1, "entity_rel": "-0.5,2"},
               {"circuit_id": 1, "entity_rel": "2,1.5"},
@@ -1080,7 +1080,7 @@
               {"entity_rel": "-1,0"},
               {"circuit_id": 1, "entity_rel": "0.5,2"}
             ],
-            "red": [{"circuit_id": 2, "entity_rel": "-1.5,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "-2,0"}]
+            "red": [{"entity_rel": "-1,0"}, {"circuit_id": 2, "entity_rel": "-1.5,-1"}, {"entity_rel": "-2,0"}]
           }
         },
         "control_behavior": {

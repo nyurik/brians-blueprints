@@ -6,7 +6,7 @@
     "absolute-snapping": true,
     "shift_x": -167,
     "shift_y": -167,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {"name": "rail-chain-signal", "direction": 2, "position": {"x": 2.5, "y": -11.5}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 2, "y": -10}},
@@ -860,7 +860,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "-10,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}, {"entity_rel": "10,0"}],
-            "red": [{"entity_rel": "-10,0"}, {"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "10,0"}]
+            "red": [{"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "-10,0"}, {"entity_rel": "10,0"}]
           }
         },
         "neighbours": ["-10,0", "10,0", "-1.5,3.5"],
@@ -940,7 +940,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "-10,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}, {"entity_rel": "10,0"}],
-            "red": [{"entity_rel": "-10,0"}, {"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "10,0"}]
+            "red": [{"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "-10,0"}, {"entity_rel": "10,0"}]
           }
         },
         "neighbours": ["-10,0", "10,0", "-1.5,3.5"],
@@ -2498,7 +2498,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "-10,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}, {"entity_rel": "10,0"}],
-            "red": [{"entity_rel": "-10,0"}, {"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "10,0"}]
+            "red": [{"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "-10,0"}, {"entity_rel": "10,0"}]
           }
         },
         "neighbours": ["-10,0", "10,0", "-1.5,3.5"],
@@ -2567,7 +2567,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "-10,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}, {"entity_rel": "10,0"}],
-            "red": [{"entity_rel": "-10,0"}, {"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "10,0"}]
+            "red": [{"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "-10,0"}, {"entity_rel": "10,0"}]
           }
         },
         "neighbours": ["-10,0", "10,0", "-1.5,3.5"],
@@ -2692,7 +2692,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "-10,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}, {"entity_rel": "20,0"}],
-            "red": [{"entity_rel": "-10,0"}, {"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "20,0"}]
+            "red": [{"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "-10,0"}, {"entity_rel": "20,0"}]
           }
         },
         "neighbours": ["-10,0", "20,0", "-1.5,3.5"],
@@ -19224,7 +19224,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "-20,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}, {"entity_rel": "20,0"}],
-            "red": [{"entity_rel": "-20,0"}, {"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "20,0"}]
+            "red": [{"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "-20,0"}, {"entity_rel": "20,0"}]
           }
         },
         "neighbours": ["-20,0", "20,0", "-1.5,3.5"],
@@ -19308,7 +19308,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "0,-18"}, {"entity_rel": "-20,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}],
-            "red": [{"entity_rel": "0,-18"}, {"entity_rel": "-20,0"}, {"circuit_id": 1, "entity_rel": "-1,-1.5"}]
+            "red": [{"entity_rel": "0,-18"}, {"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "-20,0"}]
           }
         },
         "neighbours": ["0,-18", "-20,0", "-1.5,3.5"],
@@ -55310,7 +55310,7 @@
             "red": [{"entity_rel": "-20,0"}, {"entity_rel": "20,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["-20,0", "1.5,-3.5", "20,0"],
+        "neighbours": ["1.5,-3.5", "-20,0", "20,0"],
         "position": {"x": 48, "y": 424}
       },
       {"name": "rail-signal", "position": {"x": 50.5, "y": 423.5}},
@@ -55368,7 +55368,7 @@
             "red": [{"entity_rel": "-20,0"}, {"entity_rel": "20,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["-20,0", "1.5,-3.5", "20,0"],
+        "neighbours": ["1.5,-3.5", "-20,0", "20,0"],
         "position": {"x": 68, "y": 424}
       },
       {"name": "rail-signal", "position": {"x": 70.5, "y": 423.5}},
@@ -55493,7 +55493,7 @@
             "red": [{"entity_rel": "-20,0"}, {"entity_rel": "20,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["-20,0", "1.5,-3.5", "20,0"],
+        "neighbours": ["1.5,-3.5", "-20,0", "20,0"],
         "position": {"x": 88, "y": 424}
       },
       {"name": "rail-signal", "position": {"x": 90.5, "y": 423.5}},
@@ -55595,7 +55595,7 @@
             "red": [{"entity_rel": "-20,0"}, {"entity_rel": "20,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["-20,0", "1.5,-3.5", "20,0"],
+        "neighbours": ["1.5,-3.5", "-20,0", "20,0"],
         "position": {"x": 108, "y": 424}
       },
       {"name": "rail-signal", "position": {"x": 110.5, "y": 423.5}},
@@ -55654,7 +55654,7 @@
             "red": [{"entity_rel": "-20,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["-20,0", "1.5,-3.5"],
+        "neighbours": ["1.5,-3.5", "-20,0"],
         "position": {"x": 128, "y": 424}
       },
       {"name": "rail-signal", "position": {"x": 130.5, "y": 423.5}},

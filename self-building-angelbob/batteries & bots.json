@@ -7,7 +7,7 @@
     "absolute-snapping": true,
     "shift_x": 53,
     "shift_y": 53,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {"name": "straight-rail", "direction": 7, "position": {"x": -6, "y": -6}},
       {"name": "rail-chain-signal", "direction": 2, "position": {"x": 2.5, "y": -11.5}},
@@ -13977,7 +13977,7 @@
       {"name": "pipe", "position": {"x": 133.5, "y": 77.5}},
       {
         "name": "medium-electric-pole",
-        "neighbours": ["0,-9", "-8,-3", "6,-1", "1,9"],
+        "neighbours": ["0,-9", "-8,-3", "6,-1"],
         "position": {"x": 133.5, "y": 78.5}
       },
       {
@@ -14022,11 +14022,7 @@
       {"name": "basic-transport-belt", "direction": 4, "position": {"x": 131.5, "y": 86.5}},
       {"name": "basic-transport-belt", "direction": 4, "position": {"x": 131.5, "y": 87.5}},
       {"name": "basic-transport-belt", "direction": 4, "position": {"x": 131.5, "y": 88.5}},
-      {
-        "name": "medium-electric-pole",
-        "neighbours": ["-1,-9", "7,-3", "6,6"],
-        "position": {"x": 134.5, "y": 87.5}
-      },
+      {"name": "medium-electric-pole", "neighbours": ["7,-3", "6,6"], "position": {"x": 134.5, "y": 87.5}},
       {"name": "basic-transport-belt", "direction": 4, "position": {"x": 131.5, "y": 89.5}},
       {"name": "basic-transport-belt", "direction": 4, "position": {"x": 131.5, "y": 90.5}},
       {"name": "angels-electrolyser-2", "recipe": "lithium", "position": {"x": 137.5, "y": 87.5}},
@@ -25541,11 +25537,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-22,0"}, {"entity_rel": "2,-18"}, {"entity_rel": "22,0"}],
-            "red": [{"entity_rel": "-22,0"}, {"entity_rel": "2,-18"}, {"entity_rel": "22,0"}]
+            "green": [{"entity_rel": "2,-18"}, {"entity_rel": "-22,0"}, {"entity_rel": "22,0"}],
+            "red": [{"entity_rel": "2,-18"}, {"entity_rel": "-22,0"}, {"entity_rel": "22,0"}]
           }
         },
-        "neighbours": ["-22,0", "2,-18", "22,0"],
+        "neighbours": ["2,-18", "-22,0", "22,0"],
         "position": {"x": 68, "y": 222}
       },
       {"name": "small-lamp", "position": {"x": 69.5, "y": 221.5}},
@@ -25563,7 +25559,7 @@
             "red": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["-14,0", "1.5,-3.5", "14,0"],
+        "neighbours": ["1.5,-3.5", "-14,0", "14,0"],
         "position": {"x": 84, "y": 204}
       },
       {"name": "rail-signal", "position": {"x": 86.5, "y": 203.5}},
@@ -25621,7 +25617,7 @@
             "red": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["-14,0", "1.5,-3.5", "14,0"],
+        "neighbours": ["1.5,-3.5", "-14,0", "14,0"],
         "position": {"x": 98, "y": 204}
       },
       {"name": "straight-rail", "direction": 3, "position": {"x": 98, "y": 210}},
@@ -25724,7 +25720,7 @@
             "red": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["-14,0", "1.5,-3.5", "14,0"],
+        "neighbours": ["1.5,-3.5", "-14,0", "14,0"],
         "position": {"x": 112, "y": 204}
       },
       {"name": "rail-signal", "position": {"x": 114.5, "y": 203.5}},
@@ -25781,7 +25777,7 @@
             "red": [{"entity_rel": "-14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["-14,0", "1.5,-3.5"],
+        "neighbours": ["1.5,-3.5", "-14,0"],
         "position": {"x": 126, "y": 204}
       },
       {"name": "rail-signal", "position": {"x": 128.5, "y": 203.5}},
@@ -26052,7 +26048,7 @@
             "red": [{"entity_rel": "0,-26"}, {"entity_rel": "-26,0"}]
           }
         },
-        "neighbours": ["-26,0", "0,-26"],
+        "neighbours": ["0,-26", "-26,0"],
         "position": {"x": 222, "y": 222}
       },
       {"name": "straight-rail", "position": {"x": 234, "y": 222}},
@@ -26069,11 +26065,11 @@
     ],
     "snap-to-grid": {"x": 110, "y": 110},
     "tiles": [
-      {"name": "water", "position": {"x": 207, "y": 121}},
       {"name": "water", "position": {"x": 206, "y": 121}},
-      {"name": "water", "position": {"x": 208, "y": 121}},
-      {"name": "water", "position": {"x": 207, "y": 122}},
       {"name": "water", "position": {"x": 206, "y": 122}},
+      {"name": "water", "position": {"x": 207, "y": 121}},
+      {"name": "water", "position": {"x": 207, "y": 122}},
+      {"name": "water", "position": {"x": 208, "y": 121}},
       {"name": "water", "position": {"x": 208, "y": 122}}
     ]
   }

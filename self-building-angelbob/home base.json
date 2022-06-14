@@ -6,7 +6,7 @@
     "absolute-snapping": true,
     "shift_x": 53,
     "shift_y": -167,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {"name": "rail-chain-signal", "direction": 2, "position": {"x": 2.5, "y": -11.5}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 2, "y": -10}},
@@ -3059,8 +3059,8 @@
         "connections": {
           "1": {
             "red": [
-              {"circuit_id": 1, "entity_rel": "-1,0"},
               {"entity_rel": "3.5,-1"},
+              {"circuit_id": 1, "entity_rel": "-1,0"},
               {"circuit_id": 1, "entity_rel": "0,2"}
             ]
           },
@@ -4931,7 +4931,7 @@
         "direction": 2,
         "connections": {
           "1": {
-            "green": [{"circuit_id": 2, "entity_rel": "0,1"}, {"circuit_id": 2, "entity_rel": "-2,-1"}],
+            "green": [{"circuit_id": 2, "entity_rel": "-2,-1"}, {"circuit_id": 2, "entity_rel": "0,1"}],
             "red": [{"circuit_id": 2, "entity_rel": "-4.5,4.5"}]
           },
           "2": {"red": [{"entity_rel": "1.5,-1"}]}
@@ -4970,7 +4970,7 @@
         "name": "medium-electric-pole",
         "connections": {
           "1": {
-            "green": [{"circuit_id": 1, "entity_rel": "-2.5,1"}, {"entity_rel": "0,-7"}],
+            "green": [{"entity_rel": "0,-7"}, {"circuit_id": 1, "entity_rel": "-2.5,1"}],
             "red": [{"entity_rel": "0,-2"}, {"circuit_id": 2, "entity_rel": "0,4.5"}]
           }
         },
@@ -5216,7 +5216,7 @@
         "direction": 6,
         "connections": {
           "1": {
-            "green": [{"circuit_id": 2, "entity_rel": "0,0"}, {"circuit_id": 2, "entity_rel": "2,-1"}],
+            "green": [{"circuit_id": 2, "entity_rel": "2,-1"}, {"circuit_id": 2, "entity_rel": "0,0"}],
             "red": [{"circuit_id": 1, "entity_rel": "-2,-1"}, {"entity_rel": "0,4.5"}]
           },
           "2": {
@@ -5439,7 +5439,7 @@
         "connections": {
           "1": {"red": [{"circuit_id": 1, "entity_rel": "-3,1"}, {"entity_rel": "2,0.5"}]},
           "2": {
-            "green": [{"circuit_id": 2, "entity_rel": "0,1"}, {"circuit_id": 1, "entity_rel": "-2,0"}],
+            "green": [{"circuit_id": 1, "entity_rel": "-2,0"}, {"circuit_id": 2, "entity_rel": "0,1"}],
             "red": [{"circuit_id": 1, "entity_rel": "0,1"}]
           }
         },
@@ -5539,7 +5539,7 @@
               {"entity_rel": "-1,0"},
               {"circuit_id": 1, "entity_rel": "0.5,2"}
             ],
-            "red": [{"entity_rel": "-2,0"}, {"entity_rel": "-1,0"}, {"circuit_id": 2, "entity_rel": "-1.5,-1"}]
+            "red": [{"entity_rel": "-1,0"}, {"circuit_id": 2, "entity_rel": "-1.5,-1"}, {"entity_rel": "-2,0"}]
           }
         },
         "control_behavior": {
@@ -5589,9 +5589,9 @@
               {"entity_rel": "1.5,5.5"}
             ],
             "red": [
+              {"circuit_id": 2, "entity_rel": "1.5,-7"},
               {"circuit_id": 1, "entity_rel": "0,-4.5"},
               {"circuit_id": 1, "entity_rel": "-2,-0.5"},
-              {"circuit_id": 2, "entity_rel": "1.5,-7"},
               {"entity_rel": "2.5,-0.5"},
               {"entity_rel": "14,0"},
               {"circuit_id": 1, "entity_rel": "-0.5,2"},
@@ -5674,11 +5674,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-14,0"}, {"entity_rel": "0,-22"}, {"entity_rel": "0,22"}],
-            "red": [{"entity_rel": "-14,0"}, {"entity_rel": "0,-22"}, {"entity_rel": "0,22"}]
+            "green": [{"entity_rel": "0,-22"}, {"entity_rel": "-14,0"}, {"entity_rel": "0,22"}],
+            "red": [{"entity_rel": "0,-22"}, {"entity_rel": "-14,0"}, {"entity_rel": "0,22"}]
           }
         },
-        "neighbours": ["-14,0", "0,-22", "0,22"],
+        "neighbours": ["0,-22", "-14,0", "0,22"],
         "position": {"x": 222, "y": 134}
       },
       {"name": "straight-rail", "position": {"x": 224, "y": 132}},
@@ -6427,11 +6427,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "6.5,-4.5"}, {"entity_rel": "0,-18"}, {"entity_rel": "0,26"}],
-            "red": [{"entity_rel": "6.5,-4.5"}, {"entity_rel": "0,-18"}, {"entity_rel": "0,26"}]
+            "green": [{"entity_rel": "0,-18"}, {"entity_rel": "6.5,-4.5"}, {"entity_rel": "0,26"}],
+            "red": [{"entity_rel": "0,-18"}, {"entity_rel": "6.5,-4.5"}, {"entity_rel": "0,26"}]
           }
         },
-        "neighbours": ["6.5,-4.5", "0,-18", "0,26"],
+        "neighbours": ["0,-18", "6.5,-4.5", "0,26"],
         "position": {"x": 2, "y": 196}
       },
       {"name": "straight-rail", "position": {"x": 0, "y": 198}},
@@ -8171,7 +8171,7 @@
             "red": [{"entity_rel": "-8,0"}]
           }
         },
-        "neighbours": ["4,-3", "-8,0", "0,-5"],
+        "neighbours": ["0,-5", "4,-3", "-8,0"],
         "position": {"x": 16.5, "y": 186.5}
       },
       {
@@ -8290,7 +8290,7 @@
         "name": "medium-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "3,-7"}, {"circuit_id": 1, "entity_rel": "1,-0.5"}, {"entity_rel": "-4,-2"}],
+            "green": [{"entity_rel": "3,-7"}, {"entity_rel": "-4,-2"}, {"circuit_id": 1, "entity_rel": "1,-0.5"}],
             "red": [{"entity_rel": "3,-7"}, {"entity_rel": "-4,-2"}]
           }
         },
