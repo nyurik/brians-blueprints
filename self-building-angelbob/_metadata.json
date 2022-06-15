@@ -1,8 +1,8 @@
 {
   "blueprint_book": {
     "item": "blueprint-book",
-    "label": "Angel/Bob City (v2.1)",
-    "description": "Join the discussion on Discord:\nhttps://discord.gg/3FM8VYF8S7\n\nSee Drive Folder:\nhttps://drive.google.com/drive/folders/1qo04UYDqENTtjrwOGbTLN5LFHE7SdjoT\n\n2.1:\n- Updated Mall for new recipes <grumble, grumble>\n",
+    "label": "Angel/Bob City (v2.2)",
+    "description": "Join the discussion on Discord:\nhttps://discord.gg/3FM8VYF8S7\n\nSee Drive Folder:\nhttps://drive.google.com/drive/folders/1qo04UYDqENTtjrwOGbTLN5LFHE7SdjoT\n\n2.2:\n- Updated Mall for new recipes <grumble, grumble>\n- Un-merged chests in Mall blueprint.\n",
     "active_index": 1,
     "version": 281479275610112,
     "icons": [
