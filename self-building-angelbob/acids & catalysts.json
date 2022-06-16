@@ -191,7 +191,7 @@
       {"name": "pipe", "position": {"x": 13.5, "y": 27.5}},
       {"name": "pipe", "position": {"x": 14.5, "y": 27.5}},
       {
-        "name": "filtration-unit",
+        "name": "filtration-unit-2",
         "direction": 6,
         "recipe": "crystal-slurry-filtering-conversion-2",
         "position": {"x": 12.5, "y": 30.5}
@@ -204,7 +204,7 @@
       {"name": "basic-transport-belt", "position": {"x": 7.5, "y": 33.5}},
       {
         "name": "medium-electric-pole-2",
-        "neighbours": ["-6.5,-5.5", "10,-1", "0,10"],
+        "neighbours": ["10,-1", "-6.5,-5.5", "0,10"],
         "position": {"x": 8.5, "y": 33.5}
       },
       {"name": "basic-transport-belt", "position": {"x": 7.5, "y": 34.5}},
@@ -238,7 +238,7 @@
       {"name": "pipe", "position": {"x": 19.5, "y": 29.5}},
       {"name": "pipe-to-ground", "direction": 4, "position": {"x": 19.5, "y": 30.5}},
       {
-        "name": "filtration-unit",
+        "name": "filtration-unit-2",
         "direction": 2,
         "recipe": "crystal-slurry-filtering-conversion-2",
         "position": {"x": 22.5, "y": 30.5}
@@ -285,7 +285,7 @@
       {"name": "basic-transport-belt", "position": {"x": 7.5, "y": 38.5}},
       {"name": "pipe-to-ground", "direction": 4, "position": {"x": 9.5, "y": 38.5}},
       {
-        "name": "filtration-unit",
+        "name": "filtration-unit-2",
         "direction": 6,
         "recipe": "crystal-slurry-filtering-conversion-2",
         "position": {"x": 12.5, "y": 35.5}
@@ -307,7 +307,7 @@
       {"name": "pipe-to-ground", "position": {"x": 8.5, "y": 42.5}},
       {"name": "pipe", "position": {"x": 9.5, "y": 41.5}},
       {
-        "name": "filtration-unit",
+        "name": "filtration-unit-2",
         "direction": 6,
         "recipe": "crystal-slurry-filtering-conversion-2",
         "position": {"x": 12.5, "y": 40.5}
@@ -333,7 +333,7 @@
       {"name": "pipe-to-ground", "direction": 4, "position": {"x": 19.5, "y": 35.5}},
       {"name": "pipe", "position": {"x": 19.5, "y": 36.5}},
       {
-        "name": "filtration-unit",
+        "name": "filtration-unit-2",
         "direction": 2,
         "recipe": "crystal-slurry-filtering-conversion-2",
         "position": {"x": 22.5, "y": 35.5}
@@ -371,7 +371,7 @@
       {"name": "pipe", "position": {"x": 19.5, "y": 39.5}},
       {"name": "pipe-to-ground", "direction": 4, "position": {"x": 19.5, "y": 40.5}},
       {
-        "name": "filtration-unit",
+        "name": "filtration-unit-2",
         "direction": 2,
         "recipe": "crystal-slurry-filtering-conversion-2",
         "position": {"x": 22.5, "y": 40.5}
@@ -465,7 +465,7 @@
             "red": [{"entity_rel": "0,-18"}, {"entity_rel": "0,22"}]
           }
         },
-        "neighbours": ["0,-18", "6.5,-2.5", "0,22"],
+        "neighbours": ["6.5,-2.5", "0,-18", "0,22"],
         "position": {"x": 2, "y": 46}
       },
       {"name": "straight-rail", "position": {"x": 4, "y": 44}},
@@ -513,11 +513,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-22"}, {"entity_rel": "14,4"}, {"entity_rel": "0,22"}],
-            "red": [{"entity_rel": "0,-22"}, {"entity_rel": "14,4"}, {"entity_rel": "0,22"}]
+            "green": [{"entity_rel": "14,4"}, {"entity_rel": "0,-22"}, {"entity_rel": "0,22"}],
+            "red": [{"entity_rel": "14,4"}, {"entity_rel": "0,-22"}, {"entity_rel": "0,22"}]
           }
         },
-        "neighbours": ["0,-22", "14,4", "0,22"],
+        "neighbours": ["14,4", "0,-22", "0,22"],
         "position": {"x": 2, "y": 68}
       },
       {"name": "straight-rail", "position": {"x": 0, "y": 70}},
@@ -552,7 +552,7 @@
       {"name": "pipe-to-ground", "position": {"x": 9.5, "y": 45.5}},
       {"name": "pipe", "position": {"x": 9.5, "y": 46.5}},
       {
-        "name": "filtration-unit",
+        "name": "filtration-unit-2",
         "direction": 6,
         "recipe": "crystal-slurry-filtering-conversion-2",
         "position": {"x": 12.5, "y": 45.5}
@@ -599,7 +599,7 @@
       {"name": "pipe-to-ground", "direction": 4, "position": {"x": 19.5, "y": 45.5}},
       {"name": "pipe", "position": {"x": 19.5, "y": 46.5}},
       {
-        "name": "filtration-unit",
+        "name": "filtration-unit-2",
         "direction": 2,
         "recipe": "crystal-slurry-filtering-conversion-2",
         "position": {"x": 22.5, "y": 45.5}
@@ -763,7 +763,7 @@
       {"name": "straight-rail", "position": {"x": 36, "y": 54}},
       {"name": "straight-rail", "position": {"x": 32, "y": 56}},
       {"name": "straight-rail", "position": {"x": 36, "y": 56}},
-      {"name": "rail-signal", "direction": 3, "position": {"x": 7.5, "y": 62.5}},
+      {"name": "rail-chain-signal", "direction": 3, "position": {"x": 7.5, "y": 62.5}},
       {"name": "pipe-to-ground", "direction": 4, "position": {"x": 9.5, "y": 61.5}},
       {"name": "pipe-to-ground", "position": {"x": 9.5, "y": 62.5}},
       {"name": "straight-rail", "direction": 5, "position": {"x": 8, "y": 64}},
@@ -908,11 +908,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-22,0"}, {"entity_rel": "22,0"}],
-            "red": [{"entity_rel": "-22,0"}, {"entity_rel": "22,0"}]
+            "green": [{"entity_rel": "22,0"}, {"entity_rel": "-22,0"}],
+            "red": [{"entity_rel": "22,0"}, {"entity_rel": "-22,0"}]
           }
         },
-        "neighbours": ["-22,0", "22,0", "8,18"],
+        "neighbours": ["22,0", "8,18", "-22,0"],
         "position": {"x": 68, "y": 2}
       },
       {"name": "small-lamp", "position": {"x": 69.5, "y": 1.5}},
@@ -1271,7 +1271,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "0,7"],
+        "neighbours": ["0,-7", "3,-7", "3,0", "0,7"],
         "position": {"x": 70.5, "y": 35.5}
       },
       {
@@ -1399,8 +1399,8 @@
         "bar": 10,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 69.5, "y": 42.5}
@@ -1413,7 +1413,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "-9,0", "3,0", "0,7"],
+        "neighbours": ["0,-7", "3,-7", "-9,0", "3,0", "0,7"],
         "position": {"x": 70.5, "y": 42.5}
       },
       {"name": "straight-rail", "direction": 7, "position": {"x": 76, "y": 14}},
@@ -1486,8 +1486,8 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"circuit_id": 2, "entity_rel": "-1.5,0"}, {"entity_rel": "20,0"}],
-            "red": [{"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "20,0"}]
+            "green": [{"entity_rel": "20,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}],
+            "red": [{"entity_rel": "20,0"}, {"circuit_id": 1, "entity_rel": "-1,-1.5"}]
           }
         },
         "neighbours": ["-8,-18", "20,0", "-1.5,3.5"],
@@ -1497,7 +1497,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "-1,5"}]}},
-        "neighbours": ["1.5,-3.5", "-4,5", "-1,5"],
+        "neighbours": ["-4,5", "-1,5", "1.5,-3.5"],
         "position": {"x": 74.5, "y": 23.5}
       },
       {
@@ -1616,7 +1616,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "-1,5"}]}},
-        "neighbours": ["1.5,-3.5", "-4,5", "-1,5"],
+        "neighbours": ["-1,5", "-4,5", "1.5,-3.5"],
         "position": {"x": 94.5, "y": 23.5}
       },
       {
@@ -1655,8 +1655,8 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-20,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}, {"entity_rel": "20,0"}],
-            "red": [{"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "-20,0"}, {"entity_rel": "20,0"}]
+            "green": [{"entity_rel": "-20,0"}, {"entity_rel": "20,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}],
+            "red": [{"entity_rel": "-20,0"}, {"entity_rel": "20,0"}, {"circuit_id": 1, "entity_rel": "-1,-1.5"}]
           }
         },
         "neighbours": ["-20,0", "20,0", "-1.5,3.5", "0,20"],
@@ -1664,7 +1664,7 @@
       },
       {
         "name": "constant-combinator",
-        "connections": {"1": {"red": [{"entity_rel": "-1,-2"}, {"circuit_id": 2, "entity_rel": "0,2.5"}]}},
+        "connections": {"1": {"red": [{"circuit_id": 2, "entity_rel": "0,2.5"}, {"entity_rel": "-1,-2"}]}},
         "control_behavior": {
           "filters": [
             {"count": 1, "index": 1, "signal": {"name": "ltn-max-trains", "type": "virtual"}},
@@ -1698,7 +1698,7 @@
             "red": [{"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["1,-5", "-3,0", "0,7"],
+        "neighbours": ["1,-5", "-3,0", "0,7", "-3,7"],
         "position": {"x": 73.5, "y": 28.5}
       },
       {"name": "straight-rail", "position": {"x": 72, "y": 30}},
@@ -1735,8 +1735,8 @@
         "bar": 10,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 74.5, "y": 30.5}
@@ -1836,7 +1836,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "-3,0", "0,7"],
+        "neighbours": ["0,-7", "-3,0", "0,7", "-3,7"],
         "position": {"x": 73.5, "y": 35.5}
       },
       {
@@ -1981,7 +1981,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "1,0"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "-3,0", "0,7"],
+        "neighbours": ["0,-7", "-3,0", "0,7", "-3,7"],
         "position": {"x": 73.5, "y": 42.5}
       },
       {
@@ -1989,8 +1989,8 @@
         "bar": 10,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 74.5, "y": 42.5}
@@ -2058,8 +2058,8 @@
         "connections": {
           "1": {
             "green": [
-              {"entity_rel": "1,-5"},
               {"circuit_id": 1, "entity_rel": "2,-2.5"},
+              {"entity_rel": "1,-5"},
               {"entity_rel": "-3,0"},
               {"entity_rel": "1,1"},
               {"entity_rel": "0,7"}
@@ -2067,7 +2067,7 @@
             "red": [{"entity_rel": "1,1"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["1,-5", "-3,0", "0,7"],
+        "neighbours": ["1,-5", "-3,0", "-3,7", "0,7"],
         "position": {"x": 93.5, "y": 28.5}
       },
       {"name": "straight-rail", "position": {"x": 92, "y": 30}},
@@ -2088,8 +2088,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "-1,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "-1,-1"}]
           }
         },
         "position": {"x": 94.5, "y": 29.5}
@@ -2268,14 +2268,14 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,-7"}], "red": [{"entity_rel": "0,-7"}]}},
-        "neighbours": ["0,-7", "3,0"],
+        "neighbours": ["0,-7", "3,0", "3,-7"],
         "position": {"x": 90.5, "y": 35.5}
       },
       {"name": "straight-rail", "position": {"x": 92, "y": 36}},
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,-7"}], "red": [{"entity_rel": "0,-7"}]}},
-        "neighbours": ["0,-7", "-3,0", "2.5,4.5", "1,8"],
+        "neighbours": ["-3,0", "1,8", "2.5,4.5", "0,-7"],
         "position": {"x": 93.5, "y": 35.5}
       },
       {"name": "straight-rail", "position": {"x": 92, "y": 38}},
@@ -2350,7 +2350,7 @@
             "red": [{"circuit_id": 1, "entity_rel": "-1,-1.5"}]
           }
         },
-        "neighbours": ["0,-20", "-2.5,-4.5", "-1.5,3.5"],
+        "neighbours": ["-2.5,-4.5", "-1.5,3.5", "20,-20", "0,-20"],
         "position": {"x": 96, "y": 40}
       },
       {"name": "roboport", "position": {"x": 99, "y": 42}},
@@ -2500,7 +2500,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "0,7"],
+        "neighbours": ["0,-7", "3,-7", "3,0", "0,7"],
         "position": {"x": 70.5, "y": 49.5}
       },
       {
@@ -2621,7 +2621,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,-7"}], "red": [{"entity_rel": "0,-7"}]}},
-        "neighbours": ["0,-7", "3,0"],
+        "neighbours": ["0,-7", "3,-7", "3,0"],
         "position": {"x": 70.5, "y": 56.5}
       },
       {"name": "loader", "type": "input", "position": {"x": 69.5, "y": 57}},
@@ -2838,7 +2838,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "-3,0", "0,7"],
+        "neighbours": ["0,-7", "-3,0", "0,7", "-3,7"],
         "position": {"x": 73.5, "y": 49.5}
       },
       {
@@ -3000,7 +3000,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "-1,5"}]}},
-        "neighbours": ["-1,-8", "1.5,-3.5", "5,3", "-4,5", "-1,5"],
+        "neighbours": ["-1,-8", "1.5,-3.5", "-1,5", "-4,5", "5,3"],
         "position": {"x": 94.5, "y": 43.5}
       },
       {
@@ -3090,8 +3090,8 @@
         "connections": {
           "1": {
             "green": [
-              {"entity_rel": "1,-5"},
               {"circuit_id": 1, "entity_rel": "2,-2.5"},
+              {"entity_rel": "1,-5"},
               {"entity_rel": "-3,0"},
               {"entity_rel": "1,1"},
               {"entity_rel": "0,7"}
@@ -3099,7 +3099,7 @@
             "red": [{"entity_rel": "1,1"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["1,-5", "-3,0", "0,7"],
+        "neighbours": ["1,-5", "6,-2", "-3,0", "-3,7", "0,7"],
         "position": {"x": 93.5, "y": 48.5}
       },
       {"name": "straight-rail", "position": {"x": 92, "y": 50}},
@@ -3120,8 +3120,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "-1,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "-1,-1"}]
           }
         },
         "position": {"x": 94.5, "y": 49.5}
@@ -3147,7 +3147,7 @@
       },
       {
         "name": "constant-combinator",
-        "connections": {"1": {"red": [{"entity_rel": "-1,-2"}, {"circuit_id": 2, "entity_rel": "0,2.5"}]}},
+        "connections": {"1": {"red": [{"circuit_id": 2, "entity_rel": "0,2.5"}, {"entity_rel": "-1,-2"}]}},
         "control_behavior": {
           "filters": [
             {"count": 1, "index": 1, "signal": {"name": "ltn-max-trains", "type": "virtual"}},
@@ -3172,7 +3172,11 @@
         },
         "position": {"x": 95.5, "y": 46}
       },
-      {"name": "medium-electric-pole", "neighbours": ["-5,-3"], "position": {"x": 99.5, "y": 46.5}},
+      {
+        "name": "medium-electric-pole",
+        "neighbours": ["-5,-3", "-6,2"],
+        "position": {"x": 99.5, "y": 46.5}
+      },
       {
         "name": "iron-chest",
         "connections": {
@@ -3320,7 +3324,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,-7"}], "red": [{"entity_rel": "0,-7"}]}},
-        "neighbours": ["0,-7", "-8,1", "3,0"],
+        "neighbours": ["0,-7", "-8,1", "3,0", "3,-7"],
         "position": {"x": 90.5, "y": 55.5}
       },
       {"name": "loader", "type": "input", "position": {"x": 89.5, "y": 56}},
@@ -3336,7 +3340,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,-7"}], "red": [{"entity_rel": "0,-7"}]}},
-        "neighbours": ["0,-7", "-3,0", "6,1"],
+        "neighbours": ["-3,0", "6,1", "0,-7"],
         "position": {"x": 93.5, "y": 55.5}
       },
       {"name": "loader", "type": "input", "position": {"x": 94.5, "y": 56}},
@@ -3503,11 +3507,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-20,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}, {"entity_rel": "20,0"}],
-            "red": [{"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "-20,0"}, {"entity_rel": "20,0"}]
+            "green": [{"entity_rel": "-20,0"}, {"entity_rel": "20,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}],
+            "red": [{"entity_rel": "-20,0"}, {"entity_rel": "20,0"}, {"circuit_id": 1, "entity_rel": "-1,-1.5"}]
           }
         },
-        "neighbours": ["-20,0", "20,0", "-0.5,3.5"],
+        "neighbours": ["-20,0", "20,0", "-0.5,3.5", "-20,20"],
         "position": {"x": 116, "y": 20}
       },
       {"name": "straight-rail", "position": {"x": 112, "y": 24}},
@@ -3561,7 +3565,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "-1,-2"}]}},
-        "neighbours": ["0.5,-3.5", "-2,5"],
+        "neighbours": ["-2,5", "0.5,-3.5"],
         "position": {"x": 115.5, "y": 23.5}
       },
       {"name": "pipe-to-ground", "direction": 2, "position": {"x": 116.5, "y": 26.5}},
@@ -3914,8 +3918,8 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-20,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}, {"entity_rel": "20,0"}],
-            "red": [{"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "-20,0"}, {"entity_rel": "20,0"}]
+            "green": [{"entity_rel": "-20,0"}, {"entity_rel": "20,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}],
+            "red": [{"entity_rel": "-20,0"}, {"entity_rel": "20,0"}, {"circuit_id": 1, "entity_rel": "-1,-1.5"}]
           }
         },
         "neighbours": ["-20,0", "20,0", "-0.5,3.5"],
@@ -3924,7 +3928,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "-1,-2"}]}},
-        "neighbours": ["0.5,-3.5", "-2,5"],
+        "neighbours": ["-2,5", "0.5,-3.5"],
         "position": {"x": 135.5, "y": 23.5}
       },
       {"name": "pipe-to-ground", "direction": 2, "position": {"x": 136.5, "y": 26.5}},
@@ -3999,8 +4003,8 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-20,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}, {"entity_rel": "20,0"}],
-            "red": [{"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "-20,0"}, {"entity_rel": "20,0"}]
+            "green": [{"entity_rel": "-20,0"}, {"entity_rel": "20,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}],
+            "red": [{"entity_rel": "-20,0"}, {"entity_rel": "20,0"}, {"circuit_id": 1, "entity_rel": "-1,-1.5"}]
           }
         },
         "neighbours": ["-20,0", "20,0", "-1.5,3.5"],
@@ -4010,7 +4014,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "-1,5"}]}},
-        "neighbours": ["1.5,-3.5", "-4,5", "-1,5"],
+        "neighbours": ["-4,5", "-1,5", "1.5,-3.5"],
         "position": {"x": 154.5, "y": 23.5}
       },
       {
@@ -4217,7 +4221,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "0,7"],
+        "neighbours": ["0,-7", "3,-7", "3,0", "0,7"],
         "position": {"x": 150.5, "y": 35.5}
       },
       {
@@ -4338,8 +4342,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 149.5, "y": 42.5}
@@ -4352,7 +4356,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "0,7"],
+        "neighbours": ["0,-7", "3,-7", "3,0", "0,7"],
         "position": {"x": 150.5, "y": 42.5}
       },
       {"name": "straight-rail", "position": {"x": 152, "y": 28}},
@@ -4364,7 +4368,7 @@
             "red": [{"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["1,-5", "-3,0", "0,7"],
+        "neighbours": ["1,-5", "-3,0", "0,7", "-3,7"],
         "position": {"x": 153.5, "y": 28.5}
       },
       {"name": "straight-rail", "position": {"x": 152, "y": 30}},
@@ -4492,7 +4496,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "-3,0", "0,7"],
+        "neighbours": ["0,-7", "-3,0", "0,7", "-3,7"],
         "position": {"x": 153.5, "y": 35.5}
       },
       {
@@ -4630,15 +4634,15 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "1,0"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "-3,0", "0,7"],
+        "neighbours": ["0,-7", "-3,0", "0,7", "-3,7"],
         "position": {"x": 153.5, "y": 42.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 154.5, "y": 42.5}
@@ -5044,7 +5048,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "0,7"],
+        "neighbours": ["0,-7", "3,-7", "3,0", "0,7"],
         "position": {"x": 150.5, "y": 49.5}
       },
       {
@@ -5168,7 +5172,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,-7"}], "red": [{"entity_rel": "0,-7"}]}},
-        "neighbours": ["0,-7", "-8,0", "3,0"],
+        "neighbours": ["0,-7", "3,-7", "-8,0", "3,0"],
         "position": {"x": 150.5, "y": 56.5}
       },
       {"name": "loader", "type": "input", "position": {"x": 149.5, "y": 57}},
@@ -5299,7 +5303,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "-3,0", "0,7"],
+        "neighbours": ["0,-7", "-3,0", "0,7", "-3,7"],
         "position": {"x": 153.5, "y": 49.5}
       },
       {
@@ -5612,7 +5616,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "-1,-2"}]}},
-        "neighbours": ["0.5,-3.5", "-7,0", "-2,5"],
+        "neighbours": ["-7,0", "-2,5", "0.5,-3.5"],
         "position": {"x": 15.5, "y": 75.5}
       },
       {"name": "pipe-to-ground", "direction": 2, "position": {"x": 16.5, "y": 78.5}},
@@ -5645,7 +5649,7 @@
       {
         "name": "pump",
         "direction": 6,
-        "connections": {"1": {"red": [{"entity_rel": "0,-2"}, {"entity_rel": "-4,1"}, {"entity_rel": "0,5"}]}},
+        "connections": {"1": {"red": [{"entity_rel": "0,-2"}, {"entity_rel": "0,5"}, {"entity_rel": "-4,1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -5743,7 +5747,7 @@
       {
         "name": "pump",
         "direction": 6,
-        "connections": {"1": {"red": [{"entity_rel": "0,-2"}, {"entity_rel": "-4,1"}, {"entity_rel": "0,5"}]}},
+        "connections": {"1": {"red": [{"entity_rel": "0,-2"}, {"entity_rel": "0,5"}, {"entity_rel": "-4,1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -6013,7 +6017,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0.5,2"}]
           }
         },
-        "neighbours": ["0,-7", "9,0", "0,7"],
+        "neighbours": ["0,-7", "0,7", "9,0"],
         "position": {"x": 13.5, "y": 115.5}
       },
       {"name": "straight-rail", "position": {"x": 12, "y": 118}},
@@ -6181,7 +6185,7 @@
       {
         "name": "pump",
         "direction": 6,
-        "connections": {"1": {"red": [{"entity_rel": "0,-2"}, {"entity_rel": "-4,1"}, {"entity_rel": "0,5"}]}},
+        "connections": {"1": {"red": [{"entity_rel": "0,-2"}, {"entity_rel": "0,5"}, {"entity_rel": "-4,1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -6655,7 +6659,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"red": [{"entity_rel": "-0.5,3"}]}},
-        "neighbours": ["7,0", "0,7"],
+        "neighbours": ["0,7", "7,0"],
         "position": {"x": 30.5, "y": 167.5}
       },
       {
@@ -6666,7 +6670,7 @@
       {
         "name": "pump",
         "direction": 2,
-        "connections": {"1": {"red": [{"entity_rel": "0.5,-3"}, {"entity_rel": "4,-1"}, {"entity_rel": "0,2"}]}},
+        "connections": {"1": {"red": [{"entity_rel": "0.5,-3"}, {"entity_rel": "0,2"}, {"entity_rel": "4,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -7036,7 +7040,7 @@
       {
         "name": "pump",
         "direction": 2,
-        "connections": {"1": {"red": [{"entity_rel": "0,-5"}, {"entity_rel": "4,-1"}, {"entity_rel": "0,2"}]}},
+        "connections": {"1": {"red": [{"entity_rel": "0,-5"}, {"entity_rel": "0,2"}, {"entity_rel": "4,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -7786,7 +7790,7 @@
       {"name": "transport-belt", "direction": 2, "position": {"x": 85.5, "y": 84.5}},
       {"name": "transport-belt", "direction": 2, "position": {"x": 86.5, "y": 84.5}},
       {"name": "pipe", "position": {"x": 86.5, "y": 86.5}},
-      {"name": "medium-electric-pole", "neighbours": ["9,0", "0,9"], "position": {"x": 79.5, "y": 90.5}},
+      {"name": "medium-electric-pole", "neighbours": ["0,9", "9,0"], "position": {"x": 79.5, "y": 90.5}},
       {"name": "pipe", "position": {"x": 86.5, "y": 87.5}},
       {"name": "pipe", "position": {"x": 86.5, "y": 88.5}},
       {"name": "pipe", "position": {"x": 86.5, "y": 89.5}},
@@ -7944,7 +7948,7 @@
       },
       {
         "name": "medium-electric-pole",
-        "neighbours": ["0,-9", "8,0", "0,9"],
+        "neighbours": ["0,-9", "0,9", "8,0"],
         "position": {"x": 79.5, "y": 99.5}
       },
       {"name": "pipe", "position": {"x": 82.5, "y": 100.5}},
@@ -7977,7 +7981,7 @@
       {"name": "pipe", "position": {"x": 95.5, "y": 93.5}},
       {
         "name": "medium-electric-pole",
-        "neighbours": ["-8,-3", "5,-1", "0,9"],
+        "neighbours": ["-8,-3", "0,9", "5,-1"],
         "position": {"x": 96.5, "y": 93.5}
       },
       {"name": "pipe", "position": {"x": 95.5, "y": 94.5}},
@@ -7986,7 +7990,7 @@
       {"name": "pipe", "position": {"x": 97.5, "y": 94.5}},
       {
         "name": "medium-electric-pole-2",
-        "neighbours": ["-5,1", "8,4", "0,8"],
+        "neighbours": ["0,8", "-5,1", "8,4"],
         "position": {"x": 101.5, "y": 92.5}
       },
       {"name": "pipe", "position": {"x": 95.5, "y": 95.5}},
@@ -8012,7 +8016,7 @@
       {"name": "pipe", "position": {"x": 95.5, "y": 102.5}},
       {
         "name": "medium-electric-pole",
-        "neighbours": ["0,-9", "5,-2", "0,9"],
+        "neighbours": ["0,-9", "0,9", "5,-2"],
         "position": {"x": 96.5, "y": 102.5}
       },
       {"name": "pipe", "position": {"x": 97.5, "y": 101.5}},
@@ -8398,7 +8402,7 @@
       {"name": "pipe", "position": {"x": 68.5, "y": 137.5}},
       {"name": "pipe", "position": {"x": 68.5, "y": 138.5}},
       {"name": "pipe", "position": {"x": 72.5, "y": 108.5}},
-      {"name": "medium-electric-pole", "neighbours": ["6,1", "0,8"], "position": {"x": 73.5, "y": 107.5}},
+      {"name": "medium-electric-pole", "neighbours": ["0,8", "6,1"], "position": {"x": 73.5, "y": 107.5}},
       {"name": "pipe", "position": {"x": 73.5, "y": 108.5}},
       {"name": "pipe", "position": {"x": 74.5, "y": 108.5}},
       {"name": "basic-transport-belt", "direction": 6, "position": {"x": 71.5, "y": 109.5}},
@@ -8560,7 +8564,7 @@
       },
       {"name": "pipe-to-ground", "direction": 4, "position": {"x": 90.5, "y": 122.5}},
       {
-        "name": "filtration-unit",
+        "name": "filtration-unit-2",
         "direction": 6,
         "recipe": "crystal-slurry-filtering-2",
         "position": {"x": 93.5, "y": 119.5}
@@ -8700,7 +8704,7 @@
       {"name": "pipe", "position": {"x": 90.5, "y": 125.5}},
       {"name": "pipe-to-ground", "position": {"x": 89.5, "y": 126.5}},
       {
-        "name": "filtration-unit",
+        "name": "filtration-unit-2",
         "direction": 6,
         "recipe": "crystal-slurry-filtering-2",
         "position": {"x": 93.5, "y": 124.5}
@@ -8722,7 +8726,7 @@
       {"name": "pipe", "position": {"x": 89.5, "y": 130.5}},
       {"name": "pipe", "position": {"x": 90.5, "y": 130.5}},
       {
-        "name": "filtration-unit",
+        "name": "filtration-unit-2",
         "direction": 6,
         "recipe": "crystal-slurry-filtering-2",
         "position": {"x": 93.5, "y": 129.5}
@@ -8804,7 +8808,7 @@
       {"name": "pipe-to-ground", "direction": 4, "position": {"x": 89.5, "y": 134.5}},
       {"name": "pipe-to-ground", "position": {"x": 90.5, "y": 134.5}},
       {
-        "name": "filtration-unit",
+        "name": "filtration-unit-2",
         "direction": 6,
         "recipe": "crystal-slurry-filtering-2",
         "position": {"x": 93.5, "y": 134.5}
@@ -9051,7 +9055,7 @@
       {"name": "pipe", "position": {"x": 110.5, "y": 95.5}},
       {
         "name": "medium-electric-pole",
-        "neighbours": ["-8,-4", "6,0", "-8,4"],
+        "neighbours": ["6,0", "-8,4", "-8,-4"],
         "position": {"x": 109.5, "y": 96.5}
       },
       {"name": "pipe-to-ground", "position": {"x": 110.5, "y": 96.5}},
@@ -9478,7 +9482,7 @@
       {"name": "pipe-to-ground", "direction": 6, "position": {"x": 105.5, "y": 107.5}},
       {
         "name": "medium-electric-pole",
-        "neighbours": ["-5,-7", "-5,1", "7,0"],
+        "neighbours": ["-5,1", "7,0", "-5,-7"],
         "position": {"x": 106.5, "y": 107.5}
       },
       {"name": "pipe", "position": {"x": 108.5, "y": 107.5}},
@@ -9513,7 +9517,7 @@
       {"name": "pipe", "position": {"x": 107.5, "y": 118.5}},
       {"name": "pipe-to-ground", "position": {"x": 110.5, "y": 117.5}},
       {
-        "name": "filtration-unit",
+        "name": "filtration-unit-2",
         "direction": 2,
         "recipe": "crystal-slurry-filtering-2",
         "position": {"x": 103.5, "y": 119.5}
@@ -9546,6 +9550,7 @@
       {"name": "pipe", "position": {"x": 117.5, "y": 115.5}},
       {"name": "pipe", "position": {"x": 118.5, "y": 115.5}},
       {"name": "pipe", "position": {"x": 118.5, "y": 116.5}},
+      {"name": "offshore-pump", "direction": 4, "position": {"x": 118.5, "y": 117.5}},
       {"name": "pipe-to-ground", "direction": 6, "position": {"x": 119.5, "y": 107.5}},
       {
         "name": "medium-electric-pole",
@@ -9596,7 +9601,7 @@
       {"name": "pipe", "position": {"x": 128.5, "y": 115.5}},
       {"name": "pipe", "position": {"x": 129.5, "y": 115.5}},
       {
-        "name": "filtration-unit",
+        "name": "filtration-unit-2",
         "direction": 2,
         "recipe": "crystal-slurry-filtering-2",
         "position": {"x": 103.5, "y": 124.5}
@@ -9619,7 +9624,7 @@
       {"name": "basic-transport-belt", "position": {"x": 108.5, "y": 126.5}},
       {"name": "pipe", "position": {"x": 106.5, "y": 128.5}},
       {
-        "name": "filtration-unit",
+        "name": "filtration-unit-2",
         "direction": 2,
         "recipe": "crystal-slurry-filtering-2",
         "position": {"x": 103.5, "y": 129.5}
@@ -9643,7 +9648,7 @@
       {"name": "pipe-to-ground", "position": {"x": 110.5, "y": 129.5}},
       {"name": "pipe-to-ground", "position": {"x": 106.5, "y": 131.5}},
       {
-        "name": "filtration-unit",
+        "name": "filtration-unit-2",
         "direction": 2,
         "recipe": "crystal-slurry-filtering-2",
         "position": {"x": 103.5, "y": 134.5}
@@ -9697,7 +9702,7 @@
       {"name": "transport-belt", "direction": 2, "position": {"x": 134.5, "y": 126.5}},
       {"name": "red-stack-inserter", "direction": 4, "position": {"x": 129.5, "y": 127.5}},
       {"name": "crystallizer", "recipe": "catalysator-green", "position": {"x": 129.5, "y": 130.5}},
-      {"name": "medium-electric-pole", "neighbours": ["8,2", "4,7"], "position": {"x": 132.5, "y": 127.5}},
+      {"name": "medium-electric-pole", "neighbours": ["4,7", "8,2"], "position": {"x": 132.5, "y": 127.5}},
       {
         "name": "red-stack-inserter",
         "direction": 4,
@@ -9760,7 +9765,7 @@
       {"name": "transport-belt", "direction": 4, "position": {"x": 138.5, "y": 130.5}},
       {
         "name": "medium-electric-pole",
-        "neighbours": ["-8,-2", "-4,5", "5,6"],
+        "neighbours": ["5,6", "-4,5", "-8,-2"],
         "position": {"x": 140.5, "y": 129.5}
       },
       {"name": "transport-belt", "direction": 4, "position": {"x": 139.5, "y": 130.5}},
@@ -9772,14 +9777,14 @@
       {"name": "transport-belt", "direction": 2, "position": {"x": 147.5, "y": 126.5}},
       {"name": "transport-belt", "direction": 2, "position": {"x": 148.5, "y": 126.5}},
       {"name": "red-stack-inserter", "position": {"x": 143.5, "y": 127.5}},
-      {"name": "crystallizer", "recipe": "catalysator-orange", "position": {"x": 143.5, "y": 130.5}},
+      {"name": "crystallizer-2", "recipe": "catalysator-orange", "position": {"x": 143.5, "y": 130.5}},
       {"name": "red-stack-inserter", "position": {"x": 148.5, "y": 127.5}},
-      {"name": "crystallizer", "recipe": "catalysator-orange", "position": {"x": 148.5, "y": 130.5}},
+      {"name": "crystallizer-2", "recipe": "catalysator-orange", "position": {"x": 148.5, "y": 130.5}},
       {"name": "transport-belt", "direction": 4, "position": {"x": 138.5, "y": 131.5}},
       {"name": "transport-belt", "direction": 4, "position": {"x": 138.5, "y": 132.5}},
       {
         "name": "medium-electric-pole",
-        "neighbours": ["-4,-7", "4,-5", "4,6", "-4,7"],
+        "neighbours": ["-4,-7", "-4,7", "4,-5", "4,6"],
         "position": {"x": 136.5, "y": 134.5}
       },
       {"name": "transport-belt", "direction": 4, "position": {"x": 138.5, "y": 133.5}},
@@ -9815,12 +9820,12 @@
       {"name": "red-stack-inserter", "position": {"x": 143.5, "y": 135.5}},
       {
         "name": "medium-electric-pole",
-        "neighbours": ["-5,-6", "6,-6", "-5,5", "6,5"],
+        "neighbours": ["-5,-6", "6,-6", "6,5", "-5,5"],
         "position": {"x": 145.5, "y": 135.5}
       },
-      {"name": "crystallizer", "recipe": "catalysator-orange", "position": {"x": 143.5, "y": 138.5}},
+      {"name": "crystallizer-2", "recipe": "catalysator-orange", "position": {"x": 143.5, "y": 138.5}},
       {"name": "red-stack-inserter", "position": {"x": 148.5, "y": 135.5}},
-      {"name": "crystallizer", "recipe": "catalysator-orange", "position": {"x": 148.5, "y": 138.5}},
+      {"name": "crystallizer-2", "recipe": "catalysator-orange", "position": {"x": 148.5, "y": 138.5}},
       {"name": "medium-electric-pole", "neighbours": ["-6,6"], "position": {"x": 151.5, "y": 129.5}},
       {"name": "red-stack-inserter", "direction": 6, "position": {"x": 151.5, "y": 130.5}},
       {"name": "transport-belt", "direction": 4, "position": {"x": 152.5, "y": 130.5}},
@@ -10056,7 +10061,7 @@
       },
       {
         "name": "medium-electric-pole",
-        "neighbours": ["-7,0", "7,0", "0,7"],
+        "neighbours": ["-7,0", "0,7", "7,0"],
         "position": {"x": 44.5, "y": 167.5}
       },
       {"name": "straight-rail", "position": {"x": 46, "y": 168}},
@@ -10108,7 +10113,7 @@
       {"name": "pipe-to-ground", "direction": 6, "position": {"x": 55.5, "y": 167.5}},
       {
         "name": "medium-electric-pole",
-        "neighbours": ["-7,0", "7,0", "0,7"],
+        "neighbours": ["-7,0", "0,7", "7,0"],
         "position": {"x": 58.5, "y": 167.5}
       },
       {
@@ -10354,7 +10359,7 @@
       {"name": "curved-rail", "direction": 1, "position": {"x": 75, "y": 163}},
       {
         "name": "medium-electric-pole",
-        "neighbours": ["-7,0", "7,0", "0,7"],
+        "neighbours": ["-7,0", "0,7", "7,0"],
         "position": {"x": 72.5, "y": 167.5}
       },
       {"name": "straight-rail", "position": {"x": 74, "y": 168}},
@@ -10392,7 +10397,7 @@
       {"name": "pipe-to-ground", "direction": 6, "position": {"x": 83.5, "y": 167.5}},
       {
         "name": "medium-electric-pole",
-        "neighbours": ["-7,0", "7,0", "0,7"],
+        "neighbours": ["-7,0", "0,7", "7,0"],
         "position": {"x": 86.5, "y": 167.5}
       },
       {
@@ -10458,7 +10463,7 @@
       },
       {
         "name": "medium-electric-pole",
-        "neighbours": ["-7,0", "7,0", "0,7"],
+        "neighbours": ["-7,0", "0,7", "7,0"],
         "position": {"x": 100.5, "y": 167.5}
       },
       {"name": "straight-rail", "position": {"x": 102, "y": 168}},
@@ -10847,7 +10852,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "1,-7"}, {"circuit_id": 1, "entity_rel": "-1.5,0"}],
-            "red": [{"entity_rel": "0,-2"}, {"circuit_id": 1, "entity_rel": "-1.5,0"}]
+            "red": [{"circuit_id": 1, "entity_rel": "-1.5,0"}, {"entity_rel": "0,-2"}]
           }
         },
         "control_behavior": {
@@ -11010,7 +11015,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "1,-7"}, {"circuit_id": 1, "entity_rel": "-1.5,0"}],
-            "red": [{"entity_rel": "0,-2"}, {"circuit_id": 1, "entity_rel": "-1.5,0"}]
+            "red": [{"circuit_id": 1, "entity_rel": "-1.5,0"}, {"entity_rel": "0,-2"}]
           }
         },
         "control_behavior": {
@@ -11465,7 +11470,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "1,-7"}, {"circuit_id": 1, "entity_rel": "-1.5,0"}],
-            "red": [{"entity_rel": "0,-2"}, {"circuit_id": 1, "entity_rel": "-1.5,0"}]
+            "red": [{"circuit_id": 1, "entity_rel": "-1.5,0"}, {"entity_rel": "0,-2"}]
           }
         },
         "control_behavior": {
@@ -11540,7 +11545,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "1,-7"}, {"circuit_id": 1, "entity_rel": "-1.5,0"}],
-            "red": [{"entity_rel": "0,-2"}, {"circuit_id": 1, "entity_rel": "-1.5,0"}]
+            "red": [{"circuit_id": 1, "entity_rel": "-1.5,0"}, {"entity_rel": "0,-2"}]
           }
         },
         "control_behavior": {
@@ -11697,7 +11702,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "1,-7"}, {"circuit_id": 1, "entity_rel": "-1.5,0"}],
-            "red": [{"entity_rel": "0,-2"}, {"circuit_id": 1, "entity_rel": "-1.5,0"}]
+            "red": [{"circuit_id": 1, "entity_rel": "-1.5,0"}, {"entity_rel": "0,-2"}]
           }
         },
         "control_behavior": {
@@ -11842,7 +11847,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"red": [{"entity_rel": "-0.5,3"}]}},
-        "neighbours": ["1,-7", "-7,0", "7,0", "0,7"],
+        "neighbours": ["1,-7", "-7,0", "0,7", "7,0"],
         "position": {"x": 114.5, "y": 167.5}
       },
       {
@@ -11853,7 +11858,7 @@
       {
         "name": "pump",
         "direction": 2,
-        "connections": {"1": {"red": [{"entity_rel": "0.5,-3"}, {"entity_rel": "4,-1"}, {"entity_rel": "0,2"}]}},
+        "connections": {"1": {"red": [{"entity_rel": "0.5,-3"}, {"entity_rel": "0,2"}, {"entity_rel": "4,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -11929,7 +11934,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,7"}], "red": [{"entity_rel": "0,7"}]}},
-        "neighbours": ["-3,-7", "-7,0", "3,0", "0,7"],
+        "neighbours": ["-3,-7", "-7,0", "0,7", "3,0"],
         "position": {"x": 128.5, "y": 167.5}
       },
       {
@@ -11982,7 +11987,7 @@
       {
         "name": "red-stack-inserter",
         "direction": 6,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -11992,7 +11997,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,7"}], "red": [{"entity_rel": "0,7"}]}},
-        "neighbours": ["-3,0", "5,0", "0,7"],
+        "neighbours": ["-3,0", "0,7", "5,0", "-3,7"],
         "position": {"x": 131.5, "y": 167.5}
       },
       {"name": "loader", "direction": 4, "type": "input", "position": {"x": 132.5, "y": 167}},
@@ -12045,8 +12050,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 132.5, "y": 170.5}
@@ -12060,7 +12065,7 @@
       {"name": "underground-belt", "direction": 4, "type": "input", "position": {"x": 139.5, "y": 140.5}},
       {
         "name": "medium-electric-pole",
-        "neighbours": ["-4,-6", "5,-5", "-8,1"],
+        "neighbours": ["5,-5", "-8,1", "-4,-6"],
         "position": {"x": 140.5, "y": 140.5}
       },
       {"name": "transport-belt", "direction": 2, "position": {"x": 139.5, "y": 142.5}},
@@ -12167,14 +12172,14 @@
       {"name": "transport-belt", "direction": 4, "position": {"x": 141.5, "y": 165.5}},
       {
         "name": "medium-electric-pole",
-        "neighbours": ["-5,0", "6,0"],
+        "neighbours": ["-5,0", "6,0", "-5,7"],
         "position": {"x": 136.5, "y": 167.5}
       },
       {"name": "loader", "direction": 4, "type": "input", "position": {"x": 141.5, "y": 167}},
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,7"}], "red": [{"entity_rel": "0,7"}]}},
-        "neighbours": ["-6,0", "3,0", "0,7"],
+        "neighbours": ["-6,0", "0,7", "3,0"],
         "position": {"x": 142.5, "y": 167.5}
       },
       {
@@ -12226,7 +12231,7 @@
       {
         "name": "red-stack-inserter",
         "direction": 6,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -12240,7 +12245,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,7"}], "red": [{"entity_rel": "0,7"}]}},
-        "neighbours": ["-3,0", "5,0", "0,7"],
+        "neighbours": ["-3,0", "0,7", "5,0", "-3,7"],
         "position": {"x": 145.5, "y": 167.5}
       },
       {"name": "loader", "direction": 4, "type": "input", "position": {"x": 146.5, "y": 167}},
@@ -12294,15 +12299,15 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 146.5, "y": 170.5}
       },
       {
         "name": "medium-electric-pole",
-        "neighbours": ["-5,0", "6,0"],
+        "neighbours": ["-5,0", "6,0", "-5,7"],
         "position": {"x": 150.5, "y": 167.5}
       },
       {"name": "straight-rail", "direction": 2, "position": {"x": 152, "y": 156}},
@@ -12328,7 +12333,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,7"}], "red": [{"entity_rel": "0,7"}]}},
-        "neighbours": ["-6,0", "3,0", "0,7"],
+        "neighbours": ["-6,0", "0,7", "3,0"],
         "position": {"x": 156.5, "y": 167.5}
       },
       {
@@ -12341,6 +12346,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 168.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 168}},
@@ -12359,14 +12365,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 169.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 155.5, "y": 170.5}
@@ -12376,6 +12383,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 170.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 170}},
@@ -12386,7 +12394,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,7"}], "red": [{"entity_rel": "0,7"}]}},
-        "neighbours": ["-3,0", "0,7"],
+        "neighbours": ["-3,0", "0,7", "-3,7"],
         "position": {"x": 159.5, "y": 167.5}
       },
       {"name": "loader", "type": "output", "position": {"x": 160.5, "y": 167}},
@@ -12395,6 +12403,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 168.5}
       },
       {
@@ -12407,6 +12416,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 169.5}
       },
       {
@@ -12424,6 +12434,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 170.5}
       },
       {
@@ -12563,7 +12574,7 @@
       {
         "name": "pump",
         "direction": 2,
-        "connections": {"1": {"red": [{"entity_rel": "0,-5"}, {"entity_rel": "4,-1"}, {"entity_rel": "0,2"}]}},
+        "connections": {"1": {"red": [{"entity_rel": "0,-5"}, {"entity_rel": "0,2"}, {"entity_rel": "4,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -12643,7 +12654,7 @@
       {
         "name": "red-stack-inserter",
         "direction": 6,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -12689,7 +12700,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "0,7"],
+        "neighbours": ["0,-7", "3,-7", "0,7", "3,0"],
         "position": {"x": 128.5, "y": 174.5}
       },
       {"name": "straight-rail", "position": {"x": 130, "y": 174}},
@@ -12716,7 +12727,7 @@
       {
         "name": "red-stack-inserter",
         "direction": 2,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -12727,8 +12738,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 132.5, "y": 172.5}
@@ -12761,7 +12772,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "-3,0", "0,7"],
+        "neighbours": ["0,-7", "5,-7", "-3,0", "0,7", "-3,7"],
         "position": {"x": 131.5, "y": 174.5}
       },
       {
@@ -12769,8 +12780,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 132.5, "y": 174.5}
@@ -12891,8 +12902,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 132.5, "y": 176.5}
@@ -12920,7 +12931,7 @@
       {
         "name": "red-stack-inserter",
         "direction": 2,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -12931,8 +12942,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 132.5, "y": 178.5}
@@ -13006,11 +13017,11 @@
         "name": "medium-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-7"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,7"}],
-            "red": [{"entity_rel": "0,-7"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,7"}]
+            "green": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}, {"entity_rel": "-1,0"}],
+            "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}, {"entity_rel": "-1,0"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "0,7"],
+        "neighbours": ["0,-7", "3,-7", "0,7", "3,0"],
         "position": {"x": 128.5, "y": 181.5}
       },
       {
@@ -13018,8 +13029,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 127.5, "y": 182.5}
@@ -13057,7 +13068,7 @@
       {
         "name": "red-stack-inserter",
         "direction": 2,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,2"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -13068,8 +13079,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 132.5, "y": 180.5}
@@ -13078,11 +13089,11 @@
         "name": "medium-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-7"}, {"entity_rel": "1,0"}, {"entity_rel": "0,7"}],
-            "red": [{"entity_rel": "0,-7"}, {"entity_rel": "1,0"}, {"entity_rel": "0,7"}]
+            "green": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}, {"entity_rel": "1,0"}],
+            "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}, {"entity_rel": "1,0"}]
           }
         },
-        "neighbours": ["0,-7", "-3,0", "0,7"],
+        "neighbours": ["0,-7", "-3,0", "0,7", "-3,7"],
         "position": {"x": 131.5, "y": 181.5}
       },
       {
@@ -13110,8 +13121,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 132.5, "y": 182.5}
@@ -13150,7 +13161,7 @@
       {
         "name": "red-stack-inserter",
         "direction": 6,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -13232,8 +13243,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 132.5, "y": 184.5}
@@ -13272,8 +13283,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 132.5, "y": 186.5}
@@ -13504,7 +13515,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "0,7"],
+        "neighbours": ["0,-7", "3,-7", "0,7", "3,0"],
         "position": {"x": 128.5, "y": 188.5}
       },
       {"name": "straight-rail", "position": {"x": 130, "y": 188}},
@@ -13577,7 +13588,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "-3,0", "0,7"],
+        "neighbours": ["0,-7", "-3,0", "0,7", "-3,7"],
         "position": {"x": 131.5, "y": 188.5}
       },
       {
@@ -13585,8 +13596,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 132.5, "y": 188.5}
@@ -13614,7 +13625,7 @@
       {
         "name": "red-stack-inserter",
         "direction": 2,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -13625,8 +13636,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 132.5, "y": 190.5}
@@ -13665,7 +13676,7 @@
       {
         "name": "red-stack-inserter",
         "direction": 6,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -13702,7 +13713,7 @@
         "name": "red-stack-inserter",
         "direction": 6,
         "connections": {
-          "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,3.5"}]}
+          "1": {"green": [{"entity_rel": "0,-1"}, {"circuit_id": 2, "entity_rel": "0,3.5"}, {"entity_rel": "3,0"}]}
         },
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
@@ -13733,7 +13744,7 @@
       {
         "name": "red-stack-inserter",
         "direction": 2,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -13744,8 +13755,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 132.5, "y": 192.5}
@@ -13812,11 +13823,11 @@
         "name": "medium-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-7"}, {"entity_rel": "3,0"}, {"entity_rel": "-1,5"}],
+            "green": [{"entity_rel": "0,-7"}, {"entity_rel": "-1,5"}, {"entity_rel": "3,0"}],
             "red": [{"entity_rel": "0,-7"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "-1,5"],
+        "neighbours": ["0,-7", "3,-7", "-1,5", "3,0"],
         "position": {"x": 128.5, "y": 195.5}
       },
       {"name": "straight-rail", "position": {"x": 130, "y": 196}},
@@ -13927,7 +13938,7 @@
       {
         "name": "red-stack-inserter",
         "direction": 6,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -13972,7 +13983,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "0,7"],
+        "neighbours": ["0,-7", "3,-7", "0,7", "3,0"],
         "position": {"x": 142.5, "y": 174.5}
       },
       {
@@ -14079,7 +14090,7 @@
       {
         "name": "red-stack-inserter",
         "direction": 2,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -14090,8 +14101,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 146.5, "y": 172.5}
@@ -14125,7 +14136,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "-3,0", "0,7"],
+        "neighbours": ["0,-7", "5,-7", "-3,0", "0,7", "-3,7"],
         "position": {"x": 145.5, "y": 174.5}
       },
       {
@@ -14133,8 +14144,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 146.5, "y": 174.5}
@@ -14174,8 +14185,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 146.5, "y": 176.5}
@@ -14204,7 +14215,7 @@
       {
         "name": "red-stack-inserter",
         "direction": 2,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -14215,8 +14226,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 146.5, "y": 178.5}
@@ -14276,11 +14287,11 @@
         "name": "medium-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-7"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,7"}],
-            "red": [{"entity_rel": "0,-7"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,7"}]
+            "green": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}, {"entity_rel": "-1,0"}],
+            "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}, {"entity_rel": "-1,0"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "0,7"],
+        "neighbours": ["0,-7", "3,-7", "0,7", "3,0"],
         "position": {"x": 142.5, "y": 181.5}
       },
       {
@@ -14288,8 +14299,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 141.5, "y": 182.5}
@@ -14337,7 +14348,7 @@
       {
         "name": "red-stack-inserter",
         "direction": 6,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -14407,7 +14418,7 @@
       {
         "name": "red-stack-inserter",
         "direction": 2,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,2"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -14418,8 +14429,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 146.5, "y": 180.5}
@@ -14429,11 +14440,11 @@
         "name": "medium-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-7"}, {"entity_rel": "1,0"}, {"entity_rel": "0,7"}],
-            "red": [{"entity_rel": "0,-7"}, {"entity_rel": "1,0"}, {"entity_rel": "0,7"}]
+            "green": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}, {"entity_rel": "1,0"}],
+            "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}, {"entity_rel": "1,0"}]
           }
         },
-        "neighbours": ["0,-7", "-3,0", "0,7"],
+        "neighbours": ["0,-7", "-3,0", "0,7", "-3,7"],
         "position": {"x": 145.5, "y": 181.5}
       },
       {
@@ -14461,8 +14472,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 146.5, "y": 182.5}
@@ -14502,8 +14513,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 146.5, "y": 184.5}
@@ -14543,8 +14554,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 146.5, "y": 186.5}
@@ -14564,14 +14575,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 171.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 155.5, "y": 172.5}
@@ -14579,8 +14591,9 @@
       {
         "name": "red-stack-filter-inserter",
         "direction": 2,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 172.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 172}},
@@ -14599,6 +14612,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 173.5}
       },
       {
@@ -14619,7 +14633,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "0,7"],
+        "neighbours": ["0,-7", "3,-7", "0,7", "3,0"],
         "position": {"x": 156.5, "y": 174.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 174}},
@@ -14638,6 +14652,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 175.5}
       },
       {
@@ -14655,6 +14670,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 176.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 176}},
@@ -14673,14 +14689,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 177.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 155.5, "y": 178.5}
@@ -14690,6 +14707,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 178.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 178}},
@@ -14698,6 +14716,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 171.5}
       },
       {
@@ -14715,14 +14734,15 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 172.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 160.5, "y": 172.5}
@@ -14732,6 +14752,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 173.5}
       },
       {
@@ -14752,7 +14773,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "-3,0", "0,7"],
+        "neighbours": ["0,-7", "-3,0", "0,7", "-3,7"],
         "position": {"x": 159.5, "y": 174.5}
       },
       {
@@ -14770,6 +14791,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 175.5}
       },
       {
@@ -14787,6 +14809,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 176.5}
       },
       {
@@ -14804,6 +14827,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 177.5}
       },
       {
@@ -14821,6 +14845,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 178.5}
       },
       {
@@ -14848,14 +14873,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 179.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 155.5, "y": 180.5}
@@ -14863,8 +14889,9 @@
       {
         "name": "red-stack-filter-inserter",
         "direction": 2,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,2"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 180.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 180}},
@@ -14882,11 +14909,11 @@
         "name": "medium-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-7"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,7"}],
-            "red": [{"entity_rel": "0,-7"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,7"}]
+            "green": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}, {"entity_rel": "-1,0"}],
+            "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}, {"entity_rel": "-1,0"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "0,7"],
+        "neighbours": ["0,-7", "3,-7", "0,7", "3,0"],
         "position": {"x": 156.5, "y": 181.5}
       },
       {
@@ -14904,6 +14931,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 182.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 182}},
@@ -14922,6 +14950,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 183.5}
       },
       {
@@ -14939,6 +14968,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 184.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 184}},
@@ -14957,6 +14987,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 185.5}
       },
       {
@@ -14972,8 +15003,9 @@
       {
         "name": "red-stack-filter-inserter",
         "direction": 2,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 186.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 186}},
@@ -14982,6 +15014,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 179.5}
       },
       {
@@ -14997,16 +15030,17 @@
       {
         "name": "red-stack-filter-inserter",
         "direction": 6,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,2"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 180.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 160.5, "y": 180.5}
@@ -15015,11 +15049,11 @@
         "name": "medium-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-7"}, {"entity_rel": "1,0"}, {"entity_rel": "0,7"}],
-            "red": [{"entity_rel": "0,-7"}, {"entity_rel": "1,0"}, {"entity_rel": "0,7"}]
+            "green": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}, {"entity_rel": "1,0"}],
+            "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}, {"entity_rel": "1,0"}]
           }
         },
-        "neighbours": ["0,-7", "-3,0", "0,7"],
+        "neighbours": ["0,-7", "-3,0", "0,7", "-3,7"],
         "position": {"x": 159.5, "y": 181.5}
       },
       {
@@ -15037,6 +15071,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 182.5}
       },
       {
@@ -15054,6 +15089,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 183.5}
       },
       {
@@ -15069,8 +15105,9 @@
       {
         "name": "red-stack-filter-inserter",
         "direction": 6,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 184.5}
       },
       {
@@ -15088,6 +15125,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 185.5}
       },
       {
@@ -15103,16 +15141,17 @@
       {
         "name": "red-stack-filter-inserter",
         "direction": 6,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 186.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 160.5, "y": 186.5}
@@ -15156,7 +15195,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "0,7"],
+        "neighbours": ["0,-7", "3,-7", "0,7", "3,0"],
         "position": {"x": 142.5, "y": 188.5}
       },
       {
@@ -15233,7 +15272,7 @@
       {
         "name": "red-stack-inserter",
         "direction": 6,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -15269,7 +15308,7 @@
         "name": "red-stack-inserter",
         "direction": 6,
         "connections": {
-          "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,3.5"}]}
+          "1": {"green": [{"entity_rel": "0,-1"}, {"circuit_id": 2, "entity_rel": "0,3.5"}, {"entity_rel": "3,0"}]}
         },
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
@@ -15305,7 +15344,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "-3,0", "0,7"],
+        "neighbours": ["0,-7", "-3,0", "0,7", "-3,7"],
         "position": {"x": 145.5, "y": 188.5}
       },
       {
@@ -15313,8 +15352,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 146.5, "y": 188.5}
@@ -15343,7 +15382,7 @@
       {
         "name": "red-stack-inserter",
         "direction": 2,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -15354,8 +15393,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 146.5, "y": 190.5}
@@ -15384,7 +15423,7 @@
       {
         "name": "red-stack-inserter",
         "direction": 2,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
         },
@@ -15395,8 +15434,8 @@
         "bar": 20,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 146.5, "y": 192.5}
@@ -15441,11 +15480,11 @@
         "name": "medium-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-7"}, {"entity_rel": "3,0"}, {"entity_rel": "-1,5"}],
+            "green": [{"entity_rel": "0,-7"}, {"entity_rel": "-1,5"}, {"entity_rel": "3,0"}],
             "red": [{"entity_rel": "0,-7"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "-1,5"],
+        "neighbours": ["0,-7", "3,-7", "-1,5", "3,0"],
         "position": {"x": 142.5, "y": 195.5}
       },
       {
@@ -15552,14 +15591,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 187.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 155.5, "y": 188.5}
@@ -15572,7 +15612,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "0,7"],
+        "neighbours": ["0,-7", "3,-7", "0,7", "3,0"],
         "position": {"x": 156.5, "y": 188.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 188}},
@@ -15591,14 +15631,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 189.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 155.5, "y": 190.5}
@@ -15606,8 +15647,9 @@
       {
         "name": "red-stack-filter-inserter",
         "direction": 2,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 190.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 190}},
@@ -15626,14 +15668,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 191.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 155.5, "y": 192.5}
@@ -15641,8 +15684,9 @@
       {
         "name": "red-stack-filter-inserter",
         "direction": 2,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 192.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 192}},
@@ -15661,6 +15705,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 193.5}
       },
       {
@@ -15672,9 +15717,10 @@
         "name": "red-stack-filter-inserter",
         "direction": 2,
         "connections": {
-          "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,5.5"}]}
+          "1": {"green": [{"circuit_id": 2, "entity_rel": "0,5.5"}, {"entity_rel": "0,-1"}, {"entity_rel": "3,0"}]}
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 156.5, "y": 194.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 194}},
@@ -15683,6 +15729,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 187.5}
       },
       {
@@ -15703,15 +15750,15 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "-3,0", "0,7"],
+        "neighbours": ["0,-7", "-3,0", "0,7", "-3,7"],
         "position": {"x": 159.5, "y": 188.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 160.5, "y": 188.5}
@@ -15721,6 +15768,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 189.5}
       },
       {
@@ -15736,8 +15784,9 @@
       {
         "name": "red-stack-filter-inserter",
         "direction": 6,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 190.5}
       },
       {
@@ -15755,6 +15804,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 191.5}
       },
       {
@@ -15770,16 +15820,17 @@
       {
         "name": "red-stack-filter-inserter",
         "direction": 6,
-        "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 192.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 160.5, "y": 192.5}
@@ -15789,6 +15840,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 193.5}
       },
       {
@@ -15806,6 +15858,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "catalysator-brown", "index": 1}],
         "position": {"x": 159.5, "y": 194.5}
       },
       {
@@ -15817,11 +15870,11 @@
         "name": "medium-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-7"}, {"entity_rel": "3,0"}, {"entity_rel": "-1,5"}],
+            "green": [{"entity_rel": "0,-7"}, {"entity_rel": "-1,5"}, {"entity_rel": "3,0"}],
             "red": [{"entity_rel": "0,-7"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "-1,5"],
+        "neighbours": ["0,-7", "3,-7", "-1,5", "3,0"],
         "position": {"x": 156.5, "y": 195.5}
       },
       {"name": "loader", "type": "input", "position": {"x": 155.5, "y": 196}},
@@ -15899,8 +15952,12 @@
         "name": "logistic-train-stop-input",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-2"}, {"circuit_id": 1, "entity_rel": "-1.5,0"}],
-            "red": [{"entity_rel": "-1,-2"}, {"circuit_id": 1, "entity_rel": "-1.5,0"}]
+            "green": [
+              {"entity_rel": "0,-2"},
+              {"circuit_id": 1, "entity_rel": "-1.5,0"},
+              {"circuit_id": 1, "entity_rel": "0,1.5"}
+            ],
+            "red": [{"circuit_id": 1, "entity_rel": "-1.5,0"}, {"entity_rel": "-1,-2"}]
           }
         },
         "control_behavior": {
@@ -15958,11 +16015,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-26"}, {"entity_rel": "26,0"}],
-            "red": [{"entity_rel": "0,-26"}, {"entity_rel": "26,0"}]
+            "green": [{"entity_rel": "26,0"}, {"entity_rel": "0,-26"}],
+            "red": [{"entity_rel": "26,0"}, {"entity_rel": "0,-26"}]
           }
         },
-        "neighbours": ["0,-26", "26,0"],
+        "neighbours": ["26,0", "0,-26"],
         "position": {"x": 2, "y": 222}
       },
       {"name": "small-lamp", "position": {"x": 3.5, "y": 220.5}},
@@ -15994,7 +16051,11 @@
       },
       {"name": "pipe", "position": {"x": 20.5, "y": 203.5}},
       {"name": "pipe", "position": {"x": 20.5, "y": 204.5}},
-      {"name": "medium-electric-pole-2", "neighbours": ["0,-8"], "position": {"x": 19.5, "y": 205.5}},
+      {
+        "name": "medium-electric-pole-2",
+        "neighbours": ["0,-8", "8.5,-1.5"],
+        "position": {"x": 19.5, "y": 205.5}
+      },
       {"name": "transport-belt", "direction": 2, "position": {"x": 15.5, "y": 207.5}},
       {"name": "transport-belt", "direction": 2, "position": {"x": 16.5, "y": 207.5}},
       {"name": "transport-belt", "direction": 2, "position": {"x": 17.5, "y": 207.5}},
@@ -16016,11 +16077,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"circuit_id": 2, "entity_rel": "1.5,0"}, {"entity_rel": "14,0"}, {"entity_rel": "0,18"}],
-            "red": [{"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}, {"entity_rel": "0,18"}]
+            "green": [{"entity_rel": "14,0"}, {"entity_rel": "0,18"}, {"circuit_id": 2, "entity_rel": "1.5,0"}],
+            "red": [{"entity_rel": "14,0"}, {"entity_rel": "0,18"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["-8.5,-6.5", "0.5,-3.5", "14,0", "0,18"],
+        "neighbours": ["14,0", "0,18", "-8.5,-6.5", "0.5,-3.5", "-8.5,1.5"],
         "position": {"x": 28, "y": 204}
       },
       {"name": "rail-signal", "position": {"x": 30.5, "y": 203.5}},
@@ -16074,7 +16135,7 @@
       {"name": "transport-belt", "direction": 2, "position": {"x": 36.5, "y": 207.5}},
       {"name": "transport-belt", "direction": 2, "position": {"x": 37.5, "y": 207.5}},
       {"name": "transport-belt", "direction": 2, "position": {"x": 38.5, "y": 207.5}},
-      {"name": "rail-signal", "direction": 1, "position": {"x": 26.5, "y": 216.5}},
+      {"name": "rail-chain-signal", "direction": 1, "position": {"x": 26.5, "y": 216.5}},
       {"name": "straight-rail", "direction": 3, "position": {"x": 28, "y": 216}},
       {"name": "curved-rail", "direction": 5, "position": {"x": 31, "y": 213}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 36, "y": 214}},
@@ -16103,11 +16164,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-18"}, {"entity_rel": "-26,0"}, {"entity_rel": "18,0"}],
-            "red": [{"entity_rel": "0,-18"}, {"entity_rel": "-26,0"}, {"entity_rel": "18,0"}]
+            "green": [{"entity_rel": "0,-18"}, {"entity_rel": "18,0"}, {"entity_rel": "-26,0"}],
+            "red": [{"entity_rel": "0,-18"}, {"entity_rel": "18,0"}, {"entity_rel": "-26,0"}]
           }
         },
-        "neighbours": ["0,-18", "-26,0", "18,0"],
+        "neighbours": ["14,-18", "0,-18", "18,0", "-26,0"],
         "position": {"x": 28, "y": 222}
       },
       {"name": "small-lamp", "position": {"x": 29.5, "y": 221.5}},
@@ -16129,11 +16190,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-14,0"}, {"circuit_id": 2, "entity_rel": "1.5,0"}, {"entity_rel": "14,0"}],
+            "green": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 2, "entity_rel": "1.5,0"}],
             "red": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["0.5,-3.5", "-14,0", "14,0"],
+        "neighbours": ["-14,0", "14,0", "-14,18", "0.5,-3.5"],
         "position": {"x": 42, "y": 204}
       },
       {"name": "rail-signal", "position": {"x": 44.5, "y": 203.5}},
@@ -16203,11 +16264,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-14,0"}, {"circuit_id": 2, "entity_rel": "1.5,0"}, {"entity_rel": "14,0"}],
+            "green": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 2, "entity_rel": "1.5,0"}],
             "red": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["0.5,-3.5", "-14,0", "14,0"],
+        "neighbours": ["-14,0", "14,0", "0.5,-3.5"],
         "position": {"x": 56, "y": 204}
       },
       {"name": "rail-signal", "position": {"x": 58.5, "y": 203.5}},
@@ -16259,11 +16320,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-14,0"}, {"circuit_id": 2, "entity_rel": "1.5,0"}, {"entity_rel": "14,0"}],
+            "green": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 2, "entity_rel": "1.5,0"}],
             "red": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["0.5,-3.5", "-14,0", "14,0"],
+        "neighbours": ["-14,0", "14,0", "0.5,-3.5"],
         "position": {"x": 70, "y": 204}
       },
       {"name": "transport-belt", "direction": 2, "position": {"x": 63.5, "y": 207.5}},
@@ -16390,11 +16451,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-14,0"}, {"circuit_id": 2, "entity_rel": "1.5,0"}, {"entity_rel": "14,0"}],
+            "green": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 2, "entity_rel": "1.5,0"}],
             "red": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["0.5,-3.5", "-14,0", "14,0"],
+        "neighbours": ["-14,0", "14,0", "0.5,-3.5"],
         "position": {"x": 84, "y": 204}
       },
       {"name": "rail-signal", "position": {"x": 86.5, "y": 203.5}},
@@ -16463,11 +16524,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-14,0"}, {"circuit_id": 2, "entity_rel": "1.5,0"}, {"entity_rel": "14,0"}],
+            "green": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 2, "entity_rel": "1.5,0"}],
             "red": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["0.5,-3.5", "-14,0", "14,0"],
+        "neighbours": ["-14,0", "14,0", "0.5,-3.5"],
         "position": {"x": 98, "y": 204}
       },
       {"name": "rail-signal", "position": {"x": 100.5, "y": 203.5}},
@@ -16581,11 +16642,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-14,0"}, {"circuit_id": 2, "entity_rel": "1.5,0"}, {"entity_rel": "14,0"}],
+            "green": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 2, "entity_rel": "1.5,0"}],
             "red": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["0.5,-3.5", "-14,0", "14,0"],
+        "neighbours": ["-14,0", "14,0", "0.5,-3.5"],
         "position": {"x": 112, "y": 204}
       },
       {"name": "rail-signal", "position": {"x": 114.5, "y": 203.5}},
@@ -16644,11 +16705,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-14,0"}, {"circuit_id": 2, "entity_rel": "1.5,0"}, {"entity_rel": "14,0"}],
+            "green": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 2, "entity_rel": "1.5,0"}],
             "red": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["1.5,-3.5", "-14,0", "14,0"],
+        "neighbours": ["-14,0", "14,0", "1.5,-3.5"],
         "position": {"x": 126, "y": 204}
       },
       {"name": "transport-belt", "direction": 2, "position": {"x": 119.5, "y": 207.5}},
@@ -16772,11 +16833,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-14,0"}, {"circuit_id": 2, "entity_rel": "1.5,0"}, {"entity_rel": "14,0"}],
+            "green": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 2, "entity_rel": "1.5,0"}],
             "red": [{"entity_rel": "-14,0"}, {"entity_rel": "14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["1.5,-3.5", "-14,0", "14,0"],
+        "neighbours": ["-14,0", "14,0", "1.5,-3.5"],
         "position": {"x": 140, "y": 204}
       },
       {"name": "rail-signal", "position": {"x": 142.5, "y": 203.5}},
@@ -16844,7 +16905,7 @@
             "red": [{"entity_rel": "-14,0"}, {"circuit_id": 1, "entity_rel": "1,1.5"}]
           }
         },
-        "neighbours": ["1.5,-3.5", "-14,0", "2,18"],
+        "neighbours": ["-14,0", "2,18", "1.5,-3.5"],
         "position": {"x": 154, "y": 204}
       },
       {"name": "rail-signal", "position": {"x": 156.5, "y": 203.5}},
@@ -16853,7 +16914,7 @@
         "direction": 4,
         "connections": {
           "1": {
-            "green": [{"circuit_id": 2, "entity_rel": "-1.5,-1.5"}],
+            "green": [{"circuit_id": 2, "entity_rel": "-1.5,-1.5"}, {"entity_rel": "0,-1.5"}],
             "red": [{"circuit_id": 2, "entity_rel": "-0.5,1.5"}]
           },
           "2": {"green": [{"entity_rel": "-1.5,0"}]}
@@ -16929,7 +16990,7 @@
             "red": [{"entity_rel": "-22,0"}, {"entity_rel": "22,0"}]
           }
         },
-        "neighbours": ["-2,-18", "-22,0", "22,0"],
+        "neighbours": ["-22,0", "-2,-18", "22,0"],
         "position": {"x": 156, "y": 222}
       },
       {"name": "small-lamp", "position": {"x": 157.5, "y": 221.5}},
@@ -16996,11 +17057,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-18,0"}, {"entity_rel": "26,0"}, {"entity_rel": "0,18"}],
-            "red": [{"entity_rel": "-18,0"}, {"entity_rel": "26,0"}, {"entity_rel": "0,18"}]
+            "green": [{"entity_rel": "-18,0"}, {"entity_rel": "0,18"}, {"entity_rel": "26,0"}],
+            "red": [{"entity_rel": "-18,0"}, {"entity_rel": "0,18"}, {"entity_rel": "26,0"}]
           }
         },
-        "neighbours": ["-18,0", "26,0", "0,18"],
+        "neighbours": ["-18,0", "0,18", "26,0"],
         "position": {"x": 196, "y": 2}
       },
       {"name": "small-lamp", "position": {"x": 197.5, "y": 1.5}},
@@ -17017,7 +17078,7 @@
       {"name": "straight-rail", "direction": 2, "position": {"x": 198, "y": 4}},
       {"name": "curved-rail", "direction": 2, "position": {"x": 193, "y": 9}},
       {"name": "straight-rail", "direction": 7, "position": {"x": 196, "y": 8}},
-      {"name": "rail-signal", "direction": 5, "position": {"x": 197.5, "y": 7.5}},
+      {"name": "rail-chain-signal", "direction": 5, "position": {"x": 197.5, "y": 7.5}},
       {"name": "straight-rail", "direction": 3, "position": {"x": 212, "y": -6}},
       {"name": "straight-rail", "direction": 7, "position": {"x": 214, "y": -6}},
       {"name": "rail-chain-signal", "direction": 2, "position": {"x": 222.5, "y": -11.5}},
@@ -17048,11 +17109,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-26,0"}, {"entity_rel": "0,26"}],
-            "red": [{"entity_rel": "-26,0"}, {"entity_rel": "0,26"}]
+            "green": [{"entity_rel": "0,26"}, {"entity_rel": "-26,0"}],
+            "red": [{"entity_rel": "0,26"}, {"entity_rel": "-26,0"}]
           }
         },
-        "neighbours": ["-26,0", "0,26"],
+        "neighbours": ["0,26", "-26,0"],
         "position": {"x": 222, "y": 2}
       },
       {"name": "small-lamp", "position": {"x": 220.5, "y": 3.5}},
@@ -17131,7 +17192,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "-1,5"}]}},
-        "neighbours": ["1.5,-3.5", "-4,5", "-1,5"],
+        "neighbours": ["-4,5", "-1,5", "1.5,-3.5"],
         "position": {"x": 174.5, "y": 23.5}
       },
       {
@@ -17170,8 +17231,8 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-20,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}, {"entity_rel": "20,0"}],
-            "red": [{"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "-20,0"}, {"entity_rel": "20,0"}]
+            "green": [{"entity_rel": "-20,0"}, {"entity_rel": "20,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}],
+            "red": [{"entity_rel": "-20,0"}, {"entity_rel": "20,0"}, {"circuit_id": 1, "entity_rel": "-1,-1.5"}]
           }
         },
         "neighbours": ["-20,0", "20,0", "-1.5,3.5"],
@@ -17265,7 +17326,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "0,-18"}, {"entity_rel": "-20,0"}, {"circuit_id": 2, "entity_rel": "-1.5,0"}],
-            "red": [{"entity_rel": "0,-18"}, {"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "-20,0"}]
+            "red": [{"entity_rel": "0,-18"}, {"entity_rel": "-20,0"}, {"circuit_id": 1, "entity_rel": "-1,-1.5"}]
           }
         },
         "neighbours": ["0,-18", "-20,0", "-0.5,3.5", "-2.5,8.5"],
@@ -17322,7 +17383,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "-1,-2"}]}},
-        "neighbours": ["0.5,-3.5", "-2,5"],
+        "neighbours": ["-2,5", "0.5,-3.5"],
         "position": {"x": 195.5, "y": 23.5}
       },
       {"name": "pipe-to-ground", "direction": 2, "position": {"x": 196.5, "y": 26.5}},
@@ -17351,8 +17412,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 169.5, "y": 30.5}
@@ -17375,7 +17436,7 @@
             "red": [{"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["1,-5", "-3,0", "0,7"],
+        "neighbours": ["1,-5", "-3,0", "0,7", "-3,7"],
         "position": {"x": 173.5, "y": 28.5}
       },
       {"name": "straight-rail", "position": {"x": 172, "y": 30}},
@@ -17410,8 +17471,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}],
+            "red": [{"entity_rel": "0,1"}, {"entity_rel": "0,-1"}]
           }
         },
         "position": {"x": 174.5, "y": 30.5}
@@ -17588,7 +17649,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "0,7"],
+        "neighbours": ["0,-7", "3,-7", "3,0", "0,7"],
         "position": {"x": 170.5, "y": 35.5}
       },
       {
@@ -17657,7 +17718,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "-3,0", "0,7"],
+        "neighbours": ["0,-7", "-3,0", "0,7", "-3,7"],
         "position": {"x": 173.5, "y": 35.5}
       },
       {
@@ -17789,8 +17850,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 169.5, "y": 42.5}
@@ -17803,7 +17864,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "0,7"],
+        "neighbours": ["0,-7", "3,-7", "3,0", "0,7"],
         "position": {"x": 170.5, "y": 42.5}
       },
       {"name": "straight-rail", "position": {"x": 172, "y": 40}},
@@ -17873,15 +17934,15 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "1,0"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "-3,0", "0,7"],
+        "neighbours": ["0,-7", "-3,0", "0,7", "-3,7"],
         "position": {"x": 173.5, "y": 42.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 174.5, "y": 42.5}
@@ -17913,7 +17974,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "1,-7"}, {"entity_rel": "-5,0"}, {"entity_rel": "3,1"}]}},
-        "neighbours": ["2.5,-8.5", "2,-5", "0,7"],
+        "neighbours": ["2,-5", "0,7", "2.5,-8.5"],
         "position": {"x": 193.5, "y": 28.5}
       },
       {"name": "straight-rail", "position": {"x": 192, "y": 30}},
@@ -18273,7 +18334,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "3,0", "0,7"],
+        "neighbours": ["0,-7", "3,-7", "3,0", "0,7"],
         "position": {"x": 170.5, "y": 49.5}
       },
       {
@@ -18343,7 +18404,7 @@
             "red": [{"entity_rel": "0,-7"}, {"entity_rel": "0,7"}]
           }
         },
-        "neighbours": ["0,-7", "-3,0", "0,7"],
+        "neighbours": ["0,-7", "-3,0", "0,7", "-3,7"],
         "position": {"x": 173.5, "y": 49.5}
       },
       {
@@ -18546,7 +18607,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "0,-7"}], "red": [{"entity_rel": "0,-7"}]}},
-        "neighbours": ["0,-7", "-9,0", "3,0"],
+        "neighbours": ["0,-7", "3,-7", "-9,0", "3,0"],
         "position": {"x": 170.5, "y": 56.5}
       },
       {"name": "loader", "type": "input", "position": {"x": 169.5, "y": 57}},
@@ -18570,7 +18631,7 @@
         "name": "medium-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-7"}, {"circuit_id": 1, "entity_rel": "4.5,0"}],
+            "green": [{"circuit_id": 1, "entity_rel": "4.5,0"}, {"entity_rel": "0,-7"}],
             "red": [{"entity_rel": "0,-7"}]
           }
         },
@@ -18598,7 +18659,7 @@
         "position": {"x": 178, "y": 56.5}
       },
       {"name": "basic-transport-belt", "direction": 6, "position": {"x": 175.5, "y": 58.5}},
-      {"name": "medium-electric-pole", "neighbours": ["-7,0", "6,0"], "position": {"x": 180.5, "y": 56.5}},
+      {"name": "medium-electric-pole", "neighbours": ["6,0", "-7,0"], "position": {"x": 180.5, "y": 56.5}},
       {"name": "medium-electric-pole", "neighbours": ["8,3"], "position": {"x": 185.5, "y": 46.5}},
       {
         "name": "storage-tank",
@@ -18670,7 +18731,7 @@
       {
         "name": "storage-tank",
         "direction": 2,
-        "connections": {"1": {"green": [{"entity_rel": "0,-3"}, {"circuit_id": 1, "entity_rel": "-4.5,4"}]}},
+        "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "-4.5,4"}, {"entity_rel": "0,-3"}]}},
         "position": {"x": 188.5, "y": 52.5}
       },
       {"name": "pipe", "position": {"x": 187.5, "y": 54.5}},
@@ -18859,6 +18920,7 @@
       {"name": "straight-rail", "position": {"x": 220, "y": 60}},
       {"name": "curved-rail", "direction": 5, "position": {"x": 219, "y": 61}},
       {"name": "straight-rail", "position": {"x": 220, "y": 62}},
+      {"name": "rail-signal", "direction": 1, "position": {"x": 215.5, "y": 63.5}},
       {"name": "straight-rail", "direction": 3, "position": {"x": 216, "y": 64}},
       {"name": "straight-rail", "direction": 7, "position": {"x": 216, "y": 66}},
       {"name": "straight-rail", "position": {"x": 220, "y": 64}},
@@ -19160,7 +19222,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"red": [{"entity_rel": "2,-2"}]}},
-        "neighbours": ["6,0", "-6,3"],
+        "neighbours": ["-6,3", "6,0"],
         "position": {"x": 204.5, "y": 97.5}
       },
       {
@@ -19212,7 +19274,7 @@
       {"name": "medium-electric-pole", "neighbours": ["-5.5,1.5"], "position": {"x": 198.5, "y": 122.5}},
       {
         "name": "big-electric-pole",
-        "neighbours": ["5.5,-1.5", "15,10", "-19,16"],
+        "neighbours": ["-19,16", "5.5,-1.5", "15,10"],
         "position": {"x": 193, "y": 124}
       },
       {"name": "straight-rail", "position": {"x": 212, "y": 108}},
@@ -19236,7 +19298,7 @@
             "red": [{"entity_rel": "0,-22"}, {"entity_rel": "0,22"}]
           }
         },
-        "neighbours": ["0,-22", "-14,22", "0,22"],
+        "neighbours": ["0,-22", "0,22", "-14,22"],
         "position": {"x": 222, "y": 112}
       },
       {"name": "straight-rail", "position": {"x": 220, "y": 114}},
@@ -19269,7 +19331,7 @@
       {
         "name": "big-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "14,0"}], "red": [{"entity_rel": "14,0"}]}},
-        "neighbours": ["14,-22", "-15,-10", "14,0", "14,22"],
+        "neighbours": ["14,-22", "14,22", "14,0", "-15,-10"],
         "position": {"x": 208, "y": 134}
       },
       {"name": "straight-rail", "position": {"x": 212, "y": 132}},
@@ -19372,6 +19434,7 @@
       {"name": "straight-rail", "position": {"x": 220, "y": 158}},
       {"name": "small-lamp", "position": {"x": 222.5, "y": 157.5}},
       {"name": "straight-rail", "direction": 1, "position": {"x": 216, "y": 160}},
+      {"name": "rail-signal", "direction": 7, "position": {"x": 216.5, "y": 161.5}},
       {"name": "straight-rail", "position": {"x": 220, "y": 160}},
       {"name": "straight-rail", "position": {"x": 220, "y": 162}},
       {"name": "straight-rail", "position": {"x": 224, "y": 156}},
@@ -19473,7 +19536,7 @@
             "red": [{"entity_rel": "0,-22"}, {"entity_rel": "0,18"}]
           }
         },
-        "neighbours": ["0,-22", "-27,3", "0,18"],
+        "neighbours": ["0,-22", "0,18", "-27,3"],
         "position": {"x": 222, "y": 178}
       },
       {"name": "straight-rail", "position": {"x": 224, "y": 172}},
@@ -19553,11 +19616,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-22,0"}, {"entity_rel": "18,0"}],
-            "red": [{"entity_rel": "-22,0"}, {"entity_rel": "18,0"}]
+            "green": [{"entity_rel": "18,0"}, {"entity_rel": "-22,0"}],
+            "red": [{"entity_rel": "18,0"}, {"entity_rel": "-22,0"}]
           }
         },
-        "neighbours": ["-22,0", "18,0"],
+        "neighbours": ["18,0", "-22,0"],
         "position": {"x": 178, "y": 222}
       },
       {"name": "straight-rail", "direction": 2, "position": {"x": 180, "y": 220}},
