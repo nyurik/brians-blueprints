@@ -245,6 +245,7 @@
       },
       {"name": "straight-rail", "position": {"x": 0, "y": 70}},
       {"name": "small-lamp", "position": {"x": 2.5, "y": 69.5}},
+      {"name": "rail-signal", "position": {"x": -1.5, "y": 71.5}},
       {"name": "straight-rail", "position": {"x": 0, "y": 72}},
       {"name": "straight-rail", "position": {"x": 0, "y": 74}},
       {"name": "straight-rail", "position": {"x": 4, "y": 68}},
@@ -3373,6 +3374,19 @@
       {"name": "curved-rail", "direction": 2, "position": {"x": 155, "y": 11}},
       {"name": "basic-transport-belt", "direction": 2, "position": {"x": 141.5, "y": 38.5}},
       {"name": "basic-transport-belt", "direction": 2, "position": {"x": 142.5, "y": 38.5}},
+      {
+        "name": "assembling-machine-2",
+        "recipe": "tungsten-gear-wheel",
+        "position": {"x": 144.5, "y": 35.5}
+      },
+      {"name": "medium-electric-pole-2", "neighbours": ["2,7"], "position": {"x": 146.5, "y": 35.5}},
+      {"name": "inserter", "direction": 4, "position": {"x": 143.5, "y": 37.5}},
+      {
+        "name": "inserter",
+        "direction": 6,
+        "pickup_position": {"x": 0, "y": -1},
+        "position": {"x": 144.5, "y": 37.5}
+      },
       {"name": "basic-transport-belt", "direction": 2, "position": {"x": 143.5, "y": 38.5}},
       {"name": "inserter", "direction": 6, "position": {"x": 144.5, "y": 38.5}},
       {"name": "assembling-machine-3", "recipe": "rocket-engine", "position": {"x": 146.5, "y": 38.5}},
@@ -3402,7 +3416,11 @@
       {"name": "red-stack-inserter", "direction": 6, "position": {"x": 150.5, "y": 38.5}},
       {"name": "basic-transport-belt", "direction": 2, "position": {"x": 147.5, "y": 41.5}},
       {"name": "inserter", "direction": 6, "position": {"x": 148.5, "y": 41.5}},
-      {"name": "medium-electric-pole-2", "neighbours": ["7,5"], "position": {"x": 148.5, "y": 42.5}},
+      {
+        "name": "medium-electric-pole-2",
+        "neighbours": ["-2,-7", "7,5"],
+        "position": {"x": 148.5, "y": 42.5}
+      },
       {"name": "iron-chest", "bar": 30, "position": {"x": 149.5, "y": 41.5}},
       {"name": "red-stack-inserter", "direction": 6, "position": {"x": 150.5, "y": 41.5}},
       {"name": "rocket-silo", "recipe": "rocket-part", "position": {"x": 155.5, "y": 41.5}},
@@ -5029,6 +5047,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 30.5, "y": 132.5}
       },
       {"name": "loader", "direction": 6, "type": "output", "position": {"x": 28, "y": 133.5}},
@@ -5047,6 +5066,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 30.5, "y": 133.5}
       },
       {
@@ -5064,6 +5084,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 30.5, "y": 134.5}
       },
       {"name": "straight-rail", "position": {"x": 32, "y": 132}},
@@ -5078,6 +5099,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 33.5, "y": 132.5}
       },
       {
@@ -5091,6 +5113,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 33.5, "y": 133.5}
       },
       {
@@ -5108,6 +5131,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 33.5, "y": 134.5}
       },
       {
@@ -5135,6 +5159,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 30.5, "y": 135.5}
       },
       {
@@ -5152,6 +5177,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 30.5, "y": 136.5}
       },
       {
@@ -5169,14 +5195,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 30.5, "y": 137.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 29.5, "y": 138.5}
@@ -5198,6 +5225,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 33.5, "y": 135.5}
       },
       {
@@ -5215,6 +5243,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 33.5, "y": 136.5}
       },
       {
@@ -5233,6 +5262,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 33.5, "y": 137.5}
       },
       {
@@ -5260,8 +5290,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 34.5, "y": 138.5}
@@ -5351,6 +5381,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 44.5, "y": 132.5}
       },
       {"name": "straight-rail", "position": {"x": 46, "y": 132}},
@@ -5369,6 +5400,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 44.5, "y": 133.5}
       },
       {
@@ -5386,6 +5418,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 44.5, "y": 134.5}
       },
       {"name": "straight-rail", "position": {"x": 46, "y": 134}},
@@ -5400,6 +5433,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 47.5, "y": 132.5}
       },
       {
@@ -5414,6 +5448,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 47.5, "y": 133.5}
       },
       {
@@ -5431,6 +5466,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 47.5, "y": 134.5}
       },
       {
@@ -5459,6 +5495,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 44.5, "y": 135.5}
       },
       {
@@ -5476,6 +5513,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 44.5, "y": 136.5}
       },
       {"name": "straight-rail", "position": {"x": 46, "y": 136}},
@@ -5494,14 +5532,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 44.5, "y": 137.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 43.5, "y": 138.5}
@@ -5523,6 +5562,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 47.5, "y": 135.5}
       },
       {
@@ -5540,6 +5580,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 47.5, "y": 136.5}
       },
       {
@@ -5557,6 +5598,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 47.5, "y": 137.5}
       },
       {
@@ -5584,8 +5626,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 48.5, "y": 138.5}
@@ -5612,6 +5654,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 58.5, "y": 132.5}
       },
       {"name": "loader", "direction": 6, "type": "output", "position": {"x": 56, "y": 133.5}},
@@ -5630,6 +5673,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 58.5, "y": 133.5}
       },
       {
@@ -5647,6 +5691,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 58.5, "y": 134.5}
       },
       {
@@ -5664,6 +5709,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 58.5, "y": 135.5}
       },
       {
@@ -5681,6 +5727,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 58.5, "y": 136.5}
       },
       {
@@ -5698,14 +5745,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 58.5, "y": 137.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 57.5, "y": 138.5}
@@ -5741,6 +5789,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 61.5, "y": 132.5}
       },
       {
@@ -5754,6 +5803,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 61.5, "y": 133.5}
       },
       {
@@ -5771,6 +5821,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 61.5, "y": 134.5}
       },
       {
@@ -5795,6 +5846,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 61.5, "y": 135.5}
       },
       {
@@ -5812,6 +5864,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 61.5, "y": 136.5}
       },
       {
@@ -5830,6 +5883,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 61.5, "y": 137.5}
       },
       {
@@ -5857,8 +5911,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 62.5, "y": 138.5}
@@ -5884,6 +5938,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 72.5, "y": 132.5}
       },
       {"name": "straight-rail", "position": {"x": 74, "y": 132}},
@@ -5902,6 +5957,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 72.5, "y": 133.5}
       },
       {
@@ -5919,6 +5975,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 72.5, "y": 134.5}
       },
       {"name": "straight-rail", "position": {"x": 74, "y": 134}},
@@ -5937,6 +5994,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 72.5, "y": 135.5}
       },
       {
@@ -5954,6 +6012,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 72.5, "y": 136.5}
       },
       {"name": "straight-rail", "position": {"x": 74, "y": 136}},
@@ -5972,14 +6031,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 72.5, "y": 137.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 71.5, "y": 138.5}
@@ -6132,6 +6192,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 30.5, "y": 139.5}
       },
       {
@@ -6149,6 +6210,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 30.5, "y": 140.5}
       },
       {
@@ -6166,6 +6228,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 30.5, "y": 141.5}
       },
       {
@@ -6183,6 +6246,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 30.5, "y": 142.5}
       },
       {"name": "straight-rail", "position": {"x": 32, "y": 140}},
@@ -6191,6 +6255,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 33.5, "y": 139.5}
       },
       {
@@ -6208,6 +6273,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 33.5, "y": 140.5}
       },
       {
@@ -6226,6 +6292,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 33.5, "y": 141.5}
       },
       {
@@ -6243,6 +6310,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 33.5, "y": 142.5}
       },
       {
@@ -6270,6 +6338,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 30.5, "y": 143.5}
       },
       {
@@ -6284,6 +6353,7 @@
           "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,5.5"}]}
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 30.5, "y": 144.5}
       },
       {
@@ -6303,6 +6373,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 33.5, "y": 143.5}
       },
       {
@@ -6320,6 +6391,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "multi-layer-circuit-board", "index": 1}],
         "position": {"x": 33.5, "y": 144.5}
       },
       {
@@ -6580,6 +6652,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "cobalt-ore", "index": 1}],
         "position": {"x": 30.5, "y": 161.5}
       },
       {
@@ -6597,6 +6670,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "cobalt-ore", "index": 1}],
         "position": {"x": 30.5, "y": 162.5}
       },
       {"name": "straight-rail", "position": {"x": 32, "y": 160}},
@@ -6612,6 +6686,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "cobalt-ore", "index": 1}],
         "position": {"x": 33.5, "y": 161.5}
       },
       {
@@ -6624,6 +6699,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "cobalt-ore", "index": 1}],
         "position": {"x": 33.5, "y": 162.5}
       },
       {
@@ -6667,6 +6743,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "cobalt-ore", "index": 1}],
         "position": {"x": 30.5, "y": 163.5}
       },
       {
@@ -6684,6 +6761,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "cobalt-ore", "index": 1}],
         "position": {"x": 30.5, "y": 164.5}
       },
       {
@@ -6701,6 +6779,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "cobalt-ore", "index": 1}],
         "position": {"x": 30.5, "y": 165.5}
       },
       {
@@ -6722,6 +6801,7 @@
           }
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "cobalt-ore", "index": 1}],
         "position": {"x": 30.5, "y": 166.5}
       },
       {"name": "straight-rail", "position": {"x": 32, "y": 164}},
@@ -6730,6 +6810,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "cobalt-ore", "index": 1}],
         "position": {"x": 33.5, "y": 163.5}
       },
       {
@@ -6747,6 +6828,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "cobalt-ore", "index": 1}],
         "position": {"x": 33.5, "y": 164.5}
       },
       {
@@ -6765,6 +6847,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "cobalt-ore", "index": 1}],
         "position": {"x": 33.5, "y": 165.5}
       },
       {
@@ -6782,6 +6865,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "cobalt-ore", "index": 1}],
         "position": {"x": 33.5, "y": 166.5}
       },
       {
@@ -6837,6 +6921,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 44.5, "y": 139.5}
       },
       {
@@ -6854,6 +6939,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 44.5, "y": 140.5}
       },
       {"name": "straight-rail", "position": {"x": 46, "y": 140}},
@@ -6872,6 +6958,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 44.5, "y": 141.5}
       },
       {
@@ -6889,6 +6976,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 44.5, "y": 142.5}
       },
       {"name": "straight-rail", "position": {"x": 46, "y": 142}},
@@ -6897,6 +6985,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 47.5, "y": 139.5}
       },
       {
@@ -6914,6 +7003,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 47.5, "y": 140.5}
       },
       {
@@ -6931,6 +7021,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 47.5, "y": 141.5}
       },
       {
@@ -6948,6 +7039,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 47.5, "y": 142.5}
       },
       {
@@ -6975,6 +7067,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 44.5, "y": 143.5}
       },
       {
@@ -6989,6 +7082,7 @@
           "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,5.5"}]}
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 44.5, "y": 144.5}
       },
       {"name": "straight-rail", "position": {"x": 46, "y": 144}},
@@ -7009,6 +7103,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 47.5, "y": 143.5}
       },
       {
@@ -7026,6 +7121,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "processing-electronics", "index": 1}],
         "position": {"x": 47.5, "y": 144.5}
       },
       {
@@ -7054,6 +7150,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 58.5, "y": 139.5}
       },
       {
@@ -7071,6 +7168,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 58.5, "y": 140.5}
       },
       {
@@ -7088,6 +7186,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 58.5, "y": 141.5}
       },
       {
@@ -7105,6 +7204,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 58.5, "y": 142.5}
       },
       {
@@ -7122,6 +7222,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 58.5, "y": 143.5}
       },
       {
@@ -7136,6 +7237,7 @@
           "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,5.5"}]}
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 58.5, "y": 144.5}
       },
       {
@@ -7336,6 +7438,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 61.5, "y": 139.5}
       },
       {
@@ -7353,6 +7456,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 61.5, "y": 140.5}
       },
       {
@@ -7371,6 +7475,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 61.5, "y": 141.5}
       },
       {
@@ -7388,6 +7493,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 61.5, "y": 142.5}
       },
       {
@@ -7406,6 +7512,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 61.5, "y": 143.5}
       },
       {
@@ -7423,6 +7530,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "basic-electronic-components", "index": 1}],
         "position": {"x": 61.5, "y": 144.5}
       },
       {
@@ -7452,6 +7560,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 72.5, "y": 139.5}
       },
       {
@@ -7469,6 +7578,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 72.5, "y": 140.5}
       },
       {"name": "straight-rail", "position": {"x": 74, "y": 140}},
@@ -7487,6 +7597,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 72.5, "y": 141.5}
       },
       {
@@ -7504,6 +7615,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 72.5, "y": 142.5}
       },
       {"name": "straight-rail", "position": {"x": 74, "y": 142}},
@@ -7522,6 +7634,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 72.5, "y": 143.5}
       },
       {
@@ -7536,6 +7649,7 @@
           "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,5.5"}]}
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 72.5, "y": 144.5}
       },
       {"name": "straight-rail", "position": {"x": 74, "y": 144}},
@@ -7710,6 +7824,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "rutile-ore", "index": 1}],
         "position": {"x": 44.5, "y": 161.5}
       },
       {
@@ -7727,6 +7842,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "rutile-ore", "index": 1}],
         "position": {"x": 44.5, "y": 162.5}
       },
       {"name": "straight-rail", "position": {"x": 46, "y": 162}},
@@ -7741,6 +7857,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "rutile-ore", "index": 1}],
         "position": {"x": 47.5, "y": 161.5}
       },
       {
@@ -7753,6 +7870,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "rutile-ore", "index": 1}],
         "position": {"x": 47.5, "y": 162.5}
       },
       {
@@ -7803,6 +7921,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "rutile-ore", "index": 1}],
         "position": {"x": 44.5, "y": 163.5}
       },
       {
@@ -7820,6 +7939,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "rutile-ore", "index": 1}],
         "position": {"x": 44.5, "y": 164.5}
       },
       {"name": "straight-rail", "position": {"x": 46, "y": 164}},
@@ -7838,6 +7958,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "rutile-ore", "index": 1}],
         "position": {"x": 44.5, "y": 165.5}
       },
       {
@@ -7859,6 +7980,7 @@
           }
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "rutile-ore", "index": 1}],
         "position": {"x": 44.5, "y": 166.5}
       },
       {"name": "straight-rail", "position": {"x": 46, "y": 166}},
@@ -7867,6 +7989,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "rutile-ore", "index": 1}],
         "position": {"x": 47.5, "y": 163.5}
       },
       {
@@ -7884,6 +8007,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "rutile-ore", "index": 1}],
         "position": {"x": 47.5, "y": 164.5}
       },
       {
@@ -7901,6 +8025,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "rutile-ore", "index": 1}],
         "position": {"x": 47.5, "y": 165.5}
       },
       {
@@ -7918,6 +8043,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "rutile-ore", "index": 1}],
         "position": {"x": 47.5, "y": 166.5}
       },
       {
@@ -8235,6 +8361,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 30.5, "y": 182.5}
       },
       {"name": "straight-rail", "position": {"x": 32, "y": 180}},
@@ -8250,6 +8377,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 33.5, "y": 182.5}
       },
       {
@@ -8273,6 +8401,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 30.5, "y": 183.5}
       },
       {
@@ -8290,6 +8419,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 30.5, "y": 184.5}
       },
       {
@@ -8307,6 +8437,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 30.5, "y": 185.5}
       },
       {
@@ -8324,6 +8455,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 30.5, "y": 186.5}
       },
       {"name": "straight-rail", "position": {"x": 32, "y": 184}},
@@ -8332,6 +8464,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 33.5, "y": 183.5}
       },
       {
@@ -8349,6 +8482,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 33.5, "y": 184.5}
       },
       {
@@ -8367,6 +8501,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 33.5, "y": 185.5}
       },
       {
@@ -8384,6 +8519,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 33.5, "y": 186.5}
       },
       {
@@ -8428,14 +8564,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 30.5, "y": 187.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 29.5, "y": 188.5}
@@ -8466,6 +8603,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 30.5, "y": 189.5}
       },
       {
@@ -8483,6 +8621,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 30.5, "y": 190.5}
       },
       {"name": "straight-rail", "position": {"x": 32, "y": 188}},
@@ -8491,6 +8630,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 33.5, "y": 187.5}
       },
       {
@@ -8518,8 +8658,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 34.5, "y": 188.5}
@@ -8530,6 +8670,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 33.5, "y": 189.5}
       },
       {
@@ -8547,6 +8688,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 33.5, "y": 190.5}
       },
       {
@@ -8574,6 +8716,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 30.5, "y": 191.5}
       },
       {
@@ -8591,6 +8734,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 30.5, "y": 192.5}
       },
       {
@@ -8608,6 +8752,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 30.5, "y": 193.5}
       },
       {
@@ -8622,6 +8767,7 @@
           "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,5.5"}]}
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 30.5, "y": 194.5}
       },
       {"name": "straight-rail", "position": {"x": 32, "y": 192}},
@@ -8630,6 +8776,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 33.5, "y": 191.5}
       },
       {
@@ -8647,6 +8794,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 33.5, "y": 192.5}
       },
       {
@@ -8665,6 +8813,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 33.5, "y": 193.5}
       },
       {
@@ -8682,6 +8831,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "intergrated-electronics", "index": 1}],
         "position": {"x": 33.5, "y": 194.5}
       },
       {
@@ -8976,6 +9126,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 44.5, "y": 182.5}
       },
       {"name": "straight-rail", "position": {"x": 46, "y": 182}},
@@ -8990,6 +9141,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 47.5, "y": 182.5}
       },
       {
@@ -9014,6 +9166,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 44.5, "y": 183.5}
       },
       {
@@ -9031,6 +9184,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 44.5, "y": 184.5}
       },
       {"name": "straight-rail", "position": {"x": 46, "y": 184}},
@@ -9049,6 +9203,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 44.5, "y": 185.5}
       },
       {
@@ -9066,6 +9221,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 44.5, "y": 186.5}
       },
       {"name": "straight-rail", "position": {"x": 46, "y": 186}},
@@ -9074,6 +9230,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 47.5, "y": 183.5}
       },
       {
@@ -9091,6 +9248,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 47.5, "y": 184.5}
       },
       {
@@ -9109,6 +9267,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 47.5, "y": 185.5}
       },
       {
@@ -9126,6 +9285,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 47.5, "y": 186.5}
       },
       {
@@ -9262,6 +9422,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 72.5, "y": 182.5}
       },
       {"name": "straight-rail", "position": {"x": 74, "y": 182}},
@@ -9282,6 +9443,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 72.5, "y": 183.5}
       },
       {
@@ -9299,6 +9461,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 72.5, "y": 184.5}
       },
       {"name": "straight-rail", "position": {"x": 74, "y": 184}},
@@ -9317,6 +9480,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 72.5, "y": 185.5}
       },
       {
@@ -9334,6 +9498,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 72.5, "y": 186.5}
       },
       {"name": "straight-rail", "position": {"x": 74, "y": 186}},
@@ -9352,14 +9517,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 44.5, "y": 187.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 43.5, "y": 188.5}
@@ -9391,6 +9557,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 44.5, "y": 189.5}
       },
       {
@@ -9408,6 +9575,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 44.5, "y": 190.5}
       },
       {"name": "straight-rail", "position": {"x": 46, "y": 190}},
@@ -9416,6 +9584,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 47.5, "y": 187.5}
       },
       {
@@ -9443,8 +9612,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 48.5, "y": 188.5}
@@ -9454,6 +9623,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 47.5, "y": 189.5}
       },
       {
@@ -9471,6 +9641,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 47.5, "y": 190.5}
       },
       {
@@ -9498,6 +9669,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 44.5, "y": 191.5}
       },
       {
@@ -9515,6 +9687,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 44.5, "y": 192.5}
       },
       {"name": "straight-rail", "position": {"x": 46, "y": 192}},
@@ -9533,6 +9706,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 44.5, "y": 193.5}
       },
       {
@@ -9547,6 +9721,7 @@
           "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,5.5"}]}
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 44.5, "y": 194.5}
       },
       {"name": "straight-rail", "position": {"x": 46, "y": 194}},
@@ -9555,6 +9730,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 47.5, "y": 191.5}
       },
       {
@@ -9572,6 +9748,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 47.5, "y": 192.5}
       },
       {
@@ -9589,6 +9766,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 47.5, "y": 193.5}
       },
       {
@@ -9606,6 +9784,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "electronic-components", "index": 1}],
         "position": {"x": 47.5, "y": 194.5}
       },
       {
@@ -9831,14 +10010,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 72.5, "y": 187.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 71.5, "y": 188.5}
@@ -9870,6 +10050,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 72.5, "y": 189.5}
       },
       {
@@ -9887,6 +10068,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 72.5, "y": 190.5}
       },
       {"name": "straight-rail", "position": {"x": 74, "y": 190}},
@@ -9905,6 +10087,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 72.5, "y": 191.5}
       },
       {
@@ -9922,6 +10105,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 72.5, "y": 192.5}
       },
       {"name": "straight-rail", "position": {"x": 74, "y": 192}},
@@ -9940,6 +10124,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 72.5, "y": 193.5}
       },
       {
@@ -9954,6 +10139,7 @@
           "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,5.5"}]}
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 72.5, "y": 194.5}
       },
       {"name": "straight-rail", "position": {"x": 74, "y": 194}},
@@ -10571,6 +10757,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 75.5, "y": 132.5}
       },
       {
@@ -10585,6 +10772,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 75.5, "y": 133.5}
       },
       {
@@ -10602,6 +10790,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 75.5, "y": 134.5}
       },
       {
@@ -10628,6 +10817,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 75.5, "y": 135.5}
       },
       {
@@ -10645,6 +10835,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 75.5, "y": 136.5}
       },
       {
@@ -10662,6 +10853,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 75.5, "y": 137.5}
       },
       {
@@ -10689,8 +10881,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 76.5, "y": 138.5}
@@ -10870,6 +11062,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 114.5, "y": 132.5}
       },
       {"name": "loader", "direction": 6, "type": "output", "position": {"x": 112, "y": 133.5}},
@@ -10888,6 +11081,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 114.5, "y": 133.5}
       },
       {
@@ -10905,6 +11099,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 114.5, "y": 134.5}
       },
       {
@@ -10922,6 +11117,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 114.5, "y": 135.5}
       },
       {
@@ -10939,6 +11135,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 114.5, "y": 136.5}
       },
       {
@@ -10956,14 +11153,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 114.5, "y": 137.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 113.5, "y": 138.5}
@@ -10991,6 +11189,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 117.5, "y": 132.5}
       },
       {
@@ -11004,6 +11203,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 117.5, "y": 133.5}
       },
       {
@@ -11021,6 +11221,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 117.5, "y": 134.5}
       },
       {
@@ -11046,6 +11247,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 117.5, "y": 135.5}
       },
       {
@@ -11063,6 +11265,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 117.5, "y": 136.5}
       },
       {
@@ -11081,6 +11284,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 117.5, "y": 137.5}
       },
       {
@@ -11108,8 +11312,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 118.5, "y": 138.5}
@@ -11160,6 +11364,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 128.5, "y": 132.5}
       },
       {"name": "straight-rail", "position": {"x": 130, "y": 132}},
@@ -11178,6 +11383,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 128.5, "y": 133.5}
       },
       {
@@ -11195,6 +11401,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 128.5, "y": 134.5}
       },
       {"name": "straight-rail", "position": {"x": 130, "y": 134}},
@@ -11213,6 +11420,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 128.5, "y": 135.5}
       },
       {
@@ -11230,6 +11438,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 128.5, "y": 136.5}
       },
       {"name": "straight-rail", "position": {"x": 130, "y": 136}},
@@ -11248,14 +11457,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 128.5, "y": 137.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 127.5, "y": 138.5}
@@ -11283,6 +11493,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 131.5, "y": 132.5}
       },
       {
@@ -11297,6 +11508,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 131.5, "y": 133.5}
       },
       {
@@ -11314,6 +11526,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 131.5, "y": 134.5}
       },
       {
@@ -11337,6 +11550,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 131.5, "y": 135.5}
       },
       {
@@ -11354,6 +11568,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 131.5, "y": 136.5}
       },
       {
@@ -11371,6 +11586,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 131.5, "y": 137.5}
       },
       {
@@ -11398,8 +11614,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 132.5, "y": 138.5}
@@ -12341,6 +12557,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 132.5}
       },
       {"name": "loader", "direction": 6, "type": "output", "position": {"x": 140, "y": 133.5}},
@@ -12360,6 +12577,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 133.5}
       },
       {
@@ -12377,6 +12595,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 134.5}
       },
       {"name": "straight-rail", "position": {"x": 144, "y": 132}},
@@ -12391,6 +12610,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 132.5}
       },
       {
@@ -12404,6 +12624,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 133.5}
       },
       {
@@ -12421,6 +12642,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 134.5}
       },
       {
@@ -12450,6 +12672,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 135.5}
       },
       {
@@ -12467,6 +12690,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 136.5}
       },
       {"name": "basic-transport-belt", "position": {"x": 140.5, "y": 137.5}},
@@ -12486,14 +12710,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 137.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 141.5, "y": 138.5}
@@ -12515,6 +12740,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 135.5}
       },
       {
@@ -12532,6 +12758,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 136.5}
       },
       {
@@ -12550,6 +12777,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 137.5}
       },
       {
@@ -12577,8 +12805,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 146.5, "y": 138.5}
@@ -12636,6 +12864,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 156.5, "y": 132.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 132}},
@@ -12654,6 +12883,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 156.5, "y": 133.5}
       },
       {
@@ -12671,6 +12901,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 156.5, "y": 134.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 134}},
@@ -12685,6 +12916,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 159.5, "y": 132.5}
       },
       {
@@ -12699,6 +12931,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 159.5, "y": 133.5}
       },
       {
@@ -12716,6 +12949,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 159.5, "y": 134.5}
       },
       {
@@ -12744,6 +12978,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 156.5, "y": 135.5}
       },
       {
@@ -12761,6 +12996,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 156.5, "y": 136.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 136}},
@@ -12779,14 +13015,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 156.5, "y": 137.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 155.5, "y": 138.5}
@@ -12808,6 +13045,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 159.5, "y": 135.5}
       },
       {
@@ -12825,6 +13063,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 159.5, "y": 136.5}
       },
       {
@@ -12842,6 +13081,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 159.5, "y": 137.5}
       },
       {
@@ -12869,8 +13109,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 160.5, "y": 138.5}
@@ -12922,6 +13162,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 75.5, "y": 139.5}
       },
       {
@@ -12939,6 +13180,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 75.5, "y": 140.5}
       },
       {
@@ -12956,6 +13198,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 75.5, "y": 141.5}
       },
       {
@@ -12973,6 +13216,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 75.5, "y": 142.5}
       },
       {
@@ -12994,6 +13238,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 75.5, "y": 143.5}
       },
       {
@@ -13011,6 +13256,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solder", "index": 1}],
         "position": {"x": 75.5, "y": 144.5}
       },
       {
@@ -13422,6 +13668,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 168.5}
       },
       {"name": "straight-rail", "position": {"x": 102, "y": 168}},
@@ -13440,6 +13687,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 169.5}
       },
       {
@@ -13457,6 +13705,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 170.5}
       },
       {"name": "straight-rail", "position": {"x": 102, "y": 170}},
@@ -13472,6 +13721,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 168.5}
       },
       {
@@ -13484,6 +13734,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 169.5}
       },
       {
@@ -13501,6 +13752,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 170.5}
       },
       {
@@ -13528,6 +13780,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 114.5, "y": 139.5}
       },
       {
@@ -13545,6 +13798,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 114.5, "y": 140.5}
       },
       {
@@ -13562,6 +13816,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 114.5, "y": 141.5}
       },
       {
@@ -13579,6 +13834,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 114.5, "y": 142.5}
       },
       {
@@ -13596,6 +13852,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 114.5, "y": 143.5}
       },
       {
@@ -13610,6 +13867,7 @@
           "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,5.5"}]}
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 114.5, "y": 144.5}
       },
       {
@@ -13629,6 +13887,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 117.5, "y": 139.5}
       },
       {
@@ -13646,6 +13905,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 117.5, "y": 140.5}
       },
       {
@@ -13664,6 +13924,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 117.5, "y": 141.5}
       },
       {
@@ -13681,6 +13942,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 117.5, "y": 142.5}
       },
       {
@@ -13703,6 +13965,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 117.5, "y": 143.5}
       },
       {
@@ -13720,6 +13983,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-plate", "index": 1}],
         "position": {"x": 117.5, "y": 144.5}
       },
       {
@@ -13889,6 +14153,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 128.5, "y": 139.5}
       },
       {
@@ -13906,6 +14171,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 128.5, "y": 140.5}
       },
       {"name": "straight-rail", "position": {"x": 130, "y": 140}},
@@ -13924,6 +14190,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 128.5, "y": 141.5}
       },
       {
@@ -13941,6 +14208,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 128.5, "y": 142.5}
       },
       {"name": "straight-rail", "position": {"x": 130, "y": 142}},
@@ -13959,6 +14227,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 128.5, "y": 143.5}
       },
       {
@@ -13973,6 +14242,7 @@
           "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,5.5"}]}
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 128.5, "y": 144.5}
       },
       {"name": "straight-rail", "position": {"x": 130, "y": 144}},
@@ -13993,6 +14263,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 131.5, "y": 139.5}
       },
       {
@@ -14010,6 +14281,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 131.5, "y": 140.5}
       },
       {
@@ -14027,6 +14299,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 131.5, "y": 141.5}
       },
       {
@@ -14044,6 +14317,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 131.5, "y": 142.5}
       },
       {
@@ -14061,6 +14335,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 131.5, "y": 143.5}
       },
       {
@@ -14078,6 +14353,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "plastic-bar", "index": 1}],
         "position": {"x": 131.5, "y": 144.5}
       },
       {
@@ -14293,6 +14569,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "nickel-ore", "index": 1}],
         "position": {"x": 128.5, "y": 161.5}
       },
       {
@@ -14310,6 +14587,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "nickel-ore", "index": 1}],
         "position": {"x": 128.5, "y": 162.5}
       },
       {"name": "straight-rail", "position": {"x": 130, "y": 162}},
@@ -14324,6 +14602,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "nickel-ore", "index": 1}],
         "position": {"x": 131.5, "y": 161.5}
       },
       {
@@ -14336,6 +14615,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "nickel-ore", "index": 1}],
         "position": {"x": 131.5, "y": 162.5}
       },
       {
@@ -14370,6 +14650,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "nickel-ore", "index": 1}],
         "position": {"x": 128.5, "y": 163.5}
       },
       {
@@ -14387,6 +14668,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "nickel-ore", "index": 1}],
         "position": {"x": 128.5, "y": 164.5}
       },
       {"name": "straight-rail", "position": {"x": 130, "y": 164}},
@@ -14405,6 +14687,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "nickel-ore", "index": 1}],
         "position": {"x": 128.5, "y": 165.5}
       },
       {
@@ -14426,6 +14709,7 @@
           }
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "nickel-ore", "index": 1}],
         "position": {"x": 128.5, "y": 166.5}
       },
       {"name": "straight-rail", "position": {"x": 130, "y": 166}},
@@ -14447,6 +14731,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "nickel-ore", "index": 1}],
         "position": {"x": 131.5, "y": 163.5}
       },
       {
@@ -14464,6 +14749,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "nickel-ore", "index": 1}],
         "position": {"x": 131.5, "y": 164.5}
       },
       {
@@ -14481,6 +14767,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "nickel-ore", "index": 1}],
         "position": {"x": 131.5, "y": 165.5}
       },
       {
@@ -14498,6 +14785,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "nickel-ore", "index": 1}],
         "position": {"x": 131.5, "y": 166.5}
       },
       {
@@ -14546,6 +14834,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 75.5, "y": 182.5}
       },
       {
@@ -14565,6 +14854,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 75.5, "y": 183.5}
       },
       {
@@ -14582,6 +14872,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 75.5, "y": 184.5}
       },
       {
@@ -14600,6 +14891,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 75.5, "y": 185.5}
       },
       {
@@ -14617,6 +14909,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 75.5, "y": 186.5}
       },
       {
@@ -14649,6 +14942,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 86.5, "y": 182.5}
       },
       {"name": "straight-rail", "position": {"x": 88, "y": 180}},
@@ -14664,6 +14958,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 89.5, "y": 182.5}
       },
       {
@@ -14687,6 +14982,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 86.5, "y": 183.5}
       },
       {
@@ -14704,6 +15000,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 86.5, "y": 184.5}
       },
       {
@@ -14721,6 +15018,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 86.5, "y": 185.5}
       },
       {
@@ -14738,6 +15036,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 86.5, "y": 186.5}
       },
       {"name": "straight-rail", "position": {"x": 88, "y": 184}},
@@ -14746,6 +15045,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 89.5, "y": 183.5}
       },
       {
@@ -14763,6 +15063,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 89.5, "y": 184.5}
       },
       {
@@ -14781,6 +15082,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 89.5, "y": 185.5}
       },
       {
@@ -14798,6 +15100,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 89.5, "y": 186.5}
       },
       {
@@ -14825,6 +15128,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 171.5}
       },
       {
@@ -14842,6 +15146,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 172.5}
       },
       {"name": "straight-rail", "position": {"x": 102, "y": 172}},
@@ -14860,6 +15165,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 173.5}
       },
       {
@@ -14889,6 +15195,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 171.5}
       },
       {
@@ -14906,6 +15213,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 172.5}
       },
       {
@@ -14923,6 +15231,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 173.5}
       },
       {
@@ -14971,6 +15280,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 175.5}
       },
       {
@@ -14988,6 +15298,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 176.5}
       },
       {"name": "straight-rail", "position": {"x": 102, "y": 176}},
@@ -15006,6 +15317,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 177.5}
       },
       {
@@ -15023,6 +15335,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 178.5}
       },
       {"name": "straight-rail", "position": {"x": 102, "y": 178}},
@@ -15031,6 +15344,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 175.5}
       },
       {
@@ -15048,6 +15362,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 176.5}
       },
       {
@@ -15065,6 +15380,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 177.5}
       },
       {
@@ -15082,6 +15398,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 178.5}
       },
       {
@@ -15114,6 +15431,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 179.5}
       },
       {
@@ -15131,6 +15449,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 180.5}
       },
       {"name": "straight-rail", "position": {"x": 102, "y": 180}},
@@ -15138,8 +15457,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}, {"entity_rel": "1,0"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}, {"entity_rel": "1,0"}]
           }
         },
         "position": {"x": 99.5, "y": 181.5}
@@ -15170,6 +15489,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 182.5}
       },
       {"name": "straight-rail", "position": {"x": 102, "y": 182}},
@@ -15178,6 +15498,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 179.5}
       },
       {
@@ -15195,6 +15516,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 180.5}
       },
       {
@@ -15222,8 +15544,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}, {"entity_rel": "-1,0"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}, {"entity_rel": "-1,0"}]
           }
         },
         "position": {"x": 104.5, "y": 181.5}
@@ -15233,6 +15555,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 182.5}
       },
       {
@@ -15260,6 +15583,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 183.5}
       },
       {
@@ -15277,6 +15601,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 184.5}
       },
       {"name": "straight-rail", "position": {"x": 102, "y": 184}},
@@ -15295,6 +15620,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 185.5}
       },
       {
@@ -15312,6 +15638,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 186.5}
       },
       {"name": "straight-rail", "position": {"x": 102, "y": 186}},
@@ -15320,6 +15647,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 183.5}
       },
       {
@@ -15337,6 +15665,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 184.5}
       },
       {
@@ -15354,6 +15683,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 185.5}
       },
       {
@@ -15371,6 +15701,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 186.5}
       },
       {
@@ -15388,6 +15719,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 75.5, "y": 187.5}
       },
       {
@@ -15415,8 +15747,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 76.5, "y": 188.5}
@@ -15426,6 +15758,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 75.5, "y": 189.5}
       },
       {
@@ -15443,6 +15776,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 75.5, "y": 190.5}
       },
       {
@@ -15460,6 +15794,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 75.5, "y": 191.5}
       },
       {
@@ -15477,6 +15812,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 75.5, "y": 192.5}
       },
       {
@@ -15494,6 +15830,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 75.5, "y": 193.5}
       },
       {
@@ -15511,6 +15848,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "bauxite-ore", "index": 1}],
         "position": {"x": 75.5, "y": 194.5}
       },
       {
@@ -15533,14 +15871,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 86.5, "y": 187.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 85.5, "y": 188.5}
@@ -15571,6 +15910,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 86.5, "y": 189.5}
       },
       {
@@ -15588,6 +15928,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 86.5, "y": 190.5}
       },
       {"name": "straight-rail", "position": {"x": 88, "y": 188}},
@@ -15596,6 +15937,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 89.5, "y": 187.5}
       },
       {
@@ -15623,8 +15965,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 90.5, "y": 188.5}
@@ -15635,6 +15977,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 89.5, "y": 189.5}
       },
       {
@@ -15652,6 +15995,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 89.5, "y": 190.5}
       },
       {
@@ -15679,6 +16023,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 86.5, "y": 191.5}
       },
       {
@@ -15696,6 +16041,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 86.5, "y": 192.5}
       },
       {
@@ -15713,6 +16059,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 86.5, "y": 193.5}
       },
       {
@@ -15727,6 +16074,7 @@
           "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,5.5"}]}
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 86.5, "y": 194.5}
       },
       {"name": "straight-rail", "position": {"x": 88, "y": 192}},
@@ -15735,6 +16083,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 89.5, "y": 191.5}
       },
       {
@@ -15752,6 +16101,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 89.5, "y": 192.5}
       },
       {
@@ -15770,6 +16120,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 89.5, "y": 193.5}
       },
       {
@@ -15787,6 +16138,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "silver-ore", "index": 1}],
         "position": {"x": 89.5, "y": 194.5}
       },
       {
@@ -15919,6 +16271,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 187.5}
       },
       {
@@ -15958,6 +16311,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 189.5}
       },
       {
@@ -15975,6 +16329,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 190.5}
       },
       {"name": "straight-rail", "position": {"x": 102, "y": 190}},
@@ -15983,6 +16338,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 187.5}
       },
       {
@@ -16021,6 +16377,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 189.5}
       },
       {
@@ -16038,6 +16395,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 190.5}
       },
       {
@@ -16065,6 +16423,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 191.5}
       },
       {
@@ -16082,6 +16441,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 192.5}
       },
       {"name": "straight-rail", "position": {"x": 102, "y": 192}},
@@ -16100,6 +16460,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 193.5}
       },
       {
@@ -16114,6 +16475,7 @@
           "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,5.5"}]}
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 100.5, "y": 194.5}
       },
       {"name": "straight-rail", "position": {"x": 102, "y": 194}},
@@ -16122,6 +16484,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 191.5}
       },
       {
@@ -16139,6 +16502,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 192.5}
       },
       {
@@ -16156,6 +16520,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 193.5}
       },
       {
@@ -16173,6 +16538,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "solid-sodium-hydroxide", "index": 1}],
         "position": {"x": 103.5, "y": 194.5}
       },
       {
@@ -16315,6 +16681,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 114.5, "y": 182.5}
       },
       {"name": "basic-transport-belt", "position": {"x": 110.5, "y": 183.5}},
@@ -16334,6 +16701,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 114.5, "y": 183.5}
       },
       {
@@ -16351,6 +16719,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 114.5, "y": 184.5}
       },
       {
@@ -16368,6 +16737,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 114.5, "y": 185.5}
       },
       {
@@ -16385,6 +16755,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 114.5, "y": 186.5}
       },
       {"name": "straight-rail", "position": {"x": 116, "y": 180}},
@@ -16400,6 +16771,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 117.5, "y": 182.5}
       },
       {
@@ -16419,6 +16791,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 117.5, "y": 183.5}
       },
       {
@@ -16436,6 +16809,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 117.5, "y": 184.5}
       },
       {
@@ -16454,6 +16828,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 117.5, "y": 185.5}
       },
       {
@@ -16471,6 +16846,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 117.5, "y": 186.5}
       },
       {
@@ -16641,6 +17017,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 128.5, "y": 182.5}
       },
       {"name": "straight-rail", "position": {"x": 130, "y": 182}},
@@ -16661,6 +17038,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 128.5, "y": 183.5}
       },
       {
@@ -16678,6 +17056,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 128.5, "y": 184.5}
       },
       {"name": "straight-rail", "position": {"x": 130, "y": 184}},
@@ -16696,6 +17075,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 128.5, "y": 185.5}
       },
       {
@@ -16713,6 +17093,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 128.5, "y": 186.5}
       },
       {"name": "straight-rail", "position": {"x": 130, "y": 186}},
@@ -16727,6 +17108,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 131.5, "y": 182.5}
       },
       {
@@ -16742,6 +17124,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 131.5, "y": 183.5}
       },
       {
@@ -16759,6 +17142,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 131.5, "y": 184.5}
       },
       {
@@ -16777,6 +17161,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 131.5, "y": 185.5}
       },
       {
@@ -16794,6 +17179,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 131.5, "y": 186.5}
       },
       {
@@ -16823,6 +17209,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 114.5, "y": 187.5}
       },
       {
@@ -16861,6 +17248,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 114.5, "y": 189.5}
       },
       {
@@ -16878,6 +17266,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 114.5, "y": 190.5}
       },
       {
@@ -16895,6 +17284,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 114.5, "y": 191.5}
       },
       {
@@ -16912,6 +17302,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 114.5, "y": 192.5}
       },
       {
@@ -16929,6 +17320,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 114.5, "y": 193.5}
       },
       {
@@ -16943,6 +17335,7 @@
           "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,5.5"}]}
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 114.5, "y": 194.5}
       },
       {"name": "straight-rail", "position": {"x": 116, "y": 188}},
@@ -16951,6 +17344,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 117.5, "y": 187.5}
       },
       {
@@ -16978,8 +17372,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 118.5, "y": 188.5}
@@ -16990,6 +17384,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 117.5, "y": 189.5}
       },
       {
@@ -17007,6 +17402,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 117.5, "y": 190.5}
       },
       {
@@ -17025,6 +17421,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 117.5, "y": 191.5}
       },
       {
@@ -17042,6 +17439,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 117.5, "y": 192.5}
       },
       {
@@ -17060,6 +17458,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 117.5, "y": 193.5}
       },
       {
@@ -17077,6 +17476,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "copper-ore", "index": 1}],
         "position": {"x": 117.5, "y": 194.5}
       },
       {
@@ -17203,6 +17603,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 128.5, "y": 187.5}
       },
       {
@@ -17242,6 +17643,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 128.5, "y": 189.5}
       },
       {
@@ -17259,6 +17661,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 128.5, "y": 190.5}
       },
       {"name": "straight-rail", "position": {"x": 130, "y": 190}},
@@ -17277,6 +17680,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 128.5, "y": 191.5}
       },
       {
@@ -17294,6 +17698,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 128.5, "y": 192.5}
       },
       {"name": "straight-rail", "position": {"x": 130, "y": 192}},
@@ -17312,6 +17717,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 128.5, "y": 193.5}
       },
       {
@@ -17326,6 +17732,7 @@
           "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,5.5"}]}
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 128.5, "y": 194.5}
       },
       {"name": "straight-rail", "position": {"x": 130, "y": 194}},
@@ -17334,6 +17741,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 131.5, "y": 187.5}
       },
       {
@@ -17361,8 +17769,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 132.5, "y": 188.5}
@@ -17372,6 +17780,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 131.5, "y": 189.5}
       },
       {
@@ -17389,6 +17798,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 131.5, "y": 190.5}
       },
       {
@@ -17406,6 +17816,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 131.5, "y": 191.5}
       },
       {
@@ -17423,6 +17834,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 131.5, "y": 192.5}
       },
       {
@@ -17440,6 +17852,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 131.5, "y": 193.5}
       },
       {
@@ -17457,6 +17870,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "iron-ore", "index": 1}],
         "position": {"x": 131.5, "y": 194.5}
       },
       {
@@ -17585,6 +17999,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 139.5}
       },
       {
@@ -17602,6 +18017,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 140.5}
       },
       {"name": "basic-transport-belt", "position": {"x": 140.5, "y": 141.5}},
@@ -17621,6 +18037,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 141.5}
       },
       {
@@ -17638,6 +18055,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 142.5}
       },
       {"name": "straight-rail", "position": {"x": 144, "y": 140}},
@@ -17646,6 +18064,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 139.5}
       },
       {
@@ -17663,6 +18082,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 140.5}
       },
       {
@@ -17681,6 +18101,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 141.5}
       },
       {
@@ -17698,6 +18119,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 142.5}
       },
       {
@@ -17727,6 +18149,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 143.5}
       },
       {
@@ -17741,6 +18164,7 @@
           "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,5.5"}]}
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 144.5}
       },
       {"name": "basic-transport-belt", "position": {"x": 140.5, "y": 145.5}},
@@ -17762,6 +18186,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 143.5}
       },
       {
@@ -17779,6 +18204,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "titanium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 144.5}
       },
       {
@@ -18012,6 +18438,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 156.5, "y": 139.5}
       },
       {
@@ -18029,6 +18456,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 156.5, "y": 140.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 140}},
@@ -18047,6 +18475,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 156.5, "y": 141.5}
       },
       {
@@ -18064,6 +18493,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 156.5, "y": 142.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 142}},
@@ -18072,6 +18502,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 159.5, "y": 139.5}
       },
       {
@@ -18089,6 +18520,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 159.5, "y": 140.5}
       },
       {
@@ -18106,6 +18538,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 159.5, "y": 141.5}
       },
       {
@@ -18123,6 +18556,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 159.5, "y": 142.5}
       },
       {
@@ -18150,6 +18584,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 156.5, "y": 143.5}
       },
       {
@@ -18164,6 +18599,7 @@
           "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,5.5"}]}
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 156.5, "y": 144.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 144}},
@@ -18184,6 +18620,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 159.5, "y": 143.5}
       },
       {
@@ -18201,6 +18638,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-carbide", "index": 1}],
         "position": {"x": 159.5, "y": 144.5}
       },
       {
@@ -18393,6 +18831,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 168.5}
       },
       {"name": "loader", "direction": 6, "type": "output", "position": {"x": 140, "y": 169.5}},
@@ -18411,6 +18850,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 169.5}
       },
       {
@@ -18428,6 +18868,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 170.5}
       },
       {"name": "straight-rail", "position": {"x": 144, "y": 168}},
@@ -18442,6 +18883,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 168.5}
       },
       {
@@ -18455,6 +18897,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 169.5}
       },
       {
@@ -18472,6 +18915,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 170.5}
       },
       {
@@ -18535,6 +18979,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-ore", "index": 1}],
         "position": {"x": 156.5, "y": 161.5}
       },
       {
@@ -18552,6 +18997,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-ore", "index": 1}],
         "position": {"x": 156.5, "y": 162.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 162}},
@@ -18566,6 +19012,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-ore", "index": 1}],
         "position": {"x": 159.5, "y": 161.5}
       },
       {
@@ -18578,6 +19025,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-ore", "index": 1}],
         "position": {"x": 159.5, "y": 162.5}
       },
       {
@@ -18618,6 +19066,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-ore", "index": 1}],
         "position": {"x": 156.5, "y": 163.5}
       },
       {
@@ -18635,6 +19084,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-ore", "index": 1}],
         "position": {"x": 156.5, "y": 164.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 164}},
@@ -18653,6 +19103,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-ore", "index": 1}],
         "position": {"x": 156.5, "y": 165.5}
       },
       {
@@ -18674,6 +19125,7 @@
           }
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-ore", "index": 1}],
         "position": {"x": 156.5, "y": 166.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 166}},
@@ -18682,6 +19134,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-ore", "index": 1}],
         "position": {"x": 159.5, "y": 163.5}
       },
       {
@@ -18699,6 +19152,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-ore", "index": 1}],
         "position": {"x": 159.5, "y": 164.5}
       },
       {
@@ -18716,6 +19170,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-ore", "index": 1}],
         "position": {"x": 159.5, "y": 165.5}
       },
       {
@@ -18733,6 +19188,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "tungsten-ore", "index": 1}],
         "position": {"x": 159.5, "y": 166.5}
       },
       {
@@ -18845,6 +19301,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 171.5}
       },
       {
@@ -18862,6 +19319,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 172.5}
       },
       {
@@ -18879,6 +19337,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 173.5}
       },
       {
@@ -18908,6 +19367,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 171.5}
       },
       {
@@ -18925,6 +19385,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 172.5}
       },
       {
@@ -18943,6 +19404,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 173.5}
       },
       {
@@ -18991,6 +19453,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 175.5}
       },
       {
@@ -19008,6 +19471,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 176.5}
       },
       {
@@ -19025,6 +19489,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 177.5}
       },
       {
@@ -19042,6 +19507,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 178.5}
       },
       {"name": "straight-rail", "position": {"x": 144, "y": 176}},
@@ -19050,6 +19516,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 175.5}
       },
       {
@@ -19067,6 +19534,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 176.5}
       },
       {
@@ -19085,6 +19553,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 177.5}
       },
       {
@@ -19102,6 +19571,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 178.5}
       },
       {
@@ -19164,6 +19634,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 179.5}
       },
       {
@@ -19181,14 +19652,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 180.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}, {"entity_rel": "1,0"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}, {"entity_rel": "1,0"}]
           }
         },
         "position": {"x": 141.5, "y": 181.5}
@@ -19219,6 +19691,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 182.5}
       },
       {"name": "straight-rail", "position": {"x": 144, "y": 180}},
@@ -19227,6 +19700,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 179.5}
       },
       {
@@ -19244,6 +19718,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 180.5}
       },
       {
@@ -19272,8 +19747,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}, {"entity_rel": "-1,0"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}, {"entity_rel": "-1,0"}]
           }
         },
         "position": {"x": 146.5, "y": 181.5}
@@ -19283,6 +19758,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 182.5}
       },
       {
@@ -19310,6 +19786,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 183.5}
       },
       {
@@ -19327,6 +19804,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 184.5}
       },
       {
@@ -19344,6 +19822,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 185.5}
       },
       {
@@ -19361,6 +19840,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 186.5}
       },
       {"name": "straight-rail", "position": {"x": 144, "y": 184}},
@@ -19369,6 +19849,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 183.5}
       },
       {
@@ -19386,6 +19867,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 184.5}
       },
       {
@@ -19404,6 +19886,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 185.5}
       },
       {
@@ -19421,6 +19904,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 186.5}
       },
       {
@@ -19564,6 +20048,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 156.5, "y": 182.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 182}},
@@ -19578,6 +20063,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 159.5, "y": 182.5}
       },
       {
@@ -19602,6 +20088,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 156.5, "y": 183.5}
       },
       {
@@ -19619,6 +20106,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 156.5, "y": 184.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 184}},
@@ -19637,6 +20125,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 156.5, "y": 185.5}
       },
       {
@@ -19654,6 +20143,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 156.5, "y": 186.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 186}},
@@ -19662,6 +20152,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 159.5, "y": 183.5}
       },
       {
@@ -19679,6 +20170,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 159.5, "y": 184.5}
       },
       {
@@ -19697,6 +20189,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 159.5, "y": 185.5}
       },
       {
@@ -19714,6 +20207,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 159.5, "y": 186.5}
       },
       {
@@ -19748,6 +20242,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 187.5}
       },
       {
@@ -19786,6 +20281,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 189.5}
       },
       {
@@ -19803,6 +20299,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 190.5}
       },
       {"name": "straight-rail", "position": {"x": 144, "y": 188}},
@@ -19811,6 +20308,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 187.5}
       },
       {
@@ -19850,6 +20348,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 189.5}
       },
       {
@@ -19867,6 +20366,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 190.5}
       },
       {
@@ -19894,6 +20394,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 191.5}
       },
       {
@@ -19911,6 +20412,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 192.5}
       },
       {
@@ -19928,6 +20430,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 193.5}
       },
       {
@@ -19942,6 +20445,7 @@
           "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,5.5"}]}
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 142.5, "y": 194.5}
       },
       {"name": "straight-rail", "position": {"x": 144, "y": 192}},
@@ -19950,6 +20454,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 191.5}
       },
       {
@@ -19967,6 +20472,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 192.5}
       },
       {
@@ -19985,6 +20491,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 193.5}
       },
       {
@@ -20002,6 +20509,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "aluminium-plate", "index": 1}],
         "position": {"x": 145.5, "y": 194.5}
       },
       {
@@ -20168,14 +20676,15 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 156.5, "y": 187.5}
       },
       {
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 155.5, "y": 188.5}
@@ -20207,6 +20716,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 156.5, "y": 189.5}
       },
       {
@@ -20224,6 +20734,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 156.5, "y": 190.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 190}},
@@ -20232,6 +20743,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,2"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 159.5, "y": 187.5}
       },
       {
@@ -20259,8 +20771,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "0,-1"}, {"entity_rel": "-1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 160.5, "y": 188.5}
@@ -20270,6 +20782,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-2"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 159.5, "y": 189.5}
       },
       {
@@ -20287,6 +20800,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 159.5, "y": 190.5}
       },
       {
@@ -20314,6 +20828,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 156.5, "y": 191.5}
       },
       {
@@ -20331,6 +20846,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 156.5, "y": 192.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 192}},
@@ -20349,6 +20865,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 156.5, "y": 193.5}
       },
       {
@@ -20363,6 +20880,7 @@
           "1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "3,0"}, {"circuit_id": 2, "entity_rel": "0,5.5"}]}
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 156.5, "y": 194.5}
       },
       {"name": "straight-rail", "position": {"x": 158, "y": 194}},
@@ -20371,6 +20889,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 159.5, "y": 191.5}
       },
       {
@@ -20388,6 +20907,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 159.5, "y": 192.5}
       },
       {
@@ -20405,6 +20925,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 159.5, "y": 193.5}
       },
       {
@@ -20422,6 +20943,7 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
+        "filters": [{"name": "ingot-silicon", "index": 1}],
         "position": {"x": 159.5, "y": 194.5}
       },
       {
@@ -21447,7 +21969,7 @@
             "red": [{"entity_rel": "0,-18"}, {"entity_rel": "-26,0"}, {"entity_rel": "18,0"}]
           }
         },
-        "neighbours": ["0,-18", "-26,0", "18,0"],
+        "neighbours": ["-26,0", "0,-18", "18,0"],
         "position": {"x": 28, "y": 222}
       },
       {"name": "small-lamp", "position": {"x": 29.5, "y": 221.5}},
@@ -22172,7 +22694,7 @@
             "red": [{"entity_rel": "-22,0"}, {"entity_rel": "22,0"}]
           }
         },
-        "neighbours": ["-2,-18", "-22,0", "22,0"],
+        "neighbours": ["-22,0", "-2,-18", "22,0"],
         "position": {"x": 156, "y": 222}
       },
       {"name": "small-lamp", "position": {"x": 157.5, "y": 221.5}},
@@ -22308,7 +22830,7 @@
             "red": [{"entity_rel": "0,-26"}, {"entity_rel": "-26,0"}]
           }
         },
-        "neighbours": ["0,-26", "-26,0"],
+        "neighbours": ["-26,0", "0,-26"],
         "position": {"x": 222, "y": 222}
       },
       {"name": "straight-rail", "position": {"x": 234, "y": 222}},
