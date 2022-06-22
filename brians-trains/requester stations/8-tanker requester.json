@@ -5,7 +5,7 @@
     "label": "8-Tanker Requester",
     "shift_x": -501,
     "shift_y": 309,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {
         "name": "decider-combinator",

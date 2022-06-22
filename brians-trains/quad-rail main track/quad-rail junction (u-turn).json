@@ -6,7 +6,7 @@
     "absolute-snapping": true,
     "shift_x": 31,
     "shift_y": 47,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {"name": "rail-chain-signal", "direction": 2, "position": {"x": 20.5, "y": -15.5}},
       {"name": "rail-chain-signal", "direction": 2, "position": {"x": 24.5, "y": -15.5}},

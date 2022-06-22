@@ -5,7 +5,7 @@
     "label": "Double-Rail Junction Curve",
     "shift_x": -11,
     "shift_y": -5,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {"name": "straight-rail", "direction": 7, "position": {"x": 4, "y": 4}},
       {"name": "curved-rail", "direction": 6, "position": {"x": 7, "y": 1}},

@@ -3,10 +3,13 @@
   "blueprint": {
     "item": "blueprint",
     "label": "1-Car Requester (left output)",
-    "shift_x": -446,
-    "shift_y": 303,
-    "version": 281479275544576,
+    "shift_x": -38,
+    "shift_y": 287,
+    "version": 281479275610112,
     "entities": [
+      {"name": "transport-belt", "direction": 4, "position": {"x": 2.5, "y": 0.5}},
+      {"name": "transport-belt", "direction": 6, "position": {"x": 3.5, "y": 0.5}},
+      {"name": "transport-belt", "direction": 6, "position": {"x": 4.5, "y": 0.5}},
       {
         "name": "decider-combinator",
         "direction": 4,
@@ -142,9 +145,6 @@
       {"name": "straight-rail", "direction": 2, "position": {"x": -7, "y": 6}},
       {"name": "straight-rail", "direction": 2, "position": {"x": -5, "y": 6}},
       {"name": "straight-rail", "direction": 2, "position": {"x": -3, "y": 6}},
-      {"name": "transport-belt", "direction": 4, "position": {"x": 2.5, "y": 0.5}},
-      {"name": "transport-belt", "direction": 6, "position": {"x": 3.5, "y": 0.5}},
-      {"name": "transport-belt", "direction": 6, "position": {"x": 4.5, "y": 0.5}},
       {"name": "transport-belt", "direction": 4, "position": {"x": -0.5, "y": 1.5}},
       {"name": "transport-belt", "direction": 4, "position": {"x": -0.5, "y": 2.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 0.5, "y": 1.5}},
@@ -181,7 +181,7 @@
         "control_behavior": {
           "arithmetic_conditions": {
             "operation": "/",
-            "second_constant": -13,
+            "second_constant": -12,
             "first_signal": {"name": "signal-each", "type": "virtual"},
             "output_signal": {"name": "signal-each", "type": "virtual"}
           }
@@ -388,12 +388,6 @@
         "connections": {"1": {"green": [{"entity_rel": "-1,0"}], "red": [{"entity_rel": "0,1"}]}},
         "position": {"x": 5.5, "y": 8.5}
       },
-      {"name": "medium-electric-pole", "neighbours": ["-7,0", "0,3"], "position": {"x": 6.5, "y": 4.5}},
-      {"name": "straight-rail", "direction": 2, "position": {"x": 7, "y": 6}},
-      {"name": "straight-rail", "direction": 2, "position": {"x": 9, "y": 6}},
-      {"name": "medium-electric-pole", "neighbours": ["0,-3", "-7,0"], "position": {"x": 6.5, "y": 7.5}},
-      {"name": "straight-rail", "direction": 2, "position": {"x": 11, "y": 6}},
-      {"name": "straight-rail", "direction": 2, "position": {"x": 13, "y": 6}},
       {"name": "transport-belt", "direction": 4, "position": {"x": -0.5, "y": 9.5}},
       {"name": "transport-belt", "direction": 4, "position": {"x": -0.5, "y": 10.5}},
       {
@@ -466,6 +460,9 @@
       {"name": "transport-belt", "direction": 6, "position": {"x": 4.5, "y": 11.5}},
       {"name": "transport-belt", "direction": 2, "position": {"x": 4.5, "y": 12.5}},
       {"name": "transport-belt", "direction": 2, "position": {"x": 5.5, "y": 12.5}},
+      {"name": "medium-electric-pole", "neighbours": ["-7,0", "0,3"], "position": {"x": 6.5, "y": 4.5}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 7, "y": 6}},
+      {"name": "medium-electric-pole", "neighbours": ["0,-3", "-7,0"], "position": {"x": 6.5, "y": 7.5}},
       {"name": "underground-belt", "direction": 2, "type": "input", "position": {"x": 7.5, "y": 10.5}},
       {"name": "underground-belt", "direction": 2, "type": "output", "position": {"x": 8.5, "y": 10.5}},
       {"name": "transport-belt", "position": {"x": 7.5, "y": 11.5}},

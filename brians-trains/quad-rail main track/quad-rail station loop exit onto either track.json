@@ -7,7 +7,7 @@
     "absolute-snapping": true,
     "shift_x": 1,
     "shift_y": 47,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {"name": "straight-rail", "direction": 2, "position": {"x": -6, "y": 0}},
       {"name": "straight-rail", "direction": 2, "position": {"x": -4, "y": 0}},

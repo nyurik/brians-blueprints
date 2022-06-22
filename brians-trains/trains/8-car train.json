@@ -5,7 +5,7 @@
     "label": "8-Car Train",
     "shift_x": -35,
     "shift_y": 0,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {
         "name": "locomotive",

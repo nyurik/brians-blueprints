@@ -5,7 +5,7 @@
     "label": "Quad-Rail Junction Curve",
     "shift_x": -21,
     "shift_y": -11,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {"name": "straight-rail", "position": {"x": 0, "y": 0}},
       {"name": "straight-rail", "position": {"x": 0, "y": 2}},

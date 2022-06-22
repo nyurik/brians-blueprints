@@ -5,7 +5,7 @@
     "label": "4-Car Provider (right input)",
     "shift_x": -56,
     "shift_y": 329,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {"name": "transport-belt", "direction": 2, "position": {"x": -15.5, "y": 0.5}},
       {"name": "transport-belt", "direction": 2, "position": {"x": -13.5, "y": 0.5}},

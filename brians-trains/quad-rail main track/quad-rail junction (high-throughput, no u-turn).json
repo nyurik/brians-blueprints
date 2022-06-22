@@ -6,7 +6,7 @@
     "absolute-snapping": true,
     "shift_x": 47,
     "shift_y": 47,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
       {"name": "small-lamp", "position": {"x": 7.5, "y": -59.5}},
       {

@@ -6,9 +6,9 @@
     "absolute-snapping": true,
     "shift_x": 1,
     "shift_y": -7,
-    "version": 281479275544576,
+    "version": 281479275610112,
     "entities": [
-      {"name": "rail-signal", "direction": 1, "position": {"x": 4.5, "y": 4.5}},
+      {"name": "rail-chain-signal", "direction": 1, "position": {"x": 4.5, "y": 4.5}},
       {"name": "straight-rail", "direction": 3, "position": {"x": 6, "y": 4}},
       {"name": "curved-rail", "direction": 6, "position": {"x": 11, "y": 1}},
       {"name": "straight-rail", "direction": 7, "position": {"x": 8, "y": 4}},

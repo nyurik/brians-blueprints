@@ -3,13 +3,16 @@
   "blueprint": {
     "item": "blueprint",
     "label": "2-Car Requester 4-Blue (right output)",
-    "shift_x": -469,
-    "shift_y": 297,
-    "version": 281479275544576,
+    "shift_x": -47,
+    "shift_y": 273,
+    "version": 281479275610112,
     "entities": [
       {"name": "express-transport-belt", "direction": 6, "position": {"x": -14.5, "y": 3.5}},
       {"name": "express-transport-belt", "direction": 6, "position": {"x": -14.5, "y": 4.5}},
       {"name": "express-splitter", "direction": 6, "position": {"x": -13.5, "y": 4}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": -14.5, "y": 5.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": -14.5, "y": 6.5}},
+      {"name": "express-splitter", "direction": 6, "position": {"x": -13.5, "y": 6}},
       {"name": "express-transport-belt", "direction": 6, "position": {"x": -12.5, "y": 3.5}},
       {"name": "express-transport-belt", "direction": 6, "position": {"x": -11.5, "y": 3.5}},
       {
@@ -19,9 +22,8 @@
         "position": {"x": -12.5, "y": 4.5}
       },
       {"name": "express-transport-belt", "position": {"x": -11.5, "y": 4.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": -14.5, "y": 5.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": -14.5, "y": 6.5}},
-      {"name": "express-splitter", "direction": 6, "position": {"x": -13.5, "y": 6}},
+      {"name": "express-transport-belt", "direction": 4, "position": {"x": -9.5, "y": 3.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": -9.5, "y": 4.5}},
       {
         "name": "express-underground-belt",
         "direction": 6,
@@ -31,16 +33,22 @@
       {"name": "express-transport-belt", "direction": 4, "position": {"x": -11.5, "y": 5.5}},
       {"name": "express-transport-belt", "direction": 6, "position": {"x": -12.5, "y": 6.5}},
       {"name": "express-transport-belt", "direction": 6, "position": {"x": -11.5, "y": 6.5}},
+      {"name": "express-splitter", "direction": 6, "position": {"x": -10.5, "y": 5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": -9.5, "y": 5.5}},
+      {"name": "express-transport-belt", "position": {"x": -9.5, "y": 6.5}},
       {"name": "express-transport-belt", "direction": 4, "position": {"x": -5.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": -4.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": -3.5, "y": 0.5}},
       {"name": "express-transport-belt", "direction": 4, "position": {"x": -5.5, "y": 1.5}},
       {"name": "express-transport-belt", "direction": 4, "position": {"x": -5.5, "y": 2.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": -4.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": -3.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": -2.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": -1.5, "y": 0.5}},
       {"name": "express-transport-belt", "direction": 4, "position": {"x": -4.5, "y": 1.5}},
       {"name": "express-transport-belt", "direction": 6, "position": {"x": -3.5, "y": 1.5}},
       {"name": "express-transport-belt", "direction": 4, "position": {"x": -4.5, "y": 2.5}},
-      {"name": "express-transport-belt", "direction": 4, "position": {"x": -9.5, "y": 3.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": -9.5, "y": 4.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": -2.5, "y": 1.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": -1.5, "y": 1.5}},
+      {"name": "express-transport-belt", "direction": 4, "position": {"x": -2.5, "y": 2.5}},
       {"name": "express-transport-belt", "direction": 6, "position": {"x": -8.5, "y": 3.5}},
       {"name": "express-transport-belt", "direction": 6, "position": {"x": -7.5, "y": 3.5}},
       {
@@ -49,9 +57,9 @@
         "type": "input",
         "position": {"x": -8.5, "y": 4.5}
       },
-      {"name": "express-splitter", "direction": 6, "position": {"x": -10.5, "y": 5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": -9.5, "y": 5.5}},
-      {"name": "express-transport-belt", "position": {"x": -9.5, "y": 6.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": -5.5, "y": 3.5}},
+      {"name": "express-splitter", "direction": 6, "position": {"x": -6.5, "y": 4}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": -5.5, "y": 4.5}},
       {
         "name": "express-underground-belt",
         "direction": 6,
@@ -61,141 +69,20 @@
       {"name": "express-splitter", "direction": 6, "position": {"x": -7.5, "y": 5}},
       {"name": "express-transport-belt", "direction": 6, "position": {"x": -8.5, "y": 6.5}},
       {"name": "express-transport-belt", "direction": 6, "position": {"x": -7.5, "y": 6.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": -5.5, "y": 3.5}},
-      {"name": "express-splitter", "direction": 6, "position": {"x": -6.5, "y": 4}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": -5.5, "y": 4.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": -5.5, "y": 5.5}},
+      {"name": "express-splitter", "direction": 6, "position": {"x": -6.5, "y": 6}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": -5.5, "y": 6.5}},
       {"name": "express-transport-belt", "direction": 4, "position": {"x": -4.5, "y": 3.5}},
       {"name": "express-transport-belt", "direction": 4, "position": {"x": -3.5, "y": 3.5}},
       {"name": "express-transport-belt", "direction": 6, "position": {"x": -4.5, "y": 4.5}},
       {"name": "express-transport-belt", "direction": 4, "position": {"x": -3.5, "y": 4.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": -5.5, "y": 5.5}},
-      {"name": "express-splitter", "direction": 6, "position": {"x": -6.5, "y": 6}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": -5.5, "y": 6.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": -2.5, "y": 3.5}},
+      {"name": "express-splitter", "direction": 6, "position": {"x": -1.5, "y": 3}},
       {"name": "express-transport-belt", "direction": 6, "position": {"x": -4.5, "y": 5.5}},
       {"name": "express-transport-belt", "direction": 6, "position": {"x": -3.5, "y": 5.5}},
       {"name": "express-transport-belt", "direction": 6, "position": {"x": -4.5, "y": 6.5}},
       {"name": "express-transport-belt", "direction": 6, "position": {"x": -3.5, "y": 6.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": -2.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": -1.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": -0.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 0.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": -2.5, "y": 1.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": -1.5, "y": 1.5}},
-      {"name": "express-transport-belt", "direction": 4, "position": {"x": -2.5, "y": 2.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": -0.5, "y": 1.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 0.5, "y": 1.5}},
-      {
-        "name": "express-underground-belt",
-        "direction": 6,
-        "type": "output",
-        "position": {"x": -0.5, "y": 2.5}
-      },
-      {
-        "name": "express-underground-belt",
-        "direction": 6,
-        "type": "input",
-        "position": {"x": 0.5, "y": 2.5}
-      },
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 1.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 2.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 3.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 4.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 1.5, "y": 1.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 2.5, "y": 1.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 3.5, "y": 1.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 4.5, "y": 1.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": -2.5, "y": 3.5}},
-      {"name": "express-splitter", "direction": 6, "position": {"x": -1.5, "y": 3}},
-      {
-        "name": "express-underground-belt",
-        "direction": 6,
-        "type": "output",
-        "position": {"x": -0.5, "y": 3.5}
-      },
-      {"name": "express-transport-belt", "position": {"x": 0.5, "y": 3.5}},
-      {"name": "express-transport-belt", "position": {"x": -0.5, "y": 4.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 0.5, "y": 4.5}},
       {"name": "express-transport-belt", "direction": 6, "position": {"x": -2.5, "y": 6.5}},
-      {"name": "express-transport-belt", "direction": 4, "position": {"x": -0.5, "y": 5.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 0.5, "y": 5.5}},
-      {
-        "name": "express-underground-belt",
-        "direction": 6,
-        "type": "output",
-        "position": {"x": -0.5, "y": 6.5}
-      },
-      {"name": "express-transport-belt", "direction": 4, "position": {"x": 0.5, "y": 6.5}},
-      {"name": "express-splitter", "direction": 6, "position": {"x": 1.5, "y": 4}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 2.5, "y": 4.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 3.5, "y": 4.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 4.5, "y": 4.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 2.5, "y": 5.5}},
-      {"name": "express-splitter", "direction": 6, "position": {"x": 1.5, "y": 6}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 2.5, "y": 6.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 3.5, "y": 5.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 4.5, "y": 5.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 3.5, "y": 6.5}},
-      {"name": "express-transport-belt", "position": {"x": 4.5, "y": 6.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 5.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 6.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 7.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 8.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 5.5, "y": 1.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 6.5, "y": 1.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 7.5, "y": 1.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 8.5, "y": 1.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 9.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 10.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 11.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 12.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 9.5, "y": 1.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 10.5, "y": 1.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 11.5, "y": 1.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 12.5, "y": 1.5}},
-      {"name": "express-splitter", "position": {"x": 12, "y": 2.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 5.5, "y": 4.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 6.5, "y": 4.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 7.5, "y": 4.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 5.5, "y": 6.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 6.5, "y": 6.5}},
-      {"name": "express-transport-belt", "position": {"x": 7.5, "y": 5.5}},
-      {"name": "express-transport-belt", "position": {"x": 7.5, "y": 6.5}},
-      {"name": "express-underground-belt", "type": "output", "position": {"x": 11.5, "y": 3.5}},
-      {"name": "express-underground-belt", "type": "output", "position": {"x": 12.5, "y": 3.5}},
-      {"name": "express-underground-belt", "type": "input", "position": {"x": 11.5, "y": 4.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 12.5, "y": 4.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 10.5, "y": 6.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 11.5, "y": 6.5}},
-      {"name": "express-transport-belt", "position": {"x": 12.5, "y": 6.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 13.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 14.5, "y": 0.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 15.5, "y": 0.5}},
-      {"name": "express-transport-belt", "position": {"x": 15.5, "y": 1.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 16.5, "y": 1.5}},
-      {"name": "express-splitter", "position": {"x": 16, "y": 2.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 13.5, "y": 3.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 14.5, "y": 3.5}},
-      {"name": "express-transport-belt", "position": {"x": 13.5, "y": 4.5}},
-      {"name": "express-transport-belt", "position": {"x": 14.5, "y": 4.5}},
-      {"name": "express-underground-belt", "type": "output", "position": {"x": 15.5, "y": 3.5}},
-      {"name": "express-underground-belt", "type": "output", "position": {"x": 16.5, "y": 3.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 15.5, "y": 4.5}},
-      {"name": "express-underground-belt", "type": "input", "position": {"x": 16.5, "y": 4.5}},
-      {"name": "express-splitter", "position": {"x": 13, "y": 5.5}},
-      {"name": "express-transport-belt", "position": {"x": 13.5, "y": 6.5}},
-      {"name": "express-transport-belt", "position": {"x": 14.5, "y": 6.5}},
-      {"name": "express-splitter", "position": {"x": 15, "y": 5.5}},
-      {
-        "name": "big-electric-pole",
-        "connections": {
-          "1": {
-            "green": [{"circuit_id": 2, "entity_rel": "0,1.5"}],
-            "red": [{"circuit_id": 1, "entity_rel": "-1.5,1"}]
-          }
-        },
-        "neighbours": ["3.5,0.5"],
-        "position": {"x": -8, "y": 8}
-      },
       {
         "name": "decider-combinator",
         "direction": 4,
@@ -215,24 +102,15 @@
         "position": {"x": -9.5, "y": 9}
       },
       {
-        "name": "arithmetic-combinator",
-        "direction": 6,
+        "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"circuit_id": 2, "entity_rel": "1.5,-1.5"}],
-            "red": [{"circuit_id": 2, "entity_rel": "-1.5,-0.5"}]
-          },
-          "2": {"green": [{"entity_rel": "0,-1.5"}]}
-        },
-        "control_behavior": {
-          "arithmetic_conditions": {
-            "operation": "*",
-            "first_signal": {"name": "signal-each", "type": "virtual"},
-            "output_signal": {"name": "signal-each", "type": "virtual"},
-            "second_signal": {"name": "signal-0", "type": "virtual"}
+            "green": [{"circuit_id": 2, "entity_rel": "0,1.5"}],
+            "red": [{"circuit_id": 1, "entity_rel": "-1.5,1"}]
           }
         },
-        "position": {"x": -8, "y": 9.5}
+        "neighbours": ["3.5,0.5"],
+        "position": {"x": -8, "y": 8}
       },
       {
         "name": "decider-combinator",
@@ -253,9 +131,24 @@
         "position": {"x": -6.5, "y": 8}
       },
       {
-        "name": "medium-electric-pole",
-        "neighbours": ["-3.5,-0.5", "5,2"],
-        "position": {"x": -4.5, "y": 8.5}
+        "name": "arithmetic-combinator",
+        "direction": 6,
+        "connections": {
+          "1": {
+            "green": [{"circuit_id": 2, "entity_rel": "1.5,-1.5"}],
+            "red": [{"circuit_id": 2, "entity_rel": "-1.5,-0.5"}]
+          },
+          "2": {"green": [{"entity_rel": "0,-1.5"}]}
+        },
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "*",
+            "first_signal": {"name": "signal-each", "type": "virtual"},
+            "output_signal": {"name": "signal-each", "type": "virtual"},
+            "second_signal": {"name": "signal-0", "type": "virtual"}
+          }
+        },
+        "position": {"x": -8, "y": 9.5}
       },
       {
         "name": "logistic-train-stop-input",
@@ -282,6 +175,13 @@
         "position": {"x": -6, "y": 10}
       },
       {
+        "name": "medium-electric-pole",
+        "neighbours": ["-3.5,-0.5", "5,2"],
+        "position": {"x": -4.5, "y": 8.5}
+      },
+      {"name": "express-transport-belt", "position": {"x": -2.5, "y": 7.5}},
+      {"name": "express-splitter", "direction": 6, "position": {"x": -1.5, "y": 7}},
+      {
         "name": "constant-combinator",
         "direction": 4,
         "connections": {
@@ -303,22 +203,6 @@
         },
         "position": {"x": -4.5, "y": 9.5}
       },
-      {"name": "straight-rail", "direction": 2, "position": {"x": -6, "y": 12}},
-      {"name": "straight-rail", "direction": 2, "position": {"x": -4, "y": 12}},
-      {"name": "express-transport-belt", "position": {"x": -2.5, "y": 7.5}},
-      {"name": "express-splitter", "direction": 6, "position": {"x": -1.5, "y": 7}},
-      {
-        "name": "express-underground-belt",
-        "direction": 6,
-        "type": "output",
-        "position": {"x": -0.5, "y": 7.5}
-      },
-      {
-        "name": "express-underground-belt",
-        "direction": 6,
-        "type": "input",
-        "position": {"x": 0.5, "y": 7.5}
-      },
       {
         "name": "arithmetic-combinator",
         "direction": 2,
@@ -333,27 +217,113 @@
         },
         "position": {"x": -3, "y": 9.5}
       },
+      {"name": "straight-rail", "direction": 2, "position": {"x": -6, "y": 12}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": -4, "y": 12}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": -2, "y": 12}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": -0.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 0.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 1.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 2.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": -0.5, "y": 1.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 0.5, "y": 1.5}},
       {
-        "name": "arithmetic-combinator",
-        "connections": {
-          "1": {"green": [{"entity_rel": "-6,0.5"}, {"entity_rel": "1,1.5"}]},
-          "2": {"green": [{"entity_rel": "2,-0.5"}]}
-        },
-        "control_behavior": {
-          "arithmetic_conditions": {
-            "operation": "/",
-            "second_constant": -25,
-            "first_signal": {"name": "signal-each", "type": "virtual"},
-            "output_signal": {"name": "signal-each", "type": "virtual"}
-          }
-        },
-        "position": {"x": -0.5, "y": 9}
+        "name": "express-underground-belt",
+        "direction": 6,
+        "type": "output",
+        "position": {"x": -0.5, "y": 2.5}
       },
       {
-        "name": "medium-electric-pole",
-        "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "1,-1"}]}},
-        "neighbours": ["-5,-2", "7,0", "0,3"],
-        "position": {"x": 0.5, "y": 10.5}
+        "name": "express-underground-belt",
+        "direction": 6,
+        "type": "input",
+        "position": {"x": 0.5, "y": 2.5}
+      },
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 1.5, "y": 1.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 2.5, "y": 1.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 3.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 4.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 5.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 6.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 3.5, "y": 1.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 4.5, "y": 1.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 5.5, "y": 1.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 6.5, "y": 1.5}},
+      {
+        "name": "express-underground-belt",
+        "direction": 6,
+        "type": "output",
+        "position": {"x": -0.5, "y": 3.5}
+      },
+      {"name": "express-transport-belt", "position": {"x": 0.5, "y": 3.5}},
+      {"name": "express-transport-belt", "position": {"x": -0.5, "y": 4.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 0.5, "y": 4.5}},
+      {"name": "express-splitter", "direction": 6, "position": {"x": 1.5, "y": 4}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 2.5, "y": 4.5}},
+      {"name": "express-transport-belt", "direction": 4, "position": {"x": -0.5, "y": 5.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 0.5, "y": 5.5}},
+      {
+        "name": "express-underground-belt",
+        "direction": 6,
+        "type": "output",
+        "position": {"x": -0.5, "y": 6.5}
+      },
+      {"name": "express-transport-belt", "direction": 4, "position": {"x": 0.5, "y": 6.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 2.5, "y": 5.5}},
+      {"name": "express-splitter", "direction": 6, "position": {"x": 1.5, "y": 6}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 2.5, "y": 6.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 3.5, "y": 4.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 4.5, "y": 4.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 5.5, "y": 4.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 6.5, "y": 4.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 3.5, "y": 5.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 4.5, "y": 5.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 3.5, "y": 6.5}},
+      {"name": "express-transport-belt", "position": {"x": 4.5, "y": 6.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 5.5, "y": 6.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 6.5, "y": 6.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 7.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 8.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 9.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 10.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 7.5, "y": 1.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 8.5, "y": 1.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 9.5, "y": 1.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 10.5, "y": 1.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 11.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 12.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 13.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 14.5, "y": 0.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 11.5, "y": 1.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 12.5, "y": 1.5}},
+      {"name": "express-splitter", "position": {"x": 12, "y": 2.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 7.5, "y": 4.5}},
+      {"name": "express-transport-belt", "position": {"x": 7.5, "y": 5.5}},
+      {"name": "express-transport-belt", "position": {"x": 7.5, "y": 6.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 10.5, "y": 6.5}},
+      {"name": "express-underground-belt", "type": "output", "position": {"x": 11.5, "y": 3.5}},
+      {"name": "express-underground-belt", "type": "output", "position": {"x": 12.5, "y": 3.5}},
+      {"name": "express-underground-belt", "type": "input", "position": {"x": 11.5, "y": 4.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 12.5, "y": 4.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 13.5, "y": 3.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 14.5, "y": 3.5}},
+      {"name": "express-transport-belt", "position": {"x": 13.5, "y": 4.5}},
+      {"name": "express-transport-belt", "position": {"x": 14.5, "y": 4.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 11.5, "y": 6.5}},
+      {"name": "express-transport-belt", "position": {"x": 12.5, "y": 6.5}},
+      {"name": "express-splitter", "position": {"x": 13, "y": 5.5}},
+      {"name": "express-transport-belt", "position": {"x": 13.5, "y": 6.5}},
+      {"name": "express-transport-belt", "position": {"x": 14.5, "y": 6.5}},
+      {
+        "name": "express-underground-belt",
+        "direction": 6,
+        "type": "output",
+        "position": {"x": -0.5, "y": 7.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 6,
+        "type": "input",
+        "position": {"x": 0.5, "y": 7.5}
       },
       {"name": "express-transport-belt", "direction": 2, "position": {"x": 1.5, "y": 7.5}},
       {"name": "express-transport-belt", "direction": 2, "position": {"x": 2.5, "y": 7.5}},
@@ -362,7 +332,7 @@
         "direction": 4,
         "connections": {
           "1": {
-            "green": [{"circuit_id": 2, "entity_rel": "-2,0.5"}, {"entity_rel": "1,0"}, {"entity_rel": "0,7"}],
+            "green": [{"entity_rel": "1,0"}, {"circuit_id": 2, "entity_rel": "-2,0.5"}, {"entity_rel": "0,7"}],
             "red": [{"entity_rel": "0,1"}]
           }
         },
@@ -380,25 +350,27 @@
         },
         "position": {"x": 2.5, "y": 8.5}
       },
-      {"name": "express-transport-belt", "position": {"x": 3.5, "y": 7.5}},
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 4.5, "y": 7.5}},
       {
-        "name": "stack-inserter",
-        "direction": 4,
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
-        "control_behavior": {
-          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        "name": "arithmetic-combinator",
+        "connections": {
+          "1": {"green": [{"entity_rel": "-6,0.5"}, {"entity_rel": "1,1.5"}]},
+          "2": {"green": [{"entity_rel": "2,-0.5"}]}
         },
-        "position": {"x": 3.5, "y": 8.5}
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "/",
+            "second_constant": -24,
+            "first_signal": {"name": "signal-each", "type": "virtual"},
+            "output_signal": {"name": "signal-each", "type": "virtual"}
+          }
+        },
+        "position": {"x": -0.5, "y": 9}
       },
       {
-        "name": "stack-inserter",
-        "direction": 4,
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
-        "control_behavior": {
-          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
-        },
-        "position": {"x": 4.5, "y": 8.5}
+        "name": "medium-electric-pole",
+        "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "-1,-1.5"}, {"entity_rel": "1,-1"}]}},
+        "neighbours": ["-5,-2", "7,0", "0,3"],
+        "position": {"x": 0.5, "y": 10.5}
       },
       {
         "name": "iron-chest",
@@ -433,6 +405,46 @@
         "control_behavior": {"circuit_mode_of_operation": 1},
         "position": {"x": 2.5, "y": 10.5}
       },
+      {"name": "express-transport-belt", "position": {"x": 3.5, "y": 7.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 4.5, "y": 7.5}},
+      {
+        "name": "stack-inserter",
+        "direction": 4,
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
+        "control_behavior": {
+          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 3.5, "y": 8.5}
+      },
+      {
+        "name": "stack-inserter",
+        "direction": 4,
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
+        "control_behavior": {
+          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 4.5, "y": 8.5}
+      },
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 5.5, "y": 7.5}},
+      {"name": "express-underground-belt", "type": "output", "position": {"x": 6.5, "y": 7.5}},
+      {
+        "name": "stack-inserter",
+        "direction": 4,
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
+        "control_behavior": {
+          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 5.5, "y": 8.5}
+      },
+      {
+        "name": "stack-inserter",
+        "direction": 4,
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "2,0"}], "red": [{"entity_rel": "0,1"}]}},
+        "control_behavior": {
+          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 6.5, "y": 8.5}
+      },
       {
         "name": "iron-chest",
         "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,-1"}]}},
@@ -456,134 +468,6 @@
         "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
         "position": {"x": 4.5, "y": 10.5}
-      },
-      {"name": "straight-rail", "direction": 2, "position": {"x": -2, "y": 12}},
-      {"name": "straight-rail", "direction": 2, "position": {"x": 0, "y": 12}},
-      {"name": "medium-electric-pole", "neighbours": ["0,-3", "7,0"], "position": {"x": 0.5, "y": 13.5}},
-      {"name": "straight-rail", "direction": 2, "position": {"x": 2, "y": 12}},
-      {"name": "straight-rail", "direction": 2, "position": {"x": 4, "y": 12}},
-      {
-        "name": "stack-filter-inserter",
-        "connections": {"1": {"green": [{"entity_rel": "0,-3"}, {"entity_rel": "1,0"}]}},
-        "control_behavior": {"circuit_mode_of_operation": 1},
-        "position": {"x": 1.5, "y": 13.5}
-      },
-      {
-        "name": "stack-filter-inserter",
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}]}},
-        "control_behavior": {"circuit_mode_of_operation": 1},
-        "position": {"x": 2.5, "y": 13.5}
-      },
-      {
-        "name": "iron-chest",
-        "connections": {"1": {"green": [{"entity_rel": "0,-5"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
-        "position": {"x": 1.5, "y": 14.5}
-      },
-      {
-        "name": "iron-chest",
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
-        "position": {"x": 2.5, "y": 14.5}
-      },
-      {
-        "name": "stack-filter-inserter",
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}]}},
-        "control_behavior": {"circuit_mode_of_operation": 1},
-        "position": {"x": 3.5, "y": 13.5}
-      },
-      {
-        "name": "stack-filter-inserter",
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}]}},
-        "control_behavior": {"circuit_mode_of_operation": 1},
-        "position": {"x": 4.5, "y": 13.5}
-      },
-      {
-        "name": "iron-chest",
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
-        "position": {"x": 3.5, "y": 14.5}
-      },
-      {
-        "name": "iron-chest",
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
-        "position": {"x": 4.5, "y": 14.5}
-      },
-      {
-        "name": "stack-inserter",
-        "connections": {"1": {"green": [{"entity_rel": "0,-7"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,-1"}]}},
-        "control_behavior": {
-          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
-        },
-        "position": {"x": 1.5, "y": 15.5}
-      },
-      {
-        "name": "stack-inserter",
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,-1"}]}},
-        "control_behavior": {
-          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
-        },
-        "position": {"x": 2.5, "y": 15.5}
-      },
-      {
-        "name": "express-underground-belt",
-        "direction": 4,
-        "type": "output",
-        "position": {"x": 1.5, "y": 16.5}
-      },
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 2.5, "y": 16.5}},
-      {
-        "name": "stack-inserter",
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,-1"}]}},
-        "control_behavior": {
-          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
-        },
-        "position": {"x": 3.5, "y": 15.5}
-      },
-      {
-        "name": "stack-inserter",
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,-1"}]}},
-        "control_behavior": {
-          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
-        },
-        "position": {"x": 4.5, "y": 15.5}
-      },
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 3.5, "y": 16.5}},
-      {"name": "express-transport-belt", "direction": 4, "position": {"x": 4.5, "y": 16.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 1.5, "y": 17.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 2.5, "y": 17.5}},
-      {"name": "express-transport-belt", "direction": 4, "position": {"x": 3.5, "y": 17.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 4.5, "y": 17.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 3.5, "y": 18.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 4.5, "y": 18.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 5.5, "y": 7.5}},
-      {"name": "express-underground-belt", "type": "output", "position": {"x": 6.5, "y": 7.5}},
-      {
-        "name": "stack-inserter",
-        "direction": 4,
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
-        "control_behavior": {
-          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
-        },
-        "position": {"x": 5.5, "y": 8.5}
-      },
-      {
-        "name": "stack-inserter",
-        "direction": 4,
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "2,0"}], "red": [{"entity_rel": "0,1"}]}},
-        "control_behavior": {
-          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
-        },
-        "position": {"x": 6.5, "y": 8.5}
-      },
-      {"name": "express-transport-belt", "position": {"x": 7.5, "y": 7.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 8.5, "y": 7.5}},
-      {"name": "express-transport-belt", "position": {"x": 7.5, "y": 8.5}},
-      {
-        "name": "stack-inserter",
-        "direction": 4,
-        "connections": {"1": {"green": [{"entity_rel": "-2,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
-        "control_behavior": {
-          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
-        },
-        "position": {"x": 8.5, "y": 8.5}
       },
       {
         "name": "iron-chest",
@@ -609,23 +493,88 @@
         "control_behavior": {"circuit_mode_of_operation": 1},
         "position": {"x": 6.5, "y": 10.5}
       },
-      {"name": "express-underground-belt", "type": "output", "position": {"x": 7.5, "y": 9.5}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 0, "y": 12}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 2, "y": 12}},
+      {"name": "medium-electric-pole", "neighbours": ["0,-3", "7,0"], "position": {"x": 0.5, "y": 13.5}},
       {
-        "name": "iron-chest",
-        "connections": {"1": {"green": [{"entity_rel": "-2,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,-1"}]}},
-        "position": {"x": 8.5, "y": 9.5}
-      },
-      {
-        "name": "medium-electric-pole",
-        "neighbours": ["-7,0", "7,0", "0,3"],
-        "position": {"x": 7.5, "y": 10.5}
+        "name": "stack-filter-inserter",
+        "connections": {"1": {"green": [{"entity_rel": "0,-3"}, {"entity_rel": "1,0"}]}},
+        "control_behavior": {"circuit_mode_of_operation": 1},
+        "position": {"x": 1.5, "y": 13.5}
       },
       {
         "name": "stack-filter-inserter",
-        "direction": 4,
-        "connections": {"1": {"green": [{"entity_rel": "-2,0"}, {"entity_rel": "1,0"}, {"entity_rel": "5,0"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
-        "position": {"x": 8.5, "y": 10.5}
+        "position": {"x": 2.5, "y": 13.5}
+      },
+      {
+        "name": "iron-chest",
+        "connections": {"1": {"green": [{"entity_rel": "0,-5"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
+        "position": {"x": 1.5, "y": 14.5}
+      },
+      {
+        "name": "iron-chest",
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
+        "position": {"x": 2.5, "y": 14.5}
+      },
+      {"name": "straight-rail", "direction": 2, "position": {"x": 4, "y": 12}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 6, "y": 12}},
+      {
+        "name": "stack-filter-inserter",
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}]}},
+        "control_behavior": {"circuit_mode_of_operation": 1},
+        "position": {"x": 3.5, "y": 13.5}
+      },
+      {
+        "name": "stack-filter-inserter",
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}]}},
+        "control_behavior": {"circuit_mode_of_operation": 1},
+        "position": {"x": 4.5, "y": 13.5}
+      },
+      {
+        "name": "iron-chest",
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
+        "position": {"x": 3.5, "y": 14.5}
+      },
+      {
+        "name": "iron-chest",
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
+        "position": {"x": 4.5, "y": 14.5}
+      },
+      {
+        "name": "stack-filter-inserter",
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}]}},
+        "control_behavior": {"circuit_mode_of_operation": 1},
+        "position": {"x": 5.5, "y": 13.5}
+      },
+      {
+        "name": "stack-filter-inserter",
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "2,0"}]}},
+        "control_behavior": {"circuit_mode_of_operation": 1},
+        "position": {"x": 6.5, "y": 13.5}
+      },
+      {
+        "name": "iron-chest",
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
+        "position": {"x": 5.5, "y": 14.5}
+      },
+      {
+        "name": "iron-chest",
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "2,0"}], "red": [{"entity_rel": "0,1"}]}},
+        "position": {"x": 6.5, "y": 14.5}
+      },
+      {"name": "express-transport-belt", "position": {"x": 7.5, "y": 7.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 8.5, "y": 7.5}},
+      {"name": "express-transport-belt", "position": {"x": 7.5, "y": 8.5}},
+      {
+        "name": "stack-inserter",
+        "direction": 4,
+        "connections": {"1": {"green": [{"entity_rel": "-2,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
+        "control_behavior": {
+          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 8.5, "y": 8.5}
       },
       {"name": "express-transport-belt", "direction": 2, "position": {"x": 9.5, "y": 7.5}},
       {"name": "express-transport-belt", "position": {"x": 10.5, "y": 7.5}},
@@ -647,25 +596,23 @@
         },
         "position": {"x": 10.5, "y": 8.5}
       },
-      {"name": "express-transport-belt", "direction": 6, "position": {"x": 11.5, "y": 7.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 12.5, "y": 7.5}},
+      {"name": "express-underground-belt", "type": "output", "position": {"x": 7.5, "y": 9.5}},
       {
-        "name": "stack-inserter",
-        "direction": 4,
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
-        "control_behavior": {
-          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
-        },
-        "position": {"x": 11.5, "y": 8.5}
+        "name": "iron-chest",
+        "connections": {"1": {"green": [{"entity_rel": "-2,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,-1"}]}},
+        "position": {"x": 8.5, "y": 9.5}
       },
       {
-        "name": "stack-inserter",
+        "name": "medium-electric-pole",
+        "neighbours": ["-7,0", "7,0", "0,3"],
+        "position": {"x": 7.5, "y": 10.5}
+      },
+      {
+        "name": "stack-filter-inserter",
         "direction": 4,
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
-        "control_behavior": {
-          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
-        },
-        "position": {"x": 12.5, "y": 8.5}
+        "connections": {"1": {"green": [{"entity_rel": "-2,0"}, {"entity_rel": "1,0"}, {"entity_rel": "5,0"}]}},
+        "control_behavior": {"circuit_mode_of_operation": 1},
+        "position": {"x": 8.5, "y": 10.5}
       },
       {
         "name": "iron-chest",
@@ -691,6 +638,38 @@
         "control_behavior": {"circuit_mode_of_operation": 1},
         "position": {"x": 10.5, "y": 10.5}
       },
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 11.5, "y": 7.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 12.5, "y": 7.5}},
+      {
+        "name": "stack-inserter",
+        "direction": 4,
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
+        "control_behavior": {
+          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 11.5, "y": 8.5}
+      },
+      {
+        "name": "stack-inserter",
+        "direction": 4,
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
+        "control_behavior": {
+          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 12.5, "y": 8.5}
+      },
+      {"name": "express-underground-belt", "type": "output", "position": {"x": 13.5, "y": 7.5}},
+      {"name": "express-transport-belt", "position": {"x": 14.5, "y": 7.5}},
+      {
+        "name": "stack-inserter",
+        "direction": 4,
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}], "red": [{"entity_rel": "0,1"}]}},
+        "control_behavior": {
+          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 13.5, "y": 8.5}
+      },
+      {"name": "express-transport-belt", "position": {"x": 14.5, "y": 8.5}},
       {
         "name": "iron-chest",
         "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,-1"}]}},
@@ -715,30 +694,22 @@
         "control_behavior": {"circuit_mode_of_operation": 1},
         "position": {"x": 12.5, "y": 10.5}
       },
-      {"name": "straight-rail", "direction": 2, "position": {"x": 6, "y": 12}},
+      {
+        "name": "iron-chest",
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}], "red": [{"entity_rel": "0,-1"}]}},
+        "position": {"x": 13.5, "y": 9.5}
+      },
+      {"name": "express-underground-belt", "type": "output", "position": {"x": 14.5, "y": 9.5}},
+      {
+        "name": "stack-filter-inserter",
+        "direction": 4,
+        "connections": {"1": {"green": [{"entity_rel": "-5,0"}, {"entity_rel": "-1,0"}]}},
+        "control_behavior": {"circuit_mode_of_operation": 1},
+        "position": {"x": 13.5, "y": 10.5}
+      },
+      {"name": "medium-electric-pole", "neighbours": ["-7,0", "0,3"], "position": {"x": 14.5, "y": 10.5}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 8, "y": 12}},
-      {
-        "name": "stack-filter-inserter",
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}]}},
-        "control_behavior": {"circuit_mode_of_operation": 1},
-        "position": {"x": 5.5, "y": 13.5}
-      },
-      {
-        "name": "stack-filter-inserter",
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "2,0"}]}},
-        "control_behavior": {"circuit_mode_of_operation": 1},
-        "position": {"x": 6.5, "y": 13.5}
-      },
-      {
-        "name": "iron-chest",
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
-        "position": {"x": 5.5, "y": 14.5}
-      },
-      {
-        "name": "iron-chest",
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "2,0"}], "red": [{"entity_rel": "0,1"}]}},
-        "position": {"x": 6.5, "y": 14.5}
-      },
+      {"name": "straight-rail", "direction": 2, "position": {"x": 10, "y": 12}},
       {
         "name": "medium-electric-pole",
         "neighbours": ["0,-3", "-7,0", "7,0"],
@@ -756,8 +727,6 @@
         "connections": {"1": {"green": [{"entity_rel": "-2,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
         "position": {"x": 8.5, "y": 14.5}
       },
-      {"name": "straight-rail", "direction": 2, "position": {"x": 10, "y": 12}},
-      {"name": "straight-rail", "direction": 2, "position": {"x": 12, "y": 12}},
       {
         "name": "stack-filter-inserter",
         "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}]}},
@@ -780,6 +749,8 @@
         "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
         "position": {"x": 10.5, "y": 14.5}
       },
+      {"name": "straight-rail", "direction": 2, "position": {"x": 12, "y": 12}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 14, "y": 12}},
       {
         "name": "stack-filter-inserter",
         "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}]}},
@@ -802,34 +773,6 @@
         "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,1"}]}},
         "position": {"x": 12.5, "y": 14.5}
       },
-      {"name": "express-underground-belt", "type": "output", "position": {"x": 13.5, "y": 7.5}},
-      {"name": "express-transport-belt", "position": {"x": 14.5, "y": 7.5}},
-      {
-        "name": "stack-inserter",
-        "direction": 4,
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}], "red": [{"entity_rel": "0,1"}]}},
-        "control_behavior": {
-          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
-        },
-        "position": {"x": 13.5, "y": 8.5}
-      },
-      {"name": "express-transport-belt", "position": {"x": 14.5, "y": 8.5}},
-      {
-        "name": "iron-chest",
-        "connections": {"1": {"green": [{"entity_rel": "-1,0"}], "red": [{"entity_rel": "0,-1"}]}},
-        "position": {"x": 13.5, "y": 9.5}
-      },
-      {"name": "express-underground-belt", "type": "output", "position": {"x": 14.5, "y": 9.5}},
-      {
-        "name": "stack-filter-inserter",
-        "direction": 4,
-        "connections": {"1": {"green": [{"entity_rel": "-5,0"}, {"entity_rel": "-1,0"}]}},
-        "control_behavior": {"circuit_mode_of_operation": 1},
-        "position": {"x": 13.5, "y": 10.5}
-      },
-      {"name": "medium-electric-pole", "neighbours": ["-7,0", "0,3"], "position": {"x": 14.5, "y": 10.5}},
-      {"name": "straight-rail", "direction": 2, "position": {"x": 14, "y": 12}},
-      {"name": "straight-rail", "direction": 2, "position": {"x": 16, "y": 12}},
       {
         "name": "stack-filter-inserter",
         "connections": {"1": {"green": [{"entity_rel": "-5,0"}, {"entity_rel": "-1,0"}]}},
@@ -843,8 +786,58 @@
         "position": {"x": 13.5, "y": 14.5}
       },
       {"name": "express-underground-belt", "type": "input", "position": {"x": 14.5, "y": 14.5}},
-      {"name": "straight-rail", "direction": 2, "position": {"x": 18, "y": 12}},
-      {"name": "straight-rail", "direction": 2, "position": {"x": 20, "y": 12}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 15.5, "y": 0.5}},
+      {"name": "express-transport-belt", "position": {"x": 15.5, "y": 1.5}},
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 16.5, "y": 1.5}},
+      {"name": "express-splitter", "position": {"x": 16, "y": 2.5}},
+      {"name": "express-underground-belt", "type": "output", "position": {"x": 15.5, "y": 3.5}},
+      {"name": "express-underground-belt", "type": "output", "position": {"x": 16.5, "y": 3.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 15.5, "y": 4.5}},
+      {"name": "express-underground-belt", "type": "input", "position": {"x": 16.5, "y": 4.5}},
+      {"name": "express-splitter", "position": {"x": 15, "y": 5.5}},
+      {
+        "name": "stack-inserter",
+        "connections": {"1": {"green": [{"entity_rel": "0,-7"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,-1"}]}},
+        "control_behavior": {
+          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 1.5, "y": 15.5}
+      },
+      {
+        "name": "stack-inserter",
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,-1"}]}},
+        "control_behavior": {
+          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 2.5, "y": 15.5}
+      },
+      {
+        "name": "express-underground-belt",
+        "direction": 4,
+        "type": "output",
+        "position": {"x": 1.5, "y": 16.5}
+      },
+      {"name": "express-transport-belt", "direction": 6, "position": {"x": 2.5, "y": 16.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 1.5, "y": 17.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 2.5, "y": 17.5}},
+      {
+        "name": "stack-inserter",
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,-1"}]}},
+        "control_behavior": {
+          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 3.5, "y": 15.5}
+      },
+      {
+        "name": "stack-inserter",
+        "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,-1"}]}},
+        "control_behavior": {
+          "circuit_condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 4.5, "y": 15.5}
+      },
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 3.5, "y": 16.5}},
+      {"name": "express-transport-belt", "direction": 4, "position": {"x": 4.5, "y": 16.5}},
       {
         "name": "stack-inserter",
         "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,-1"}]}},
@@ -863,6 +856,13 @@
       },
       {"name": "express-transport-belt", "direction": 6, "position": {"x": 5.5, "y": 16.5}},
       {"name": "express-transport-belt", "direction": 6, "position": {"x": 6.5, "y": 16.5}},
+      {"name": "express-transport-belt", "direction": 4, "position": {"x": 3.5, "y": 17.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 4.5, "y": 17.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 3.5, "y": 18.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 4.5, "y": 18.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 5.5, "y": 17.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 5.5, "y": 18.5}},
+      {"name": "express-splitter", "direction": 2, "position": {"x": 6.5, "y": 18}},
       {"name": "express-transport-belt", "position": {"x": 7.5, "y": 15.5}},
       {
         "name": "stack-inserter",
@@ -879,11 +879,6 @@
         "type": "output",
         "position": {"x": 8.5, "y": 16.5}
       },
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 5.5, "y": 17.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 5.5, "y": 18.5}},
-      {"name": "express-splitter", "direction": 2, "position": {"x": 6.5, "y": 18}},
-      {"name": "express-transport-belt", "position": {"x": 7.5, "y": 17.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 8.5, "y": 17.5}},
       {
         "name": "stack-inserter",
         "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,-1"}]}},
@@ -902,6 +897,11 @@
       },
       {"name": "express-transport-belt", "direction": 6, "position": {"x": 9.5, "y": 16.5}},
       {"name": "express-transport-belt", "direction": 2, "position": {"x": 10.5, "y": 16.5}},
+      {"name": "express-transport-belt", "position": {"x": 7.5, "y": 17.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 8.5, "y": 17.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 9.5, "y": 17.5}},
+      {"name": "express-transport-belt", "direction": 4, "position": {"x": 10.5, "y": 17.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 10.5, "y": 18.5}},
       {
         "name": "stack-inserter",
         "connections": {"1": {"green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}], "red": [{"entity_rel": "0,-1"}]}},
@@ -920,13 +920,6 @@
       },
       {"name": "express-transport-belt", "direction": 4, "position": {"x": 11.5, "y": 16.5}},
       {"name": "express-transport-belt", "direction": 6, "position": {"x": 12.5, "y": 16.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 9.5, "y": 17.5}},
-      {"name": "express-transport-belt", "direction": 4, "position": {"x": 10.5, "y": 17.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 10.5, "y": 18.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 11.5, "y": 17.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 12.5, "y": 17.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 11.5, "y": 18.5}},
-      {"name": "express-transport-belt", "direction": 2, "position": {"x": 12.5, "y": 18.5}},
       {
         "name": "stack-inserter",
         "connections": {"1": {"green": [{"entity_rel": "-1,0"}], "red": [{"entity_rel": "0,-1"}]}},
@@ -938,6 +931,10 @@
       {"name": "express-transport-belt", "position": {"x": 14.5, "y": 15.5}},
       {"name": "express-transport-belt", "direction": 6, "position": {"x": 13.5, "y": 16.5}},
       {"name": "express-transport-belt", "position": {"x": 14.5, "y": 16.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 11.5, "y": 17.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 12.5, "y": 17.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 11.5, "y": 18.5}},
+      {"name": "express-transport-belt", "direction": 2, "position": {"x": 12.5, "y": 18.5}},
       {"name": "express-transport-belt", "position": {"x": 14.5, "y": 17.5}},
       {"name": "express-splitter", "direction": 2, "position": {"x": 13.5, "y": 18}}
     ],
