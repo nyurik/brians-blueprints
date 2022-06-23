@@ -826,7 +826,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Construction",
+        "station": "-Construction-",
         "color": {
           "a": 0.49803921580314636,
           "b": 0.007843137718737125,

@@ -531,7 +531,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "",
+        "station": "-Construction-",
         "connections": {
           "1": {"green": [{"circuit_id": 2, "entity_rel": "0,-1.5"}, {"circuit_id": 2, "entity_rel": "1.5,-1"}]}
         },
