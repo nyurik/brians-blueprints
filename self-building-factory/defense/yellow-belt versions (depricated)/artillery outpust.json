@@ -1398,7 +1398,7 @@
       {"name": "stone-wall", "position": {"x": -3.5, "y": 10.5}},
       {
         "name": "medium-electric-pole",
-        "neighbours": ["-7.5,-3.5", "0,-7", "8,0"],
+        "neighbours": ["0,-7", "-7.5,-3.5", "8,0"],
         "position": {"x": -2.5, "y": 9.5}
       },
       {"name": "stone-wall", "position": {"x": -2.5, "y": 10.5}},
@@ -1483,7 +1483,7 @@
       {"name": "stone-wall", "position": {"x": 14.5, "y": 1.5}},
       {
         "name": "medium-electric-pole",
-        "neighbours": ["-8,0", "5,-5", "-5.5,3.5"],
+        "neighbours": ["5,-5", "-8,0", "-5.5,3.5"],
         "position": {"x": 13.5, "y": 2.5}
       },
       {"name": "rail-chain-signal", "direction": 2, "position": {"x": 14.5, "y": 2.5}},
@@ -1497,7 +1497,7 @@
             "red": [{"entity_rel": "-18,0"}, {"entity_rel": "26,0"}]
           }
         },
-        "neighbours": ["-18,0", "5.5,-3.5", "26,0", "5.5,3.5"],
+        "neighbours": ["5.5,-3.5", "-18,0", "26,0", "5.5,3.5"],
         "position": {"x": 8, "y": 6}
       },
       {"name": "laser-turret", "position": {"x": 10, "y": 6}},
@@ -2213,7 +2213,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "-26,0"}],
-            "red": [{"entity_rel": "-26,0"}, {"entity_rel": "2.5,-1.5"}, {"entity_rel": "2,0"}]
+            "red": [{"entity_rel": "2.5,-1.5"}, {"entity_rel": "-26,0"}, {"entity_rel": "2,0"}]
           }
         },
         "neighbours": ["-26,0"],

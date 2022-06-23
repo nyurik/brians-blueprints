@@ -1132,13 +1132,13 @@
         "connections": {
           "1": {
             "green": [
-              {"entity_rel": "-8,0"},
               {"circuit_id": 2, "entity_rel": "2,-5.5"},
+              {"entity_rel": "-8,0"},
               {"circuit_id": 2, "entity_rel": "0.5,5"}
             ]
           }
         },
-        "neighbours": ["-8,0", "2.5,-3.5", "0,7"],
+        "neighbours": ["2.5,-3.5", "-8,0", "0,7"],
         "position": {"x": 137.5, "y": 23.5}
       },
       {
@@ -1414,8 +1414,8 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"circuit_id": 2, "entity_rel": "0.5,-2"}, {"entity_rel": "-6,-18"}],
-            "red": [{"circuit_id": 1, "entity_rel": "-0.5,-2"}, {"entity_rel": "-6,-18"}]
+            "green": [{"entity_rel": "-6,-18"}, {"circuit_id": 2, "entity_rel": "0.5,-2"}],
+            "red": [{"entity_rel": "-6,-18"}, {"circuit_id": 1, "entity_rel": "-0.5,-2"}]
           }
         },
         "neighbours": ["-6,-18", "-2.5,3.5"],
@@ -1690,7 +1690,7 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-5,0"}, {"entity_rel": "0,1"}, {"circuit_id": 1, "entity_rel": "0.5,-2"}],
+            "green": [{"circuit_id": 1, "entity_rel": "0.5,-2"}, {"entity_rel": "-5,0"}, {"entity_rel": "0,1"}],
             "red": [{"entity_rel": "1,0"}]
           }
         },
@@ -1733,7 +1733,7 @@
         "direction": 6,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-7,0"}, {"entity_rel": "0,1"}, {"circuit_id": 2, "entity_rel": "-0.5,-2"}],
+            "green": [{"circuit_id": 2, "entity_rel": "-0.5,-2"}, {"entity_rel": "-7,0"}, {"entity_rel": "0,1"}],
             "red": [{"entity_rel": "-1,0"}]
           }
         },
@@ -6980,8 +6980,8 @@
         "connections": {
           "1": {
             "green": [
-              {"entity_rel": "-5,1"},
               {"circuit_id": 1, "entity_rel": "1,-1.5"},
+              {"entity_rel": "-5,1"},
               {"entity_rel": "4,0"},
               {"entity_rel": "0,8"}
             ]

@@ -2,7 +2,7 @@
   "blueprint_book": {
     "item": "blueprint-book",
     "label": "Brian's City (v3.5.7)",
-    "description": "Self-Building Mega-Base\nhttps://factorioprints.com/view/-MNZWdWosuqr3vtaC2hD\n\n3.5.7:\n* Minor changes for move to github",
+    "description": "Self-Building Mega-Base\nhttps://factorioprints.com/view/-MNZWdWosuqr3vtaC2hD\n\n3.5.7:\n* Minor changes for move to github.\n* Added many station names.",
     "active_index": 1,
     "version": 281479275610112,
     "icons": [

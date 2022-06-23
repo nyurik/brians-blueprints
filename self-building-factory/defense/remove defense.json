@@ -9,8 +9,6 @@
       "tile_selection_mode": 2,
       "entity_filters": [
         {"name": "stone-wall", "index": 0},
-        {"name": "entity-unknown", "index": 1},
-        {"name": "entity-unknown", "index": 2},
         {"name": "gate", "index": 3},
         {"name": "gun-turret", "index": 10},
         {"name": "laser-turret", "index": 11},

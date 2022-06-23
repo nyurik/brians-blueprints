@@ -144,7 +144,7 @@
         "direction": 4,
         "override_stack_size": 1,
         "connections": {
-          "1": {"red": [{"circuit_id": 2, "entity_rel": "-1,0.5"}, {"entity_rel": "-2,0"}, {"entity_rel": "1,0"}]}
+          "1": {"red": [{"entity_rel": "-2,0"}, {"circuit_id": 2, "entity_rel": "-1,0.5"}, {"entity_rel": "1,0"}]}
         },
         "control_behavior": {
           "circuit_mode_of_operation": 3,

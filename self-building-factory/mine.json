@@ -4715,7 +4715,7 @@
       },
       {
         "name": "medium-electric-pole",
-        "neighbours": ["-7,0", "-2.5,-8.5", "7,0", "0,3"],
+        "neighbours": ["-2.5,-8.5", "-7,0", "7,0", "0,3"],
         "position": {"x": 158.5, "y": 10.5}
       },
       {"name": "straight-rail", "direction": 2, "position": {"x": 152, "y": 12}},
@@ -6950,7 +6950,7 @@
       {"name": "electric-mining-drill", "position": {"x": 10.5, "y": 92.5}},
       {
         "name": "medium-electric-pole",
-        "neighbours": ["6,-4", "-7.5,-4.5", "6,4"],
+        "neighbours": ["-7.5,-4.5", "6,-4", "6,4"],
         "position": {"x": 9.5, "y": 94.5}
       },
       {"name": "electric-mining-drill", "direction": 4, "position": {"x": 13.5, "y": 92.5}},
@@ -14472,7 +14472,7 @@
       {"name": "underground-belt", "type": "output", "position": {"x": 179.5, "y": 9.5}},
       {
         "name": "medium-electric-pole",
-        "neighbours": ["7,-2", "-7,0", "-1.5,-8.5", "0,3"],
+        "neighbours": ["-1.5,-8.5", "7,-2", "-7,0", "0,3"],
         "position": {"x": 179.5, "y": 10.5}
       },
       {"name": "straight-rail", "direction": 2, "position": {"x": 176, "y": 12}},
@@ -15697,11 +15697,11 @@
         "name": "big-electric-pole",
         "connections": {
           "1": {
-            "green": [{"circuit_id": 2, "entity_rel": "1,-1.5"}, {"entity_rel": "-9,-14"}],
+            "green": [{"entity_rel": "-9,-14"}, {"circuit_id": 2, "entity_rel": "1,-1.5"}],
             "red": [{"entity_rel": "-9,-14"}, {"circuit_id": 1, "entity_rel": "2,-0.5"}]
           }
         },
-        "neighbours": ["-0.5,-7.5", "-2.5,-0.5", "-9,-14", "0.5,2.5", "15,2"],
+        "neighbours": ["-9,-14", "-0.5,-7.5", "-2.5,-0.5", "0.5,2.5", "15,2"],
         "position": {"x": 187, "y": 16}
       },
       {
@@ -16695,7 +16695,7 @@
         "position": {"x": 210, "y": 14.5}
       },
       {"name": "straight-rail", "direction": 1, "position": {"x": 214, "y": 12}},
-      {"name": "substation", "neighbours": ["-15,-2", "-6,-16"], "position": {"x": 202, "y": 18}},
+      {"name": "substation", "neighbours": ["-6,-16", "-15,-2"], "position": {"x": 202, "y": 18}},
       {
         "name": "arithmetic-combinator",
         "direction": 6,
@@ -20445,7 +20445,7 @@
       {"name": "electric-mining-drill", "position": {"x": 10.5, "y": 180.5}},
       {
         "name": "medium-electric-pole",
-        "neighbours": ["6,-4", "-7.5,-4.5", "6,4"],
+        "neighbours": ["-7.5,-4.5", "6,-4", "6,4"],
         "position": {"x": 9.5, "y": 182.5}
       },
       {"name": "electric-mining-drill", "direction": 4, "position": {"x": 13.5, "y": 180.5}},
@@ -20971,7 +20971,7 @@
             "red": [{"entity_rel": "-26,0"}, {"entity_rel": "18,0"}]
           }
         },
-        "neighbours": ["-26,0", "-0.5,-3.5", "18,0"],
+        "neighbours": ["-0.5,-3.5", "-26,0", "18,0"],
         "position": {"x": 28, "y": 222}
       },
       {"name": "small-lamp", "position": {"x": 29.5, "y": 221.5}},
@@ -21987,7 +21987,7 @@
             "red": [{"entity_rel": "-18,0"}, {"entity_rel": "22,0"}]
           }
         },
-        "neighbours": ["-18,0", "5.5,-3.5", "22,0"],
+        "neighbours": ["5.5,-3.5", "-18,0", "22,0"],
         "position": {"x": 46, "y": 222}
       },
       {"name": "electric-mining-drill", "position": {"x": 49.5, "y": 216.5}},
@@ -24612,7 +24612,7 @@
             "red": [{"entity_rel": "-22,0"}, {"entity_rel": "18,0"}]
           }
         },
-        "neighbours": ["-22,0", "5.5,-3.5", "18,0"],
+        "neighbours": ["5.5,-3.5", "-22,0", "18,0"],
         "position": {"x": 178, "y": 222}
       },
       {"name": "straight-rail", "direction": 2, "position": {"x": 180, "y": 220}},
@@ -24669,7 +24669,7 @@
             "red": [{"entity_rel": "-18,0"}, {"entity_rel": "26,0"}]
           }
         },
-        "neighbours": ["-18,0", "-0.5,-3.5", "26,0"],
+        "neighbours": ["-0.5,-3.5", "-18,0", "26,0"],
         "position": {"x": 196, "y": 222}
       },
       {"name": "small-lamp", "position": {"x": 197.5, "y": 221.5}},
