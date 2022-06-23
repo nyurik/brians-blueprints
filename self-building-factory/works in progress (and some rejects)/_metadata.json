@@ -1,0 +1,14 @@
+{
+  "index": 43,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "Works in Progress (and some rejects)",
+    "active_index": 1,
+    "version": 281479275610112,
+    "icons": [
+      {"index": 1, "signal": {"name": "signal-W", "type": "virtual"}},
+      {"index": 2, "signal": {"name": "signal-I", "type": "virtual"}},
+      {"index": 3, "signal": {"name": "signal-P", "type": "virtual"}}
+    ]
+  }
+}
