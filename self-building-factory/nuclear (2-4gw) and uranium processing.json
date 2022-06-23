@@ -402,7 +402,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Kovarex / Rocket Fuel",
+        "station": "Kovarex/Rocket Fuel",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -863,7 +863,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Kovarex / U-235",
+        "station": "Kovarex/U-235",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "0.5,3"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -904,7 +904,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Kovarex / Iron",
+        "station": "Kovarex/Iron",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -1895,7 +1895,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Kovarex / Fuel Recycling",
+        "station": "Kovarex/Fuel Recycling",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -2435,7 +2435,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Kovarex / Uranium Ore",
+        "station": "Kovarex/Uranium Ore",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -4250,7 +4250,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Kovarex / Nuclear Fuel",
+        "station": "Kovarex/Nuclear Fuel",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "0.5,3"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -4896,7 +4896,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Kovarex / U-238",
+        "station": "Kovarex/U-238",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "0.5,3"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -6476,7 +6476,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Kovarex / Fuel Cells",
+        "station": "Kovarex/Fuel Cells",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "0.5,3"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -11644,7 +11644,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 4,
-        "station": "Kovarex / Bootstrap",
+        "station": "Kovarex/Bootstrap",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 2, "entity_rel": "-2,-1.5"}]}},
         "control_behavior": {

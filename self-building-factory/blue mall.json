@@ -274,7 +274,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Blue Mall - Uranium 238",
+        "station": "Blue Mall/Uranium 238",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -810,7 +810,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Blue Mall - Coal",
+        "station": "Blue Mall/Coal",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -1678,7 +1678,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Blue Mall - Iron Ore",
+        "station": "Blue Mall/Iron Ore",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -1714,7 +1714,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Blue Mall - Stone",
+        "station": "Blue Mall/Stone",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -2727,7 +2727,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Blue Mall - Iron",
+        "station": "Blue Mall/Iron",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -3251,7 +3251,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Blue Mall - Copper",
+        "station": "Blue Mall/Copper",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -4065,7 +4065,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Blue Mall - Processors",
+        "station": "Blue Mall/Processors",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -4485,7 +4485,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Red Mall - Green Circuits",
+        "station": "Red Mall/Green Circuits",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -5144,7 +5144,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Red Mall - Red Circuits",
+        "station": "Red Mall/Red Circuits",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -5654,7 +5654,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Blue Mall - Steel",
+        "station": "Blue Mall/Steel",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -17617,7 +17617,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 4,
-        "station": "Blue Mall - Production",
+        "station": "Blue Mall/Production",
         "color": {
           "a": 0.49803921580314636,
           "b": 0.007843137718737125,
@@ -18571,7 +18571,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Blue Mall - Bricks",
+        "station": "Blue Mall/Bricks",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -19292,7 +19292,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Blue Mall - Water",
+        "station": "Blue Mall/Water",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -19475,7 +19475,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Blue Mall - Light Oil",
+        "station": "Blue Mall/Light Oil",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -19598,7 +19598,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Blue Mall - Oil",
+        "station": "Blue Mall/Oil",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -29011,7 +29011,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Blue Mall - Methane",
+        "station": "Blue Mall/Methane",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -29213,7 +29213,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Blue Mall - Lubricant",
+        "station": "Blue Mall/Lubricant",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -34968,7 +34968,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Blue Mall - Recycling",
+        "station": "Blue Mall/Recycling",
         "color": {
           "a": 0.49803921580314636,
           "b": 0.007843137718737125,
