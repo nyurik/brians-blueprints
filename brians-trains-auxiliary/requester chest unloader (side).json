@@ -5,7 +5,7 @@
     "label": "Requester Chest Unloader (side)",
     "shift_x": 0,
     "shift_y": -5,
-    "version": 281479275347968,
+    "version": 281479275610112,
     "entities": [
       {"name": "transport-belt", "direction": 2, "position": {"x": -0.5, "y": -0.5}},
       {"name": "loader", "type": "output", "position": {"x": -0.5, "y": 1}},

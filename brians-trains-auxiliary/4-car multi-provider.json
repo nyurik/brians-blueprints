@@ -6,7 +6,7 @@
     "description": "This station can provide multiple items, each with a separate minimum loading (configured in the PRVD combinator).  Logic ensures that it won't exceed the request and risk leaving inserters hanging with items to drop in to the next train.\n\nIMPORTANT: If any of the provided items can be loaded into engines (coal, etc.) then the min-length must be changed to 6 (2 engines + 4 cars) or inserters will be left hanging and mess up all trains that come after.",
     "shift_x": -875,
     "shift_y": -457,
-    "version": 281479275347968,
+    "version": 281479275610112,
     "entities": [
       {"name": "medium-electric-pole", "neighbours": ["4,3"], "position": {"x": 0.5, "y": -1.5}},
       {
@@ -107,7 +107,7 @@
       {
         "name": "logistic-train-stop-input",
         "connections": {
-          "1": {"red": [{"circuit_id": 2, "entity_rel": "1,1.5"}, {"entity_rel": "0,2"}, {"entity_rel": "1,0"}]}
+          "1": {"red": [{"entity_rel": "1,0"}, {"circuit_id": 2, "entity_rel": "1,1.5"}, {"entity_rel": "0,2"}]}
         },
         "control_behavior": {
           "use_colors": true,

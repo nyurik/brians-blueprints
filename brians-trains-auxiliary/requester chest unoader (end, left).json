@@ -5,7 +5,7 @@
     "label": "Requester Chest Unoader (end, left)",
     "shift_x": -1,
     "shift_y": -2,
-    "version": 281479275347968,
+    "version": 281479275610112,
     "entities": [
       {"name": "loader", "direction": 2, "type": "output", "position": {"x": 0, "y": -0.5}},
       {"name": "transport-belt", "direction": 2, "position": {"x": 1.5, "y": -0.5}},

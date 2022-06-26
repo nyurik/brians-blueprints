@@ -5,7 +5,7 @@
     "label": "18-Station 2-Car Loop (no stacker)",
     "shift_x": -99,
     "shift_y": 325,
-    "version": 281479275347968,
+    "version": 281479275610112,
     "entities": [
       {"name": "curved-rail", "direction": 1, "position": {"x": 1, "y": 7}},
       {"name": "rail-signal", "position": {"x": -1.5, "y": 11.5}},

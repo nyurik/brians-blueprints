@@ -3,9 +3,10 @@
   "blueprint": {
     "item": "blueprint",
     "label": "Multi-Station Red",
+    "description": "Used to unload multi-station onto a red belt.  Each lane is independent.  Place beside any car.",
     "shift_x": 146,
     "shift_y": 176,
-    "version": 281479275347968,
+    "version": 281479275610112,
     "entities": [
       {"name": "medium-electric-pole", "neighbours": ["0,7"], "position": {"x": -1.5, "y": 0.5}},
       {"name": "fast-underground-belt", "direction": 6, "type": "input", "position": {"x": 0.5, "y": 0.5}},

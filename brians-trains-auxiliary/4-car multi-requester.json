@@ -6,7 +6,7 @@
     "description": "This station will accept multiple item amount (negative) in the configuration and unload them properly.  Unloading them equally from each side is left as an exercise for the reader.",
     "shift_x": -593,
     "shift_y": -113,
-    "version": 281479275347968,
+    "version": 281479275610112,
     "entities": [
       {
         "name": "medium-electric-pole",

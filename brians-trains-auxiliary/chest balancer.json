@@ -3,9 +3,10 @@
   "blueprint": {
     "item": "blueprint",
     "label": "Chest Balancer",
+    "description": "Place at the end of a provider station to keep the two sides balanced.  This is essential for  a multi-provider station where unbalanced loading could cause a stuck inserter and thus incorrect material dropped in the next train to arrive.",
     "shift_x": 0,
     "shift_y": -3,
-    "version": 281479275347968,
+    "version": 281479275610112,
     "entities": [
       {
         "name": "arithmetic-combinator",

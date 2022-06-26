@@ -5,7 +5,7 @@
     "label": "18-Station 4-Car Loop (no stacker)",
     "shift_x": -99,
     "shift_y": 311,
-    "version": 281479275347968,
+    "version": 281479275610112,
     "entities": [
       {"name": "curved-rail", "direction": 1, "position": {"x": 1, "y": 7}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 12, "y": 0}},

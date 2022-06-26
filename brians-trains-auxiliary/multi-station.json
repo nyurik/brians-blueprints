@@ -3,9 +3,10 @@
   "blueprint": {
     "item": "blueprint",
     "label": "Multi-Station",
+    "description": "A station that both receives (left side) & provides (right side).\n\nPut (negative) requests in the left-side combinator.  Be sure the total stacks won't exceed capacity (860 but five more chests at the end before merging makes 1000).\n\n[optional] Put (positive) provide thresholds in the right-side combinator.  Still subject to main LTN config.",
     "shift_x": -601,
     "shift_y": 106,
-    "version": 281479275347968,
+    "version": 281479275610112,
     "entities": [
       {
         "name": "arithmetic-combinator",
