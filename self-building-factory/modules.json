@@ -3688,7 +3688,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Modules/Processors",
+        "station": "[item=processing-unit]2 ⇝ [item=speed-module-3][item=productivity-module-3]   Blue @ Modules",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -4628,7 +4628,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Modules/Red Circuits",
+        "station": "[item=advanced-circuit]4 ⇝ [item=speed-module-3][item=productivity-module-3]   Red @ Modules",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -5357,7 +5357,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Modules/Green Circuits",
+        "station": "[item=electronic-circuit]4 ⇝ [item=speed-module-3][item=productivity-module-3]   Green @ Modules",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -23884,7 +23884,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 2,
-        "station": "Modules/Speed",
+        "station": "[item=speed-module][item=speed-module-2][item=speed-module-3]4   Speed @ Modules",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "-3,0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -24047,7 +24047,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 2,
-        "station": "Modules/Productivity",
+        "station": "[item=productivity-module][item=productivity-module-2][item=productivity-module-3]4   Productivity @ Modules",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "-3,0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},

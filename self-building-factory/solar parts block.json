@@ -168,7 +168,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Solar Parts/Iron",
+        "station": "[item=iron-plate]8 ⇝ [item=solar-panel]   Iron @ Solar Parts",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -507,7 +507,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Solar Parts/Production",
+        "station": "[item=solar-panel]4   Production @ Solar Parts",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "-0.5,2"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -982,7 +982,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Solar Parts/Batteries",
+        "station": "[item=battery]2 ⇝ [item=solar-panel]   Batteries @ Solar Parts",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -1017,7 +1017,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Solar Parts/Processors",
+        "station": "[item=processing-unit]2 ⇝ [item=solar-panel]   Blue @ Solar Parts",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -2073,7 +2073,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Solar Parts/Red Circuits",
+        "station": "[item=advanced-circuit]4 ⇝ [item=solar-panel]   Red @ Solar Parts",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -12528,7 +12528,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Solar Parts/Green Circuits",
+        "station": "[item=electronic-circuit]4 ⇝ [item=solar-panel]   Green @ Solar Parts",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -12563,7 +12563,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Solar Parts/Steel",
+        "station": "[item=steel-plate]4 ⇝ [item=solar-panel]   Steel @ Solar Parts",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -22891,7 +22891,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 4,
-        "station": "Solar Parts/Copper",
+        "station": "[item=copper-plate]8 ⇝ [item=solar-panel]   Copper @ Solar Parts",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "-0.5,-1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},

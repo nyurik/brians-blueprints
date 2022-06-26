@@ -15361,7 +15361,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 2,
-        "station": "",
+        "station": "[item=electric-mining-drill]8 Mine",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {
           "1": {

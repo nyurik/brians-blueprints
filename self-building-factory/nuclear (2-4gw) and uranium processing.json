@@ -402,7 +402,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Kovarex/Rocket Fuel",
+        "station": "[item=rocket-fuel]1   Rocket Fuel @ Kovarex",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -863,7 +863,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Kovarex/U-235",
+        "station": "[item=uranium-235]1   Uranium-235 @ Kovarex",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "0.5,3"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -904,7 +904,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Kovarex/Iron",
+        "station": "[item=iron-ore]2 ⇝ [item=nuclear-fuel][item=uranium-fuel-cell]   Iron @ Kovarex",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -1895,7 +1895,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Kovarex/Fuel Recycling",
+        "station": "[item=used-up-uranium-fuel-cell]1 ⇝ [item=nuclear-fuel][item=uranium-fuel-cell]   Fuel Recycling @ Kovarex",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -2435,7 +2435,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Kovarex/Uranium Ore",
+        "station": "[item=uranium-ore]4 ⇝ [item=nuclear-fuel][item=uranium-fuel-cell]   Uranium Ore @ Kovarex",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -4250,7 +4250,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Kovarex/Nuclear Fuel",
+        "station": "[item=nuclear-fuel]1   Nuclear Fuel @ Kovarex",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "0.5,3"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -4896,7 +4896,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Kovarex/U-238",
+        "station": "[item=uranium-238]1   Uranium-238 @ Kovarex",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "0.5,3"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -6476,7 +6476,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Kovarex/Fuel Cells",
+        "station": "[item=uranium-fuel-cell]1   Fuel Cells @ Kovarex",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "0.5,3"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -11644,7 +11644,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 4,
-        "station": "Kovarex/Bootstrap",
+        "station": "[item=uranium-235]1 ⇝ [item=nuclear-fuel][item=uranium-fuel-cell]   Bootstrap @ Kovarex",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 2, "entity_rel": "-2,-1.5"}]}},
         "control_behavior": {

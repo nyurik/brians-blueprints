@@ -275,7 +275,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Red Mall/Uranium 238",
+        "station": "[item=uranium-238]1 ⇝ [item=assembling-machine-2]   Uranium-238 @ Red Mall",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -812,7 +812,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Red Mall/Coal",
+        "station": "[item=coal]2 ⇝ [item=assembling-machine-2]   Coal @ Red Mall",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -1680,7 +1680,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Red Mall/Iron Ore",
+        "station": "[item=iron-ore]2 ⇝ [item=assembling-machine-2]   Iron @ Red Mall",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -1716,7 +1716,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Red Mall/Stone",
+        "station": "[item=stone]2 ⇝ [item=assembling-machine-2]   Stone @ Red Mall",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -2695,7 +2695,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Red Mall/Iron",
+        "station": "[item=iron-plate]4 ⇝ [item=assembling-machine-2]   Iron @ Red Mall",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -3220,7 +3220,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Red Mall/Copper",
+        "station": "[item=copper-plate]4 ⇝ [item=assembling-machine-2]   Copper @ Red Mall",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -4035,7 +4035,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Red Mall/Processors",
+        "station": "[item=processing-unit]1 ⇝ [item=assembling-machine-2]   Processors @ Red Mall",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -4456,7 +4456,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Red Mall/Green Circuits",
+        "station": "[item=electronic-circuit]4  ⇝ [item=assembling-machine-2]   Green @ Red Mall",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -5076,7 +5076,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Red Mall/Red Circuits",
+        "station": "[item=advanced-circuit]2  ⇝ [item=assembling-machine-2]   Red @ Red Mall",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -5557,7 +5557,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Red Mall/Steel",
+        "station": "[item=steel-plate]2 ⇝ [item=assembling-machine-2]   Steel @ Red Mall",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -16632,7 +16632,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 4,
-        "station": "Red Mall/Production",
+        "station": "[item=assembling-machine-2]4   Production @ Red Mall",
         "color": {
           "a": 0.49803921580314636,
           "b": 0.007843137718737125,
@@ -17561,7 +17561,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Red Mall/Bricks",
+        "station": "[item=stone-brick]2 ⇝ [item=assembling-machine-2]   Bricks @ Red Mall",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -18283,7 +18283,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Red Mall/Water",
+        "station": "[fluid=water]4 ⇝ [item=assembling-machine-2]   Water @ Red Mall",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -18467,7 +18467,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Red Mall/Light Oil",
+        "station": "[fluid=light-oil]1 ⇝ [item=assembling-machine-2]   Light Oil @ Red Mall",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -18591,7 +18591,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Red Mall/Oil",
+        "station": "[fluid=crude-oil]1 ⇝ [item=assembling-machine-2]   Oil @ Red Mall",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -28103,7 +28103,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Red Mall/Methane",
+        "station": "[fluid=petroleum-gas]1 ⇝ [item=assembling-machine-2]   Petroleum @ Red Mall",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -28306,7 +28306,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Red Mall/Lubricant",
+        "station": "[fluid=lubricant]1 ⇝ [item=assembling-machine-2]   Lubricant @ Red Mall",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -36215,7 +36215,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Red Mall/Iron4Belts",
+        "station": "[item=iron-plate]8 ⇝ [item=assembling-machine-2]   Iron @ Red Mall",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -41459,7 +41459,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 4,
-        "station": "Red Mall/Recycling",
+        "station": "[virtual-signal=signal-anything]4 ⇝ [item=logistic-chest-storage]   Recycling @ Red Mall",
         "color": {
           "a": 0.49803921580314636,
           "b": 0.007843137718737125,

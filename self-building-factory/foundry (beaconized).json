@@ -17516,7 +17516,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 2,
-        "station": "Foundry/Iron Ore1",
+        "station": "[item=iron-ore]8 ⇝ [item=steel-plate]   Iron @ Foundry[item=beacon]",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "-1.5,0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -19706,7 +19706,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 2,
-        "station": "Foundry/Steel",
+        "station": "[item=steel-plate]4   Steel @ Foundry[item=beacon]",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "-3,0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -19845,7 +19845,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 2,
-        "station": "Foundry/Iron Ore2",
+        "station": "[item=iron-ore]8 ⇝ [item=steel-plate]   Iron @ Foundry[item=beacon]",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "-1.5,0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},

@@ -1030,7 +1030,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Basic Science/Coal",
+        "station": "[item=coal]4 ⇝ [item=lab]   Coal @ 45SPM",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -1839,7 +1839,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Basic Science/Iron",
+        "station": "[item=iron-plate]4   Iron @ 45SPM",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "0.5,3"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -2813,7 +2813,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Basic Science/Copper",
+        "station": "[item=copper-plate]4   Copper @ 45SPM",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "0.5,3"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -2855,7 +2855,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Basic Science/Stone",
+        "station": "[item=stone]4 ⇝ [item=lab]   Stone @ 45SPM",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -4271,7 +4271,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Basic Science/Iron Ore",
+        "station": "[item=iron-ore]8 ⇝ [item=lab]   Iron @ 45SPM",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "0.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -17975,7 +17975,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Basic Science/Bricks",
+        "station": "[item=stone-brick]2   Bricks @ 45SPM",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "3,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -24086,7 +24086,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 4,
-        "station": "Basic Science/Copper Ore",
+        "station": "[item=copper-ore]8 ⇝ [item=lab]   Copper @ 45SPM",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"entity_rel": "-0.5,-1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -24994,7 +24994,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Basic Science/Lubricant",
+        "station": "[fluid=lubricant]1 ⇝ [item=lab]   Lubricant @ 45SPM",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "0.5,3"}, {"entity_rel": "1.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -25286,7 +25286,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 2,
-        "station": "Basic Science/Steel",
+        "station": "[item=steel-plate]2   Steel @ 45SPM",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "-3,0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -25449,7 +25449,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Basic Science/Methane",
+        "station": "[fluid=petroleum-gas]1   Petroleum @ 45SPM",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "0.5,3"}, {"entity_rel": "1.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -25960,7 +25960,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 6,
-        "station": "Basic Science/Oil",
+        "station": "[fluid=crude-oil]8 ⇝ [item=lab]   Oil @ 45SPM",
         "color": {"a": 0.49803921580314636, "b": 0, "g": 0, "r": 1},
         "connections": {"1": {"green": [{"entity_rel": "1.5,-0.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -27375,7 +27375,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Basic Science/Sulfuric Acid",
+        "station": "[fluid=sulfuric-acid]1   Sulfuric acid @ 45SPM",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "0.5,3"}, {"entity_rel": "1.5,1.5"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -28339,7 +28339,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Basic Science/Red Circuits",
+        "station": "[item=advanced-circuit]1   Red @ 45SPM",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "0.5,3"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -28791,7 +28791,7 @@
       },
       {
         "name": "logistic-train-stop",
-        "station": "Basic Science/Green Circuits",
+        "station": "[item=electronic-circuit]1   Green @ 45SPM",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "0.5,3"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
@@ -29550,7 +29550,7 @@
       {
         "name": "logistic-train-stop",
         "direction": 4,
-        "station": "Basic Science/Plastic",
+        "station": "[item=plastic-bar]1   Plastic @ 45SPM",
         "color": {"a": 0.49803921580314636, "b": 1, "g": 0.501960813999176, "r": 0},
         "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "-0.5,-3"}]}},
         "control_behavior": {"read_from_train": true, "train_stopped_signal": {"name": "signal-T", "type": "virtual"}},
