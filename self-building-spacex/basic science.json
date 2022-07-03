@@ -3580,8 +3580,8 @@
         "bar": 0,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
+            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,1"}, {"entity_rel": "1,0"}],
+            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,1"}, {"entity_rel": "1,0"}]
           }
         },
         "position": {"x": 129.5, "y": 9.5}
@@ -4572,8 +4572,8 @@
         "bar": 0,
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}, {"entity_rel": "0,-1"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}, {"entity_rel": "0,-1"}]
+            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "1,0"}],
+            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "1,0"}]
           }
         },
         "position": {"x": 129.5, "y": 14.5}
@@ -5575,7 +5575,7 @@
         "neighbours": ["-7,0", "0,3"],
         "position": {"x": 86.5, "y": 58.5}
       },
-      {"name": "loader", "direction": 2, "type": "output", "position": {"x": 87, "y": 57.5}},
+      {"name": "fast-loader", "direction": 2, "type": "output", "position": {"x": 87, "y": 57.5}},
       {"name": "fast-transport-belt", "direction": 2, "position": {"x": 88.5, "y": 57.5}},
       {"name": "fast-transport-belt", "direction": 4, "position": {"x": 89.5, "y": 57.5}},
       {
@@ -5832,7 +5832,7 @@
       },
       {"name": "straight-rail", "direction": 2, "position": {"x": 88, "y": 60}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 90, "y": 60}},
-      {"name": "loader", "direction": 2, "type": "output", "position": {"x": 87, "y": 62.5}},
+      {"name": "fast-loader", "direction": 2, "type": "output", "position": {"x": 87, "y": 62.5}},
       {"name": "fast-transport-belt", "direction": 4, "position": {"x": 88.5, "y": 62.5}},
       {
         "name": "fast-underground-belt",
@@ -6690,7 +6690,7 @@
         "name": "arithmetic-combinator",
         "direction": 2,
         "connections": {
-          "1": {"red": [{"circuit_id": 2, "entity_rel": "-2,0"}, {"circuit_id": 2, "entity_rel": "-2,-1"}]},
+          "1": {"red": [{"circuit_id": 2, "entity_rel": "-2,-1"}, {"circuit_id": 2, "entity_rel": "-2,0"}]},
           "2": {"red": [{"circuit_id": 1, "entity_rel": "2,0"}]}
         },
         "control_behavior": {
@@ -9241,8 +9241,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,1"}, {"entity_rel": "1,0"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,1"}, {"entity_rel": "1,0"}]
+            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 47.5, "y": 99.5}
@@ -9265,7 +9265,7 @@
             "red": [{"entity_rel": "-7,0"}, {"entity_rel": "0,-1"}, {"entity_rel": "7,0"}]
           }
         },
-        "neighbours": ["-7,0", "-3,-7", "7,0", "0,3"],
+        "neighbours": ["-3,-7", "-7,0", "7,0", "0,3"],
         "position": {"x": 47.5, "y": 100.5}
       },
       {
@@ -10391,8 +10391,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,1"}, {"entity_rel": "1,0"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,1"}, {"entity_rel": "1,0"}]
+            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 47.5, "y": 113.5}
@@ -11172,10 +11172,11 @@
       {"name": "transport-belt", "direction": 6, "position": {"x": 72.5, "y": 120.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 73.5, "y": 119.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 74.5, "y": 119.5}},
+      {"name": "transport-belt", "direction": 4, "position": {"x": 73.5, "y": 120.5}},
+      {"name": "transport-belt", "direction": 6, "position": {"x": 74.5, "y": 120.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 71.5, "y": 121.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 72.5, "y": 121.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 73.5, "y": 121.5}},
-      {"name": "transport-belt", "direction": 6, "position": {"x": 74.5, "y": 121.5}},
       {"name": "transport-belt", "position": {"x": 45.5, "y": 123.5}},
       {"name": "transport-belt", "position": {"x": 45.5, "y": 124.5}},
       {"name": "transport-belt", "position": {"x": 45.5, "y": 125.5}},
@@ -15919,8 +15920,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,1"}, {"entity_rel": "1,0"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,1"}, {"entity_rel": "1,0"}]
+            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 79.5, "y": 99.5}
@@ -16195,7 +16196,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"green": [{"entity_rel": "-7,0"}], "red": [{"entity_rel": "-7,0"}]}},
-        "neighbours": ["-7,0", "3,-7", "0,3"],
+        "neighbours": ["3,-7", "-7,0", "0,3"],
         "position": {"x": 86.5, "y": 100.5}
       },
       {"name": "straight-rail", "direction": 2, "position": {"x": 84, "y": 102}},
@@ -17092,8 +17093,8 @@
         "name": "iron-chest",
         "connections": {
           "1": {
-            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "0,1"}, {"entity_rel": "1,0"}],
-            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "0,1"}, {"entity_rel": "1,0"}]
+            "green": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}],
+            "red": [{"entity_rel": "-1,0"}, {"entity_rel": "1,0"}, {"entity_rel": "0,1"}]
           }
         },
         "position": {"x": 79.5, "y": 113.5}
@@ -17407,7 +17408,8 @@
       },
       {"name": "transport-belt", "direction": 6, "position": {"x": 75.5, "y": 119.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 76.5, "y": 119.5}},
-      {"name": "transport-belt", "direction": 4, "position": {"x": 76.5, "y": 120.5}},
+      {"name": "transport-belt", "direction": 6, "position": {"x": 75.5, "y": 120.5}},
+      {"name": "transport-belt", "direction": 6, "position": {"x": 76.5, "y": 120.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 77.5, "y": 119.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 78.5, "y": 119.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 77.5, "y": 120.5}},
@@ -17417,8 +17419,6 @@
         "type": "output",
         "position": {"x": 78.5, "y": 120.5}
       },
-      {"name": "transport-belt", "direction": 6, "position": {"x": 75.5, "y": 121.5}},
-      {"name": "transport-belt", "direction": 6, "position": {"x": 76.5, "y": 121.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 79.5, "y": 119.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 80.5, "y": 119.5}},
       {"name": "inserter", "direction": 4, "position": {"x": 79.5, "y": 120.5}},
