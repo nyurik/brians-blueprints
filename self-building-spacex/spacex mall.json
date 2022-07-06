@@ -5379,7 +5379,7 @@
       {
         "name": "pump",
         "direction": 2,
-        "connections": {"1": {"green": [{"entity_rel": "-2.5,1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "-2.5,1"}, {"entity_rel": "1.5,5"}]}},
         "control_behavior": {
           "circuit_condition": {"comparator": ">", "constant": 20000, "first_signal": {"name": "heavy-oil", "type": "fluid"}}
         },
@@ -5455,7 +5455,12 @@
       {"name": "pipe-to-ground", "direction": 4, "position": {"x": 87.5, "y": 19.5}},
       {"name": "pipe-to-ground", "direction": 4, "position": {"x": 89.5, "y": 18.5}},
       {"name": "pipe", "position": {"x": 89.5, "y": 19.5}},
-      {"name": "small-electric-pole", "neighbours": ["2,6"], "position": {"x": 84.5, "y": 20.5}},
+      {
+        "name": "small-electric-pole",
+        "connections": {"1": {"green": [{"entity_rel": "-1.5,-5"}, {"entity_rel": "2,6"}]}},
+        "neighbours": ["2,6"],
+        "position": {"x": 84.5, "y": 20.5}
+      },
       {
         "name": "pump",
         "direction": 2,
@@ -5500,7 +5505,15 @@
       {"name": "pipe", "position": {"x": 92.5, "y": 21.5}},
       {"name": "logistic-chest-passive-provider", "position": {"x": 93.5, "y": 21.5}},
       {"name": "chemical-plant", "recipe": "light-oil-cracking", "position": {"x": 91.5, "y": 23.5}},
-      {"name": "inserter", "direction": 2, "position": {"x": 94.5, "y": 21.5}},
+      {
+        "name": "inserter",
+        "direction": 2,
+        "connections": {"1": {"green": [{"entity_rel": "-4,5"}]}},
+        "control_behavior": {
+          "circuit_condition": {"comparator": "<", "constant": 10000, "first_signal": {"name": "heavy-oil", "type": "fluid"}}
+        },
+        "position": {"x": 94.5, "y": 21.5}
+      },
       {"name": "small-electric-pole", "neighbours": ["-4,3", "3,6"], "position": {"x": 94.5, "y": 23.5}},
       {
         "name": "se-fuel-refinery",
@@ -5576,7 +5589,7 @@
       {"name": "pipe", "position": {"x": 89.5, "y": 25.5}},
       {
         "name": "small-electric-pole",
-        "connections": {"1": {"green": [{"entity_rel": "-8,-3"}, {"entity_rel": "4,0"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "-8,-3"}, {"entity_rel": "-2,-6"}, {"entity_rel": "4,0"}]}},
         "neighbours": ["-2,-6", "4,0", "-4,3"],
         "position": {"x": 86.5, "y": 26.5}
       },
@@ -5636,7 +5649,7 @@
       {"name": "pipe", "position": {"x": 93.5, "y": 25.5}},
       {
         "name": "small-electric-pole",
-        "connections": {"1": {"green": [{"entity_rel": "-4,0"}, {"entity_rel": "4.5,-1"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "-4,0"}, {"entity_rel": "4.5,-1"}, {"entity_rel": "4,-5"}]}},
         "neighbours": ["-4,0", "4,-3", "-4,5"],
         "position": {"x": 90.5, "y": 26.5}
       },
@@ -5647,7 +5660,7 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "-4.5,1"}]}},
         "control_behavior": {
-          "circuit_condition": {"comparator": ">", "constant": 24500, "first_signal": {"name": "petroleum-gas", "type": "fluid"}}
+          "circuit_condition": {"comparator": ">", "constant": 24000, "first_signal": {"name": "petroleum-gas", "type": "fluid"}}
         },
         "position": {"x": 95, "y": 25.5}
       },

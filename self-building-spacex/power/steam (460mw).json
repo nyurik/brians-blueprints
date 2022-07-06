@@ -4384,7 +4384,7 @@
         },
         "connections": {"1": {"green": [{"entity_rel": "2,0"}]}},
         "control_behavior": {
-          "circuit_condition": {"comparator": "<", "constant": 25000, "first_signal": {"name": "coal", "type": "item"}},
+          "circuit_condition": {"comparator": "<", "constant": 50000, "first_signal": {"name": "coal", "type": "item"}},
           "circuit_parameters": {"instrument_id": 0, "note_id": 6, "signal_value_is_pitch": false}
         },
         "parameters": {"allow_polyphony": true, "playback_globally": true, "playback_volume": 0},
@@ -4440,7 +4440,8 @@
             {"count": 255, "index": 4, "signal": {"name": "ltn-network-id", "type": "virtual"}},
             {"count": 999999, "index": 5, "signal": {"name": "ltn-provider-stack-threshold", "type": "virtual"}},
             {"count": 320, "index": 6, "signal": {"name": "ltn-requester-stack-threshold", "type": "virtual"}},
-            {"count": -75000, "index": 7, "signal": {"name": "coal", "type": "item"}}
+            {"count": -90000, "index": 7, "signal": {"name": "coal", "type": "item"}},
+            {"count": 10, "index": 10, "signal": {"name": "ltn-requester-priority", "type": "virtual"}}
           ]
         },
         "position": {"x": 138.5, "y": 14.5}
@@ -4522,7 +4523,7 @@
             "red": [{"entity_rel": "4,-14"}, {"circuit_id": 1, "entity_rel": "1.5,-1"}]
           }
         },
-        "neighbours": ["4,-14", "-3.5,-0.5", "-8.5,-2.5"],
+        "neighbours": ["4,-14", "-8.5,-2.5", "-3.5,-0.5"],
         "position": {"x": 142, "y": 16}
       },
       {
