@@ -954,7 +954,6 @@
       {"name": "straight-rail", "position": {"x": 106, "y": 30}},
       {"name": "straight-rail", "position": {"x": 106, "y": 32}},
       {"name": "straight-rail", "position": {"x": 106, "y": 34}},
-      {"name": "roboport", "position": {"x": 113, "y": 30}},
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"red": [{"entity_rel": "0,9"}]}},
@@ -1066,6 +1065,7 @@
       {"name": "straight-rail", "position": {"x": 106, "y": 46}},
       {"name": "straight-rail", "position": {"x": 106, "y": 48}},
       {"name": "straight-rail", "position": {"x": 106, "y": 50}},
+      {"name": "roboport", "position": {"x": 112, "y": 48}},
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"red": [{"entity_rel": "0,-9"}, {"entity_rel": "0,9"}]}},
@@ -1546,7 +1546,7 @@
       {
         "name": "medium-electric-pole",
         "connections": {"1": {"red": [{"entity_rel": "0,-9"}]}},
-        "neighbours": ["0,-9", "-4,7"],
+        "neighbours": ["0,-9", "-4,7", "4,7"],
         "position": {"x": 111.5, "y": 89.5}
       },
       {"name": "straight-rail", "position": {"x": 120, "y": 76}},
@@ -1571,19 +1571,21 @@
       {"name": "straight-rail", "position": {"x": 106, "y": 98}},
       {
         "name": "medium-electric-pole",
-        "neighbours": ["4,-7", "-8,0", "4,0"],
+        "neighbours": ["4,-7", "-8,0", "8,0"],
         "position": {"x": 107.5, "y": 96.5}
       },
-      {"name": "medium-electric-pole", "neighbours": ["-4,0", "6,0"], "position": {"x": 111.5, "y": 96.5}},
-      {"name": "medium-electric-pole", "neighbours": ["-6,0", "4,0"], "position": {"x": 117.5, "y": 96.5}},
+      {
+        "name": "medium-electric-pole",
+        "neighbours": ["-8,0", "-4,-7", "6,0"],
+        "position": {"x": 115.5, "y": 96.5}
+      },
       {"name": "rail-signal", "direction": 4, "position": {"x": 107.5, "y": 99.5}},
       {"name": "curved-rail", "direction": 5, "position": {"x": 105, "y": 103}},
-      {"name": "radar", "position": {"x": 112.5, "y": 100.5}},
       {"name": "straight-rail", "direction": 3, "position": {"x": 116, "y": 106}},
       {"name": "straight-rail", "position": {"x": 120, "y": 92}},
       {"name": "straight-rail", "position": {"x": 120, "y": 94}},
       {"name": "straight-rail", "position": {"x": 120, "y": 96}},
-      {"name": "medium-electric-pole", "neighbours": ["-4,0", "8,0"], "position": {"x": 121.5, "y": 96.5}},
+      {"name": "medium-electric-pole", "neighbours": ["-6,0", "8,0"], "position": {"x": 121.5, "y": 96.5}},
       {"name": "straight-rail", "position": {"x": 120, "y": 98}},
       {"name": "straight-rail", "position": {"x": 128, "y": 92}},
       {"name": "straight-rail", "position": {"x": 128, "y": 94}},
@@ -1941,7 +1943,6 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
-        "filters": [{"name": "coal", "index": 1}],
         "position": {"x": 66.5, "y": 189.5}
       },
       {
@@ -1954,7 +1955,6 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
-        "filters": [{"name": "coal", "index": 1}],
         "position": {"x": 66.5, "y": 190.5}
       },
       {"name": "straight-rail", "position": {"x": 68, "y": 188}},
@@ -1965,7 +1965,6 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
-        "filters": [{"name": "coal", "index": 1}],
         "position": {"x": 69.5, "y": 189.5}
       },
       {
@@ -1978,7 +1977,6 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
-        "filters": [{"name": "coal", "index": 1}],
         "position": {"x": 69.5, "y": 190.5}
       },
       {
@@ -2016,7 +2014,6 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
-        "filters": [{"name": "coal", "index": 1}],
         "position": {"x": 66.5, "y": 191.5}
       },
       {
@@ -2029,7 +2026,6 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
-        "filters": [{"name": "coal", "index": 1}],
         "position": {"x": 66.5, "y": 192.5}
       },
       {"name": "transport-belt", "direction": 4, "position": {"x": 63.5, "y": 193.5}},
@@ -2067,7 +2063,6 @@
         "direction": 2,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
-        "filters": [{"name": "coal", "index": 1}],
         "position": {"x": 66.5, "y": 193.5}
       },
       {
@@ -2089,7 +2084,6 @@
           }
         },
         "control_behavior": {"circuit_mode_of_operation": 1},
-        "filters": [{"name": "coal", "index": 1}],
         "position": {"x": 66.5, "y": 194.5}
       },
       {"name": "straight-rail", "position": {"x": 68, "y": 192}},
@@ -2098,7 +2092,6 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
-        "filters": [{"name": "coal", "index": 1}],
         "position": {"x": 69.5, "y": 191.5}
       },
       {
@@ -2111,7 +2104,6 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
-        "filters": [{"name": "coal", "index": 1}],
         "position": {"x": 69.5, "y": 192.5}
       },
       {
@@ -2125,7 +2117,6 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
-        "filters": [{"name": "coal", "index": 1}],
         "position": {"x": 69.5, "y": 193.5}
       },
       {
@@ -2138,7 +2129,6 @@
         "direction": 6,
         "connections": {"1": {"green": [{"entity_rel": "-3,0"}, {"entity_rel": "0,-1"}]}},
         "control_behavior": {"circuit_mode_of_operation": 1},
-        "filters": [{"name": "coal", "index": 1}],
         "position": {"x": 69.5, "y": 194.5}
       },
       {
@@ -5607,8 +5597,8 @@
           "2": {
             "green": [
               {"circuit_id": 1, "entity_rel": "-2,0"},
-              {"circuit_id": 1, "entity_rel": "0,1"},
-              {"circuit_id": 1, "entity_rel": "0,2"}
+              {"circuit_id": 1, "entity_rel": "0,2"},
+              {"circuit_id": 1, "entity_rel": "0,1"}
             ]
           }
         },
@@ -5786,8 +5776,8 @@
           "1": {
             "green": [
               {"circuit_id": 2, "entity_rel": "0,0"},
-              {"circuit_id": 2, "entity_rel": "0,2"},
-              {"circuit_id": 1, "entity_rel": "0,1"}
+              {"circuit_id": 1, "entity_rel": "0,1"},
+              {"circuit_id": 2, "entity_rel": "0,2"}
             ],
             "red": [{"circuit_id": 1, "entity_rel": "-2,0"}]
           },
@@ -7865,7 +7855,7 @@
             "red": [{"entity_rel": "-26,0"}, {"entity_rel": "0,-26"}]
           }
         },
-        "neighbours": ["0,-26", "-26,0"],
+        "neighbours": ["-26,0", "0,-26"],
         "position": {"x": 222, "y": 222}
       },
       {"name": "curved-rail", "direction": 7, "position": {"x": 217, "y": 233}},
@@ -7886,7 +7876,7 @@
     ],
     "schedules": [
       {
-        "locomotives": [1142, 1498],
+        "locomotives": [1142, 1496],
         "schedule": [
           {"station": "-Home-"},
           {"station": "-Resupply-", "wait_conditions": [{"compare_type": "or", "type": "circuit"}]},
