@@ -3218,8 +3218,7 @@
             "comparator": "≤",
             "constant": 0,
             "copy_count_from_input": true,
-            "first_signal": {"name": "signal-G", "type": "virtual"},
-            "output_signal": {"name": "signal-train-scale-up", "type": "virtual"}
+            "first_signal": {"name": "signal-G", "type": "virtual"}
           }
         },
         "position": {"x": 146.5, "y": 142}
@@ -3249,14 +3248,7 @@
         "name": "arithmetic-combinator",
         "direction": 4,
         "connections": {"1": {"red": [{"circuit_id": 2, "entity_rel": "0,-2"}]}, "2": {"red": [{"entity_rel": "-0.5,2"}]}},
-        "control_behavior": {
-          "arithmetic_conditions": {
-            "operation": "*",
-            "second_constant": 60,
-            "first_signal": {"name": "signal-train-scale-up", "type": "virtual"},
-            "output_signal": {"name": "signal-train-scale-up", "type": "virtual"}
-          }
-        },
+        "control_behavior": {"arithmetic_conditions": {"operation": "*", "second_constant": 60}},
         "position": {"x": 146.5, "y": 144}
       },
       {"name": "straight-rail", "position": {"x": 144, "y": 146}},
@@ -3280,8 +3272,7 @@
             "comparator": "≤",
             "constant": 0,
             "copy_count_from_input": true,
-            "first_signal": {"name": "signal-C", "type": "virtual"},
-            "output_signal": {"name": "signal-train-scale-up", "type": "virtual"}
+            "first_signal": {"name": "signal-C", "type": "virtual"}
           }
         },
         "position": {"x": 142.5, "y": 150}
@@ -3328,14 +3319,7 @@
         "name": "arithmetic-combinator",
         "direction": 4,
         "connections": {"1": {"red": [{"circuit_id": 2, "entity_rel": "0,-2"}]}, "2": {"red": [{"entity_rel": "-0.5,2"}]}},
-        "control_behavior": {
-          "arithmetic_conditions": {
-            "operation": "*",
-            "second_constant": 60,
-            "first_signal": {"name": "signal-train-scale-up", "type": "virtual"},
-            "output_signal": {"name": "signal-train-scale-up", "type": "virtual"}
-          }
-        },
+        "control_behavior": {"arithmetic_conditions": {"operation": "*", "second_constant": 60}},
         "position": {"x": 142.5, "y": 152}
       },
       {"name": "straight-rail", "position": {"x": 140, "y": 154}},
@@ -3370,8 +3354,7 @@
             "comparator": "≤",
             "constant": 0,
             "copy_count_from_input": true,
-            "first_signal": {"name": "signal-F", "type": "virtual"},
-            "output_signal": {"name": "signal-train-scale-up", "type": "virtual"}
+            "first_signal": {"name": "signal-F", "type": "virtual"}
           }
         },
         "position": {"x": 146.5, "y": 158}
@@ -3403,14 +3386,7 @@
         "name": "arithmetic-combinator",
         "direction": 4,
         "connections": {"1": {"red": [{"circuit_id": 2, "entity_rel": "0,-2"}]}, "2": {"red": [{"entity_rel": "-0.5,2"}]}},
-        "control_behavior": {
-          "arithmetic_conditions": {
-            "operation": "*",
-            "second_constant": 60,
-            "first_signal": {"name": "signal-train-scale-up", "type": "virtual"},
-            "output_signal": {"name": "signal-train-scale-up", "type": "virtual"}
-          }
-        },
+        "control_behavior": {"arithmetic_conditions": {"operation": "*", "second_constant": 60}},
         "position": {"x": 146.5, "y": 160}
       },
       {"name": "straight-rail", "position": {"x": 144, "y": 162}},
@@ -6560,12 +6536,6 @@
       },
       {"name": "logistic-chest-active-provider", "position": {"x": 64.5, "y": 202.5}},
       {
-        "name": "train-scaling-stop",
-        "direction": 4,
-        "station": "Train Builder",
-        "position": {"x": 66, "y": 202}
-      },
-      {
         "name": "decider-combinator",
         "connections": {"1": {"green": [{"entity_rel": "2,-1.5"}]}, "2": {"green": [{"entity_rel": "1.5,1"}]}},
         "control_behavior": {
@@ -6573,8 +6543,7 @@
             "comparator": ">",
             "constant": 60,
             "copy_count_from_input": false,
-            "first_signal": {"name": "rocket-fuel", "type": "item"},
-            "output_signal": {"name": "signal-train-scale-up", "type": "virtual"}
+            "first_signal": {"name": "rocket-fuel", "type": "item"}
           }
         },
         "position": {"x": 62.5, "y": 203}
@@ -6809,8 +6778,7 @@
             "comparator": "≤",
             "constant": 2,
             "copy_count_from_input": true,
-            "first_signal": {"name": "signal-E", "type": "virtual"},
-            "output_signal": {"name": "signal-train-scale-up", "type": "virtual"}
+            "first_signal": {"name": "signal-E", "type": "virtual"}
           }
         },
         "position": {"x": 138.5, "y": 198}
@@ -6994,14 +6962,7 @@
         "name": "arithmetic-combinator",
         "direction": 4,
         "connections": {"1": {"red": [{"circuit_id": 2, "entity_rel": "0,-2"}]}, "2": {"red": [{"entity_rel": "-0.5,2"}]}},
-        "control_behavior": {
-          "arithmetic_conditions": {
-            "operation": "*",
-            "second_constant": 10,
-            "first_signal": {"name": "signal-train-scale-up", "type": "virtual"},
-            "output_signal": {"name": "signal-train-scale-up", "type": "virtual"}
-          }
-        },
+        "control_behavior": {"arithmetic_conditions": {"operation": "*", "second_constant": 10}},
         "position": {"x": 138.5, "y": 200}
       },
       {
@@ -7357,8 +7318,7 @@
             "comparator": "≤",
             "constant": 0,
             "copy_count_from_input": true,
-            "first_signal": {"name": "signal-B", "type": "virtual"},
-            "output_signal": {"name": "signal-train-scale-up", "type": "virtual"}
+            "first_signal": {"name": "signal-B", "type": "virtual"}
           }
         },
         "position": {"x": 146.5, "y": 182}
@@ -7399,14 +7359,7 @@
         "name": "arithmetic-combinator",
         "direction": 4,
         "connections": {"1": {"red": [{"circuit_id": 2, "entity_rel": "0,-2"}]}, "2": {"red": [{"entity_rel": "-0.5,2"}]}},
-        "control_behavior": {
-          "arithmetic_conditions": {
-            "operation": "*",
-            "second_constant": 60,
-            "first_signal": {"name": "signal-train-scale-up", "type": "virtual"},
-            "output_signal": {"name": "signal-train-scale-up", "type": "virtual"}
-          }
-        },
+        "control_behavior": {"arithmetic_conditions": {"operation": "*", "second_constant": 60}},
         "position": {"x": 146.5, "y": 184}
       },
       {"name": "cargo-wagon", "inventory": null, "orientation": 0.5, "position": {"x": 144, "y": 185}},
@@ -7462,8 +7415,7 @@
             "comparator": "≤",
             "constant": 1,
             "copy_count_from_input": true,
-            "first_signal": {"name": "signal-D", "type": "virtual"},
-            "output_signal": {"name": "signal-train-scale-up", "type": "virtual"}
+            "first_signal": {"name": "signal-D", "type": "virtual"}
           }
         },
         "position": {"x": 142.5, "y": 198}
@@ -7479,8 +7431,7 @@
             "comparator": "≤",
             "constant": 0,
             "copy_count_from_input": true,
-            "first_signal": {"name": "signal-A", "type": "virtual"},
-            "output_signal": {"name": "signal-train-scale-up", "type": "virtual"}
+            "first_signal": {"name": "signal-A", "type": "virtual"}
           }
         },
         "position": {"x": 146.5, "y": 198}
@@ -7502,8 +7453,7 @@
             "comparator": "≤",
             "constant": 0,
             "copy_count_from_input": true,
-            "first_signal": {"name": "signal-J", "type": "virtual"},
-            "output_signal": {"name": "signal-train-scale-up", "type": "virtual"}
+            "first_signal": {"name": "signal-J", "type": "virtual"}
           }
         },
         "position": {"x": 150.5, "y": 198}
@@ -7540,14 +7490,7 @@
         "name": "arithmetic-combinator",
         "direction": 4,
         "connections": {"1": {"red": [{"circuit_id": 2, "entity_rel": "0,-2"}]}, "2": {"red": [{"entity_rel": "-0.5,2"}]}},
-        "control_behavior": {
-          "arithmetic_conditions": {
-            "operation": "*",
-            "second_constant": 30,
-            "first_signal": {"name": "signal-train-scale-up", "type": "virtual"},
-            "output_signal": {"name": "signal-train-scale-up", "type": "virtual"}
-          }
-        },
+        "control_behavior": {"arithmetic_conditions": {"operation": "*", "second_constant": 30}},
         "position": {"x": 142.5, "y": 200}
       },
       {"name": "straight-rail", "position": {"x": 140, "y": 202}},
@@ -7586,14 +7529,7 @@
         "name": "arithmetic-combinator",
         "direction": 4,
         "connections": {"1": {"red": [{"circuit_id": 2, "entity_rel": "0,-2"}]}, "2": {"red": [{"entity_rel": "-0.5,2"}]}},
-        "control_behavior": {
-          "arithmetic_conditions": {
-            "operation": "*",
-            "second_constant": 60,
-            "first_signal": {"name": "signal-train-scale-up", "type": "virtual"},
-            "output_signal": {"name": "signal-train-scale-up", "type": "virtual"}
-          }
-        },
+        "control_behavior": {"arithmetic_conditions": {"operation": "*", "second_constant": 60}},
         "position": {"x": 146.5, "y": 200}
       },
       {"name": "straight-rail", "position": {"x": 144, "y": 202}},
@@ -7623,14 +7559,7 @@
         "name": "arithmetic-combinator",
         "direction": 4,
         "connections": {"1": {"red": [{"circuit_id": 2, "entity_rel": "0,-2"}]}, "2": {"red": [{"entity_rel": "-0.5,2"}]}},
-        "control_behavior": {
-          "arithmetic_conditions": {
-            "operation": "*",
-            "second_constant": 60,
-            "first_signal": {"name": "signal-train-scale-up", "type": "virtual"},
-            "output_signal": {"name": "signal-train-scale-up", "type": "virtual"}
-          }
-        },
+        "control_behavior": {"arithmetic_conditions": {"operation": "*", "second_constant": 60}},
         "position": {"x": 150.5, "y": 200}
       },
       {"name": "straight-rail", "position": {"x": 148, "y": 202}},
