@@ -61,8 +61,8 @@
       {"name": "small-lamp", "position": {"x": 29.5, "y": 1.5}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 24, "y": 4}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 26, "y": 4}},
-      {"name": "curved-rail", "direction": 6, "position": {"x": 25, "y": 5}},
       {"name": "curved-rail", "direction": 3, "position": {"x": 25, "y": 5}},
+      {"name": "curved-rail", "direction": 6, "position": {"x": 25, "y": 5}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 28, "y": 4}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 30, "y": 4}},
       {"name": "rail-signal", "direction": 6, "position": {"x": 29.5, "y": 5.5}},
@@ -4273,6 +4273,22 @@
       {"name": "straight-rail", "position": {"x": 110, "y": 144}},
       {"name": "curved-rail", "direction": 5, "position": {"x": 109, "y": 149}},
       {"name": "straight-rail", "position": {"x": 114, "y": 144}},
+      {
+        "name": "programmable-speaker",
+        "alert_parameters": {
+          "alert_message": "Too Few Bots (bot attrition)",
+          "show_alert": true,
+          "show_on_map": true,
+          "icon_signal_id": {"name": "logistic-robot", "type": "item"}
+        },
+        "connections": {"1": {"green": [{"entity_rel": "-0.5,4.5"}]}},
+        "control_behavior": {
+          "circuit_condition": {"comparator": "<", "constant": 20, "first_signal": {"name": "signal-Y", "type": "virtual"}},
+          "circuit_parameters": {"instrument_id": 0, "note_id": 0, "signal_value_is_pitch": false}
+        },
+        "parameters": {"allow_polyphony": false, "playback_globally": true, "playback_volume": 0},
+        "position": {"x": 112.5, "y": 147.5}
+      },
       {"name": "big-electric-pole", "neighbours": ["0,-25", "-4,21"], "position": {"x": 112, "y": 149}},
       {"name": "curved-rail", "direction": 4, "position": {"x": 115, "y": 149}},
       {"name": "curved-rail", "direction": 7, "position": {"x": 121, "y": 135}},
@@ -4293,7 +4309,12 @@
       {"name": "straight-rail", "direction": 7, "position": {"x": 106, "y": 154}},
       {"name": "curved-rail", "direction": 2, "position": {"x": 103, "y": 155}},
       {"name": "straight-rail", "direction": 7, "position": {"x": 104, "y": 156}},
-      {"name": "roboport", "position": {"x": 112, "y": 152}},
+      {
+        "name": "roboport",
+        "connections": {"1": {"green": [{"entity_rel": "0.5,-4.5"}]}},
+        "control_behavior": {"read_logistics": false, "read_robot_stats": true},
+        "position": {"x": 112, "y": 152}
+      },
       {
         "name": "constant-combinator",
         "control_behavior": {"filters": [{"count": 1, "index": 1, "signal": {"name": "signal-check", "type": "virtual"}}]},
@@ -7515,7 +7536,7 @@
         "connections": {"1": {"green": [{"entity_rel": "1,1"}], "red": [{"entity_rel": "-2,0"}]}},
         "control_behavior": {
           "filters": [
-            {"count": 24, "index": 1, "signal": {"name": "programmable-speaker", "type": "item"}},
+            {"count": 25, "index": 1, "signal": {"name": "programmable-speaker", "type": "item"}},
             {"count": 50, "index": 10, "signal": {"name": "logistic-robot", "type": "item"}},
             {"count": 0, "index": 11, "signal": {"name": "stone-brick", "type": "item"}},
             {"count": 0, "index": 12, "signal": {"name": "concrete", "type": "item"}},
@@ -7883,8 +7904,8 @@
       {"name": "straight-rail", "direction": 3, "position": {"x": 202, "y": 216}},
       {"name": "rail-chain-signal", "direction": 2, "position": {"x": 202.5, "y": 218.5}},
       {"name": "straight-rail", "direction": 7, "position": {"x": 204, "y": 216}},
-      {"name": "curved-rail", "direction": 2, "position": {"x": 199, "y": 219}},
       {"name": "curved-rail", "direction": 7, "position": {"x": 199, "y": 219}},
+      {"name": "curved-rail", "direction": 2, "position": {"x": 199, "y": 219}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 200, "y": 220}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 202, "y": 220}},
       {"name": "straight-rail", "direction": 3, "position": {"x": 210, "y": 216}},

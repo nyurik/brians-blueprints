@@ -274,7 +274,7 @@
       {
         "name": "arithmetic-combinator",
         "connections": {
-          "1": {"red": [{"circuit_id": 2, "entity_rel": "-1,2"}, {"circuit_id": 2, "entity_rel": "0,2"}]},
+          "1": {"red": [{"circuit_id": 2, "entity_rel": "0,2"}, {"circuit_id": 2, "entity_rel": "-1,2"}]},
           "2": {"red": [{"circuit_id": 1, "entity_rel": "0,-2"}]}
         },
         "control_behavior": {
@@ -729,7 +729,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "0,-22"}, {"entity_rel": "0,22"}],
-            "red": [{"entity_rel": "0,-22"}, {"circuit_id": 1, "entity_rel": "-0.5,2"}, {"entity_rel": "0,22"}]
+            "red": [{"entity_rel": "0,-22"}, {"entity_rel": "0,22"}]
           }
         },
         "neighbours": ["0,-22", "0,22"],
@@ -737,20 +737,6 @@
       },
       {"name": "straight-rail", "position": {"x": 0, "y": 20}},
       {"name": "small-lamp", "position": {"x": 2.5, "y": 19.5}},
-      {
-        "name": "arithmetic-combinator",
-        "direction": 4,
-        "connections": {"1": {"red": [{"entity_rel": "0.5,-2"}]}},
-        "control_behavior": {
-          "arithmetic_conditions": {
-            "operation": "+",
-            "second_constant": 0,
-            "first_signal": {"name": "signal-S", "type": "virtual"},
-            "output_signal": {"name": "signal-S", "type": "virtual"}
-          }
-        },
-        "position": {"x": 1.5, "y": 20}
-      },
       {"name": "straight-rail", "position": {"x": 4, "y": 14}},
       {"name": "express-transport-belt", "direction": 4, "position": {"x": 6.5, "y": 13.5}},
       {"name": "express-transport-belt", "direction": 2, "position": {"x": 6.5, "y": 14.5}},
@@ -985,6 +971,7 @@
             "green": [{"circuit_id": 2, "entity_rel": "-1.5,0"}, {"entity_rel": "-14,8"}],
             "red": [
               {"circuit_id": 1, "entity_rel": "-1,-1.5"},
+              {"circuit_id": 2, "entity_rel": "5,2.5"},
               {"circuit_id": 1, "entity_rel": "5,4.5"},
               {"entity_rel": "-14,8"}
             ]
@@ -1042,8 +1029,7 @@
             {"count": 6, "index": 3, "signal": {"name": "ltn-max-train-length", "type": "virtual"}},
             {"count": 4351, "index": 4, "signal": {"name": "ltn-network-id", "type": "virtual"}},
             {"count": 1, "index": 5, "signal": {"name": "ltn-provider-threshold", "type": "virtual"}},
-            {"count": 10, "index": 6, "signal": {"name": "ltn-requester-stack-threshold", "type": "virtual"}},
-            {"count": 1, "index": 11, "signal": {"name": "ltn-provider-priority", "type": "virtual"}}
+            {"count": 10, "index": 6, "signal": {"name": "ltn-requester-stack-threshold", "type": "virtual"}}
           ]
         },
         "position": {"x": 15.5, "y": -10.5}
@@ -1139,7 +1125,7 @@
       {
         "name": "arithmetic-combinator",
         "connections": {
-          "1": {"red": [{"circuit_id": 2, "entity_rel": "-1,2"}, {"circuit_id": 2, "entity_rel": "0,2"}]},
+          "1": {"red": [{"circuit_id": 2, "entity_rel": "0,2"}, {"circuit_id": 2, "entity_rel": "-1,2"}]},
           "2": {"red": [{"circuit_id": 1, "entity_rel": "0,-2"}]}
         },
         "control_behavior": {
@@ -1211,15 +1197,15 @@
             {"count": 0, "index": 2, "signal": {"name": "signal-R", "type": "virtual"}},
             {"count": 0, "index": 3, "signal": {"name": "signal-V", "type": "virtual"}},
             {"count": 0, "index": 4, "signal": {"name": "signal-D", "type": "virtual"}},
-            {"count": 4000, "index": 11, "signal": {"name": "transport-belt", "type": "item"}},
-            {"count": 500, "index": 12, "signal": {"name": "splitter", "type": "item"}},
-            {"count": 1000, "index": 13, "signal": {"name": "underground-belt", "type": "item"}},
-            {"count": 4000, "index": 14, "signal": {"name": "fast-transport-belt", "type": "item"}},
-            {"count": 500, "index": 15, "signal": {"name": "fast-splitter", "type": "item"}},
-            {"count": 1000, "index": 16, "signal": {"name": "fast-underground-belt", "type": "item"}},
-            {"count": 4000, "index": 17, "signal": {"name": "express-transport-belt", "type": "item"}},
-            {"count": 500, "index": 18, "signal": {"name": "express-splitter", "type": "item"}},
-            {"count": 1000, "index": 19, "signal": {"name": "express-underground-belt", "type": "item"}}
+            {"count": 1000, "index": 11, "signal": {"name": "transport-belt", "type": "item"}},
+            {"count": 100, "index": 12, "signal": {"name": "splitter", "type": "item"}},
+            {"count": 100, "index": 13, "signal": {"name": "underground-belt", "type": "item"}},
+            {"count": 1000, "index": 14, "signal": {"name": "fast-transport-belt", "type": "item"}},
+            {"count": 100, "index": 15, "signal": {"name": "fast-splitter", "type": "item"}},
+            {"count": 100, "index": 16, "signal": {"name": "fast-underground-belt", "type": "item"}},
+            {"count": 1000, "index": 17, "signal": {"name": "express-transport-belt", "type": "item"}},
+            {"count": 100, "index": 18, "signal": {"name": "express-splitter", "type": "item"}},
+            {"count": 100, "index": 19, "signal": {"name": "express-underground-belt", "type": "item"}}
           ]
         },
         "position": {"x": 14.5, "y": -3.5}
@@ -1389,8 +1375,22 @@
         "position": {"x": 18.5, "y": -5}
       },
       {
+        "name": "arithmetic-combinator",
+        "direction": 6,
+        "connections": {"1": {"red": [{"circuit_id": 1, "entity_rel": "0,3"}]}, "2": {"red": [{"entity_rel": "-5,-2.5"}]}},
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "*",
+            "second_constant": -1,
+            "first_signal": {"name": "signal-each", "type": "virtual"},
+            "output_signal": {"name": "signal-each", "type": "virtual"}
+          }
+        },
+        "position": {"x": 21, "y": -9.5}
+      },
+      {
         "name": "medium-electric-pole",
-        "neighbours": ["-3.5,-3.5", "-5,0", "-6,-6", "-6,5"],
+        "neighbours": ["-6,-6", "-3.5,-3.5", "-5,0", "-6,5"],
         "position": {"x": 19.5, "y": -8.5}
       },
       {
@@ -1421,7 +1421,10 @@
         "name": "decider-combinator",
         "direction": 2,
         "connections": {
-          "1": {"red": [{"entity_rel": "-5.5,6"}]},
+          "1": {
+            "green": [{"entity_rel": "4.5,5"}],
+            "red": [{"circuit_id": 1, "entity_rel": "0,-3"}, {"entity_rel": "-5.5,6"}]
+          },
           "2": {"green": [{"circuit_id": 2, "entity_rel": "0,-1"}, {"circuit_id": 2, "entity_rel": "0,1"}]}
         },
         "control_behavior": {
@@ -1584,7 +1587,7 @@
         "name": "inserter",
         "direction": 2,
         "connections": {"1": {"red": [{"circuit_id": 1, "entity_rel": "5.5,-6"}, {"entity_rel": "0,1"}]}},
-        "control_behavior": {"circuit_hand_read_mode": 1, "circuit_mode_of_operation": 3, "circuit_read_hand_contents": true},
+        "control_behavior": {"circuit_mode_of_operation": 3, "circuit_read_hand_contents": true},
         "position": {"x": 15.5, "y": -0.5}
       },
       {"name": "transport-belt", "direction": 6, "position": {"x": 16.5, "y": -0.5}},
@@ -1592,7 +1595,7 @@
         "name": "inserter",
         "direction": 2,
         "connections": {"1": {"red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
-        "control_behavior": {"circuit_hand_read_mode": 1, "circuit_mode_of_operation": 3, "circuit_read_hand_contents": true},
+        "control_behavior": {"circuit_mode_of_operation": 3, "circuit_read_hand_contents": true},
         "position": {"x": 15.5, "y": 0.5}
       },
       {"name": "transport-belt", "direction": 6, "position": {"x": 16.5, "y": 0.5}},
@@ -1681,7 +1684,7 @@
         "name": "inserter",
         "direction": 2,
         "connections": {"1": {"red": [{"entity_rel": "0,-1"}, {"entity_rel": "8,5"}]}},
-        "control_behavior": {"circuit_hand_read_mode": 1, "circuit_mode_of_operation": 3, "circuit_read_hand_contents": true},
+        "control_behavior": {"circuit_mode_of_operation": 3, "circuit_read_hand_contents": true},
         "position": {"x": 15.5, "y": 1.5}
       },
       {"name": "transport-belt", "direction": 6, "position": {"x": 16.5, "y": 1.5}},
@@ -1739,6 +1742,11 @@
       {"name": "transport-belt", "direction": 6, "position": {"x": 22.5, "y": -0.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 21.5, "y": 0.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 22.5, "y": 0.5}},
+      {
+        "name": "medium-electric-pole",
+        "connections": {"1": {"green": [{"circuit_id": 1, "entity_rel": "-4.5,-5"}, {"entity_rel": "4,7"}]}},
+        "position": {"x": 25.5, "y": -1.5}
+      },
       {"name": "transport-belt", "direction": 6, "position": {"x": 23.5, "y": -0.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 24.5, "y": -0.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 23.5, "y": 0.5}},
@@ -1895,7 +1903,7 @@
         "name": "inserter",
         "direction": 2,
         "connections": {"1": {"red": [{"entity_rel": "8,-5"}, {"entity_rel": "0,1"}]}},
-        "control_behavior": {"circuit_hand_read_mode": 1, "circuit_mode_of_operation": 3, "circuit_read_hand_contents": true},
+        "control_behavior": {"circuit_mode_of_operation": 3, "circuit_read_hand_contents": true},
         "position": {"x": 15.5, "y": 11.5}
       },
       {"name": "transport-belt", "direction": 6, "position": {"x": 16.5, "y": 11.5}},
@@ -1903,7 +1911,7 @@
         "name": "inserter",
         "direction": 2,
         "connections": {"1": {"red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
-        "control_behavior": {"circuit_hand_read_mode": 1, "circuit_mode_of_operation": 3, "circuit_read_hand_contents": true},
+        "control_behavior": {"circuit_mode_of_operation": 3, "circuit_read_hand_contents": true},
         "position": {"x": 15.5, "y": 12.5}
       },
       {"name": "transport-belt", "direction": 6, "position": {"x": 16.5, "y": 12.5}},
@@ -1946,7 +1954,7 @@
         "connections": {
           "1": {
             "green": [{"entity_rel": "-3,-5"}, {"entity_rel": "-3,5"}],
-            "red": [{"entity_rel": "-8,-5"}, {"entity_rel": "-8,5"}, {"entity_rel": "4,6"}]
+            "red": [{"entity_rel": "-8,-5"}, {"entity_rel": "-8,5"}]
           }
         },
         "neighbours": ["6,-1"],
@@ -2077,6 +2085,7 @@
       },
       {
         "name": "medium-electric-pole",
+        "connections": {"1": {"green": [{"entity_rel": "-4,-7"}, {"entity_rel": "-2,7"}]}},
         "neighbours": ["-6,1", "7,0", "-2,7"],
         "position": {"x": 29.5, "y": 5.5}
       },
@@ -2100,7 +2109,7 @@
       {"name": "fast-inserter", "direction": 2, "position": {"x": 28.5, "y": 11.5}},
       {
         "name": "medium-electric-pole",
-        "connections": {"1": {"red": [{"entity_rel": "-4,-6"}, {"entity_rel": "0,7"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "2,-7"}, {"entity_rel": "0,7"}]}},
         "neighbours": ["2,-7", "0,7"],
         "position": {"x": 27.5, "y": 12.5}
       },
@@ -2200,7 +2209,7 @@
         "name": "inserter",
         "direction": 2,
         "connections": {"1": {"red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
-        "control_behavior": {"circuit_hand_read_mode": 1, "circuit_mode_of_operation": 3, "circuit_read_hand_contents": true},
+        "control_behavior": {"circuit_mode_of_operation": 3, "circuit_read_hand_contents": true},
         "position": {"x": 15.5, "y": 13.5}
       },
       {"name": "transport-belt", "direction": 6, "position": {"x": 16.5, "y": 13.5}},
@@ -2208,7 +2217,7 @@
         "name": "inserter",
         "direction": 2,
         "connections": {"1": {"red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
-        "control_behavior": {"circuit_hand_read_mode": 1, "circuit_mode_of_operation": 3, "circuit_read_hand_contents": true},
+        "control_behavior": {"circuit_mode_of_operation": 3, "circuit_read_hand_contents": true},
         "position": {"x": 15.5, "y": 14.5}
       },
       {"name": "transport-belt", "direction": 6, "position": {"x": 16.5, "y": 14.5}},
@@ -2246,7 +2255,7 @@
         "name": "inserter",
         "direction": 2,
         "connections": {"1": {"red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
-        "control_behavior": {"circuit_hand_read_mode": 1, "circuit_mode_of_operation": 3, "circuit_read_hand_contents": true},
+        "control_behavior": {"circuit_mode_of_operation": 3, "circuit_read_hand_contents": true},
         "position": {"x": 15.5, "y": 15.5}
       },
       {"name": "transport-belt", "direction": 6, "position": {"x": 16.5, "y": 15.5}},
@@ -2254,7 +2263,7 @@
         "name": "inserter",
         "direction": 2,
         "connections": {"1": {"red": [{"entity_rel": "0,-1"}]}},
-        "control_behavior": {"circuit_hand_read_mode": 1, "circuit_mode_of_operation": 3, "circuit_read_hand_contents": true},
+        "control_behavior": {"circuit_mode_of_operation": 3, "circuit_read_hand_contents": true},
         "position": {"x": 15.5, "y": 16.5}
       },
       {"name": "transport-belt", "direction": 6, "position": {"x": 16.5, "y": 16.5}},
@@ -2564,7 +2573,7 @@
       {"name": "express-transport-belt", "position": {"x": 30.5, "y": 18.5}},
       {
         "name": "medium-electric-pole",
-        "connections": {"1": {"red": [{"entity_rel": "0,-7"}, {"circuit_id": 2, "entity_rel": "5,4.5"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,-7"}, {"circuit_id": 2, "entity_rel": "5,4.5"}]}},
         "neighbours": ["0,-7", "7,2"],
         "position": {"x": 27.5, "y": 19.5}
       },
@@ -2638,7 +2647,7 @@
       },
       {
         "name": "decider-combinator",
-        "connections": {"1": {"green": [{"entity_rel": "0,5.5"}]}, "2": {"red": [{"entity_rel": "-5,-4.5"}]}},
+        "connections": {"1": {"green": [{"entity_rel": "0,5.5"}]}, "2": {"green": [{"entity_rel": "-5,-4.5"}]}},
         "control_behavior": {
           "decider_conditions": {
             "comparator": "<",
