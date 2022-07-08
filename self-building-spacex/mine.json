@@ -11090,16 +11090,16 @@
           "1": {
             "green": [{"entity_rel": "0,7"}],
             "red": [
-              {"entity_rel": "-5,-6"},
               {"entity_rel": "-5,-5"},
-              {"entity_rel": "-5,-4"},
+              {"entity_rel": "-5,-6"},
               {"entity_rel": "-5,-3"},
-              {"entity_rel": "-5,-2"},
+              {"entity_rel": "-5,-4"},
               {"entity_rel": "-5,-1"},
-              {"entity_rel": "-5,0"},
+              {"entity_rel": "-5,-2"},
               {"entity_rel": "-5,1"},
-              {"entity_rel": "-5,2"},
+              {"entity_rel": "-5,0"},
               {"entity_rel": "-5,3"},
+              {"entity_rel": "-5,2"},
               {"entity_rel": "0,7"}
             ]
           }
@@ -18760,12 +18760,12 @@
             "red": [
               {"entity_rel": "0,-7"},
               {"entity_rel": "-5,-4"},
-              {"entity_rel": "-5,-2"},
               {"entity_rel": "-5,-3"},
-              {"entity_rel": "-5,0"},
+              {"entity_rel": "-5,-2"},
               {"entity_rel": "-5,-1"},
-              {"entity_rel": "-5,1"},
+              {"entity_rel": "-5,0"},
               {"entity_rel": "-5,2"},
+              {"entity_rel": "-5,1"},
               {"entity_rel": "0,7"}
             ]
           }
@@ -19104,12 +19104,12 @@
             "green": [{"entity_rel": "0,-7"}, {"entity_rel": "3,0"}, {"entity_rel": "-1,5"}],
             "red": [
               {"entity_rel": "0,-7"},
-              {"entity_rel": "-5,-3"},
               {"entity_rel": "-5,-4"},
-              {"entity_rel": "-5,-1"},
+              {"entity_rel": "-5,-3"},
               {"entity_rel": "-5,-2"},
-              {"entity_rel": "-5,1"},
+              {"entity_rel": "-5,-1"},
               {"entity_rel": "-5,0"},
+              {"entity_rel": "-5,1"},
               {"entity_rel": "-5,2"},
               {"entity_rel": "-1,5"}
             ]
@@ -19314,7 +19314,8 @@
             {"count": 11, "index": 3, "signal": {"name": "ltn-max-train-length", "type": "virtual"}},
             {"count": 255, "index": 4, "signal": {"name": "ltn-network-id", "type": "virtual"}},
             {"count": 3, "index": 5, "signal": {"name": "ltn-locked-slots", "type": "virtual"}},
-            {"count": 320, "index": 6, "signal": {"name": "ltn-provider-stack-threshold", "type": "virtual"}}
+            {"count": 320, "index": 6, "signal": {"name": "ltn-provider-stack-threshold", "type": "virtual"}},
+            {"count": 1, "index": 10, "signal": {"name": "ltn-provider-priority", "type": "virtual"}}
           ]
         },
         "position": {"x": 208.5, "y": 184.5}

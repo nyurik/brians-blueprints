@@ -2147,7 +2147,6 @@
       {"name": "straight-rail", "direction": 2, "position": {"x": 86, "y": 7}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 88, "y": 7}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 90, "y": 7}},
-      {"name": "rail-signal", "direction": 2, "position": {"x": 95.5, "y": 5.5}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 92, "y": 7}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 94, "y": 7}},
       {"name": "curved-rail", "direction": 3, "position": {"x": 99, "y": 8}},
