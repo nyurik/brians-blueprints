@@ -5,7 +5,7 @@
     "label": "Construction Monitor",
     "shift_x": -100,
     "shift_y": 104,
-    "version": 281479275610112,
+    "version": 281479275675648,
     "entities": [
       {
         "name": "programmable-speaker",

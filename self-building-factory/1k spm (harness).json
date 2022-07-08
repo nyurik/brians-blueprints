@@ -7,7 +7,7 @@
     "absolute-snapping": true,
     "shift_x": -387,
     "shift_y": -167,
-    "version": 281479275610112,
+    "version": 281479275675648,
     "entities": [
       {"name": "rail-chain-signal", "direction": 2, "position": {"x": 2.5, "y": -11.5}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 2, "y": -10}},
@@ -48540,7 +48540,7 @@
       {"index": 1, "signal": {"name": "signal-1", "type": "virtual"}},
       {"index": 2, "signal": {"name": "signal-K", "type": "virtual"}},
       {"index": 3, "signal": {"name": "automation-science-pack", "type": "item"}},
-      {"index": 4, "signal": {"backup": "space-science-pack", "type": "item"}}
+      {"index": 4, "signal": {"name": "space-science-pack", "type": "item"}}
     ],
     "snap-to-grid": {"x": 110, "y": 110}
   }

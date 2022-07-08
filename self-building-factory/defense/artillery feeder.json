@@ -6,7 +6,7 @@
     "description": "Bots will load the parts.\n\nConnect the *red* wire from the train network to the input of the \">\" combinator.  That controls loading of the belt.",
     "shift_x": 66,
     "shift_y": 30,
-    "version": 281479275610112,
+    "version": 281479275675648,
     "entities": [
       {"name": "transport-belt", "direction": 4, "position": {"x": 0.5, "y": 0.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 1.5, "y": 0.5}},

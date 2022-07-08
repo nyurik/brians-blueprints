@@ -6,7 +6,7 @@
     "absolute-snapping": true,
     "shift_x": 47,
     "shift_y": 47,
-    "version": 281479275610112,
+    "version": 281479275675648,
     "entities": [
       {"name": "fast-transport-belt", "direction": 4, "position": {"x": 0.5, "y": 0.5}},
       {"name": "fast-transport-belt", "direction": 6, "position": {"x": 1.5, "y": 0.5}},

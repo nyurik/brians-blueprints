@@ -7,7 +7,7 @@
     "absolute-snapping": true,
     "shift_x": -167,
     "shift_y": -167,
-    "version": 281479275610112,
+    "version": 281479275675648,
     "entities": [
       {"name": "rail-chain-signal", "direction": 2, "position": {"x": 2.5, "y": -11.5}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 2, "y": -10}},
@@ -416,21 +416,39 @@
         "name": "constant-combinator",
         "direction": 4,
         "connections": {"1": {"red": [{"entity_rel": "0,1"}]}},
-        "control_behavior": {"is_on": false},
+        "control_behavior": {
+          "is_on": false,
+          "filters": [
+            {"count": 3100, "index": 1, "signal": {"name": "ultimate-solar", "type": "item"}},
+            {"count": 3000, "index": 2, "signal": {"name": "ultimate-accumulator", "type": "item"}}
+          ]
+        },
         "position": {"x": 87.5, "y": 19.5}
       },
       {
         "name": "constant-combinator",
         "direction": 4,
         "connections": {"1": {"red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
-        "control_behavior": {"is_on": false},
+        "control_behavior": {
+          "is_on": false,
+          "filters": [
+            {"count": 3100, "index": 1, "signal": {"name": "elite-solar", "type": "item"}},
+            {"count": 3000, "index": 2, "signal": {"name": "elite-accumulator", "type": "item"}}
+          ]
+        },
         "position": {"x": 87.5, "y": 20.5}
       },
       {
         "name": "constant-combinator",
         "direction": 4,
         "connections": {"1": {"red": [{"entity_rel": "0,-1"}, {"entity_rel": "0,1"}]}},
-        "control_behavior": {"is_on": false},
+        "control_behavior": {
+          "is_on": false,
+          "filters": [
+            {"count": 3100, "index": 1, "signal": {"name": "advanced-solar", "type": "item"}},
+            {"count": 3000, "index": 2, "signal": {"name": "advanced-accumulator", "type": "item"}}
+          ]
+        },
         "position": {"x": 87.5, "y": 21.5}
       },
       {
@@ -7781,7 +7799,12 @@
       {"name": "stack-inserter", "direction": 4, "position": {"x": 63.5, "y": 89.5}},
       {"name": "transport-belt", "position": {"x": 63.5, "y": 90.5}},
       {"name": "fast-inserter", "direction": 6, "position": {"x": 64.5, "y": 90.5}},
-      {"name": "assembling-machine-3", "items": {"speed-module-3": 4}, "position": {"x": 66.5, "y": 90.5}},
+      {
+        "name": "assembling-machine-3",
+        "recipe": "advanced-accumulator",
+        "items": {"speed-module-3": 4},
+        "position": {"x": 66.5, "y": 90.5}
+      },
       {"name": "fast-inserter", "direction": 2, "position": {"x": 68.5, "y": 89.5}},
       {"name": "fast-inserter", "direction": 6, "position": {"x": 68.5, "y": 90.5}},
       {
@@ -7797,7 +7820,12 @@
       {"name": "fast-inserter", "direction": 6, "position": {"x": 64.5, "y": 93.5}},
       {"name": "transport-belt", "position": {"x": 63.5, "y": 94.5}},
       {"name": "long-handed-inserter", "direction": 6, "position": {"x": 64.5, "y": 94.5}},
-      {"name": "assembling-machine-3", "items": {"speed-module-3": 4}, "position": {"x": 66.5, "y": 93.5}},
+      {
+        "name": "assembling-machine-3",
+        "recipe": "advanced-accumulator",
+        "items": {"speed-module-3": 4},
+        "position": {"x": 66.5, "y": 93.5}
+      },
       {"name": "transport-belt", "direction": 4, "position": {"x": 69.5, "y": 91.5}},
       {"name": "transport-belt", "direction": 4, "position": {"x": 69.5, "y": 92.5}},
       {"name": "fast-inserter", "direction": 6, "position": {"x": 68.5, "y": 93.5}},
@@ -7843,7 +7871,12 @@
       },
       {"name": "transport-belt", "position": {"x": 63.5, "y": 96.5}},
       {"name": "fast-inserter", "direction": 6, "position": {"x": 64.5, "y": 96.5}},
-      {"name": "assembling-machine-3", "items": {"speed-module-3": 4}, "position": {"x": 66.5, "y": 96.5}},
+      {
+        "name": "assembling-machine-3",
+        "recipe": "advanced-accumulator",
+        "items": {"speed-module-3": 4},
+        "position": {"x": 66.5, "y": 96.5}
+      },
       {"name": "transport-belt", "position": {"x": 63.5, "y": 97.5}},
       {"name": "long-handed-inserter", "direction": 6, "position": {"x": 64.5, "y": 97.5}},
       {"name": "transport-belt", "position": {"x": 63.5, "y": 98.5}},
@@ -7861,7 +7894,12 @@
       {"name": "fast-inserter", "direction": 6, "position": {"x": 64.5, "y": 99.5}},
       {"name": "transport-belt", "position": {"x": 63.5, "y": 100.5}},
       {"name": "long-handed-inserter", "direction": 6, "position": {"x": 64.5, "y": 100.5}},
-      {"name": "assembling-machine-3", "items": {"speed-module-3": 4}, "position": {"x": 66.5, "y": 99.5}},
+      {
+        "name": "assembling-machine-3",
+        "recipe": "advanced-accumulator",
+        "items": {"speed-module-3": 4},
+        "position": {"x": 66.5, "y": 99.5}
+      },
       {"name": "transport-belt", "position": {"x": 63.5, "y": 101.5}},
       {
         "name": "medium-electric-pole",
@@ -7872,6 +7910,7 @@
       {"name": "fast-inserter", "direction": 6, "position": {"x": 64.5, "y": 102.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "advanced-accumulator",
         "items": {"speed-module-3": 4},
         "position": {"x": 66.5, "y": 102.5}
       },
@@ -8089,6 +8128,7 @@
       {"name": "medium-electric-pole", "neighbours": ["7,-5", "2,7"], "position": {"x": 76.5, "y": 88.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "elite-accumulator",
         "items": {"effectivity-module-3": 1, "speed-module-3": 2},
         "position": {"x": 76.5, "y": 90.5}
       },
@@ -8107,11 +8147,16 @@
       {"name": "long-handed-inserter", "direction": 6, "position": {"x": 74.5, "y": 94.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "elite-accumulator",
         "items": {"effectivity-module-3": 1, "speed-module-3": 2},
         "position": {"x": 76.5, "y": 93.5}
       },
       {"name": "fast-inserter", "direction": 6, "position": {"x": 78.5, "y": 93.5}},
-      {"name": "logistic-chest-storage", "position": {"x": 79.5, "y": 89.5}},
+      {
+        "name": "logistic-chest-storage",
+        "position": {"x": 79.5, "y": 89.5},
+        "request_filters": [{"name": "advanced-accumulator", "count": 0, "index": 1}]
+      },
       {"name": "transport-belt", "direction": 4, "position": {"x": 79.5, "y": 90.5}},
       {"name": "logistic-chest-passive-provider", "bar": 1, "position": {"x": 83.5, "y": 88.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 86.5, "y": 87.5}},
@@ -8119,7 +8164,11 @@
       {"name": "fast-inserter", "direction": 4, "position": {"x": 83.5, "y": 89.5}},
       {"name": "transport-belt", "position": {"x": 83.5, "y": 90.5}},
       {"name": "fast-inserter", "direction": 6, "position": {"x": 84.5, "y": 90.5}},
-      {"name": "assembling-machine-3", "position": {"x": 86.5, "y": 90.5}},
+      {
+        "name": "assembling-machine-3",
+        "recipe": "ultimate-accumulator",
+        "position": {"x": 86.5, "y": 90.5}
+      },
       {"name": "transport-belt", "direction": 4, "position": {"x": 79.5, "y": 91.5}},
       {"name": "transport-belt", "direction": 4, "position": {"x": 79.5, "y": 92.5}},
       {"name": "transport-belt", "direction": 4, "position": {"x": 79.5, "y": 93.5}},
@@ -8164,7 +8213,11 @@
       {"name": "transport-belt", "direction": 6, "position": {"x": 90.5, "y": 87.5}},
       {"name": "fast-inserter", "direction": 2, "position": {"x": 88.5, "y": 89.5}},
       {"name": "inserter", "direction": 6, "position": {"x": 88.5, "y": 90.5}},
-      {"name": "logistic-chest-storage", "position": {"x": 89.5, "y": 89.5}},
+      {
+        "name": "logistic-chest-storage",
+        "position": {"x": 89.5, "y": 89.5},
+        "request_filters": [{"name": "elite-accumulator", "count": 0, "index": 1}]
+      },
       {"name": "logistic-chest-passive-provider", "bar": 1, "position": {"x": 89.5, "y": 90.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 91.5, "y": 87.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 92.5, "y": 87.5}},
@@ -9810,12 +9863,16 @@
       {"name": "transport-belt", "direction": 6, "position": {"x": 104.5, "y": 93.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 105.5, "y": 93.5}},
       {"name": "transport-belt", "direction": 6, "position": {"x": 106.5, "y": 93.5}},
-      {"name": "logistic-chest-storage", "position": {"x": 122.5, "y": 89.5}},
+      {
+        "name": "logistic-chest-storage",
+        "position": {"x": 122.5, "y": 89.5},
+        "request_filters": [{"name": "elite-solar", "count": 0, "index": 1}]
+      },
       {"name": "logistic-chest-passive-provider", "bar": 1, "position": {"x": 122.5, "y": 90.5}},
       {"name": "medium-electric-pole", "neighbours": ["6,4"], "position": {"x": 123.5, "y": 88.5}},
       {"name": "fast-inserter", "direction": 6, "position": {"x": 123.5, "y": 89.5}},
       {"name": "inserter", "direction": 2, "position": {"x": 123.5, "y": 90.5}},
-      {"name": "assembling-machine-3", "position": {"x": 125.5, "y": 90.5}},
+      {"name": "assembling-machine-3", "recipe": "ultimate-solar", "position": {"x": 125.5, "y": 90.5}},
       {"name": "logistic-chest-passive-provider", "bar": 1, "position": {"x": 128.5, "y": 88.5}},
       {"name": "transport-belt", "direction": 4, "position": {"x": 129.5, "y": 87.5}},
       {"name": "transport-belt", "direction": 4, "position": {"x": 129.5, "y": 88.5}},
@@ -9824,7 +9881,11 @@
       {"name": "transport-belt", "position": {"x": 128.5, "y": 90.5}},
       {"name": "transport-belt", "direction": 4, "position": {"x": 129.5, "y": 89.5}},
       {"name": "transport-belt", "direction": 4, "position": {"x": 129.5, "y": 90.5}},
-      {"name": "logistic-chest-storage", "position": {"x": 132.5, "y": 89.5}},
+      {
+        "name": "logistic-chest-storage",
+        "position": {"x": 132.5, "y": 89.5},
+        "request_filters": [{"name": "advanced-solar", "count": 0, "index": 1}]
+      },
       {"name": "transport-belt", "direction": 4, "position": {"x": 132.5, "y": 90.5}},
       {"name": "fast-inserter", "direction": 6, "position": {"x": 133.5, "y": 89.5}},
       {"name": "fast-inserter", "direction": 2, "position": {"x": 133.5, "y": 90.5}},
@@ -10018,6 +10079,7 @@
       {"name": "logistic-chest-passive-provider", "bar": 1, "position": {"x": 138.5, "y": 88.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "elite-solar",
         "items": {"effectivity-module-3": 1, "speed-module-3": 3},
         "position": {"x": 135.5, "y": 90.5}
       },
@@ -10039,6 +10101,7 @@
       {"name": "transport-belt", "position": {"x": 138.5, "y": 92.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "elite-solar",
         "items": {"effectivity-module-3": 1, "speed-module-3": 3},
         "position": {"x": 135.5, "y": 93.5}
       },
@@ -10064,6 +10127,7 @@
       {"name": "fast-inserter", "direction": 2, "position": {"x": 143.5, "y": 90.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "advanced-solar",
         "items": {"speed-module-3": 4},
         "position": {"x": 145.5, "y": 90.5}
       },
@@ -10078,6 +10142,7 @@
       {"name": "fast-inserter", "direction": 2, "position": {"x": 143.5, "y": 93.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "advanced-solar",
         "items": {"speed-module-3": 4},
         "position": {"x": 145.5, "y": 93.5}
       },
@@ -10126,6 +10191,7 @@
       {"name": "fast-inserter", "direction": 2, "position": {"x": 143.5, "y": 96.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "advanced-solar",
         "items": {"speed-module-3": 4},
         "position": {"x": 145.5, "y": 96.5}
       },
@@ -10142,12 +10208,14 @@
       {"name": "fast-inserter", "direction": 2, "position": {"x": 143.5, "y": 99.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "advanced-solar",
         "items": {"speed-module-3": 4},
         "position": {"x": 145.5, "y": 99.5}
       },
       {"name": "fast-inserter", "direction": 2, "position": {"x": 143.5, "y": 102.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "advanced-solar",
         "items": {"speed-module-3": 4},
         "position": {"x": 145.5, "y": 102.5}
       },
@@ -10511,6 +10579,7 @@
       {"name": "long-handed-inserter", "direction": 6, "position": {"x": 64.5, "y": 106.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "advanced-accumulator",
         "items": {"speed-module-3": 4},
         "position": {"x": 66.5, "y": 105.5}
       },
@@ -10529,6 +10598,7 @@
       {"name": "fast-inserter", "direction": 6, "position": {"x": 64.5, "y": 108.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "advanced-accumulator",
         "items": {"speed-module-3": 4},
         "position": {"x": 66.5, "y": 108.5}
       },
@@ -10582,6 +10652,7 @@
       {"name": "long-handed-inserter", "direction": 6, "position": {"x": 64.5, "y": 112.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "advanced-accumulator",
         "items": {"speed-module-3": 4},
         "position": {"x": 66.5, "y": 111.5}
       },
@@ -10595,6 +10666,7 @@
       {"name": "fast-inserter", "direction": 6, "position": {"x": 64.5, "y": 114.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "advanced-accumulator",
         "items": {"speed-module-3": 4},
         "position": {"x": 66.5, "y": 114.5}
       },
@@ -10618,6 +10690,7 @@
       {"name": "long-handed-inserter", "direction": 6, "position": {"x": 64.5, "y": 118.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "advanced-accumulator",
         "items": {"speed-module-3": 4},
         "position": {"x": 66.5, "y": 117.5}
       },
@@ -10833,6 +10906,7 @@
       {"name": "fast-inserter", "direction": 6, "position": {"x": 64.5, "y": 120.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "advanced-accumulator",
         "items": {"speed-module-3": 4},
         "position": {"x": 66.5, "y": 120.5}
       },
@@ -11275,6 +11349,7 @@
       {"name": "fast-inserter", "direction": 2, "position": {"x": 143.5, "y": 105.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "advanced-solar",
         "items": {"speed-module-3": 4},
         "position": {"x": 145.5, "y": 105.5}
       },
@@ -11292,6 +11367,7 @@
       {"name": "fast-inserter", "direction": 2, "position": {"x": 143.5, "y": 108.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "advanced-solar",
         "items": {"speed-module-3": 4},
         "position": {"x": 145.5, "y": 108.5}
       },
@@ -11334,12 +11410,14 @@
       {"name": "fast-inserter", "direction": 2, "position": {"x": 143.5, "y": 111.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "advanced-solar",
         "items": {"speed-module-3": 4},
         "position": {"x": 145.5, "y": 111.5}
       },
       {"name": "fast-inserter", "direction": 2, "position": {"x": 143.5, "y": 114.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "advanced-solar",
         "items": {"speed-module-3": 4},
         "position": {"x": 145.5, "y": 114.5}
       },
@@ -11362,6 +11440,7 @@
       {"name": "fast-inserter", "direction": 2, "position": {"x": 143.5, "y": 117.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "advanced-solar",
         "items": {"speed-module-3": 4},
         "position": {"x": 145.5, "y": 117.5}
       },
@@ -11565,6 +11644,7 @@
       {"name": "fast-inserter", "direction": 2, "position": {"x": 143.5, "y": 120.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "advanced-solar",
         "items": {"speed-module-3": 4},
         "position": {"x": 145.5, "y": 120.5}
       },
@@ -11586,6 +11666,7 @@
       {"name": "fast-inserter", "direction": 2, "position": {"x": 143.5, "y": 123.5}},
       {
         "name": "assembling-machine-3",
+        "recipe": "advanced-solar",
         "items": {"speed-module-3": 4},
         "position": {"x": 145.5, "y": 123.5}
       },

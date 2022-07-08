@@ -7,7 +7,7 @@
     "absolute-snapping": true,
     "shift_x": 53,
     "shift_y": -55,
-    "version": 281479275610112,
+    "version": 281479275675648,
     "entities": [
       {"name": "rail-signal", "position": {"x": -1.5, "y": 0.5}},
       {"name": "straight-rail", "position": {"x": 0, "y": 0}},
@@ -528,7 +528,6 @@
       {"name": "straight-rail", "direction": 2, "position": {"x": 86, "y": 100}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 88, "y": 100}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 90, "y": 100}},
-      {"name": "rail-signal", "direction": 2, "position": {"x": 95.5, "y": 98.5}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 92, "y": 100}},
       {"name": "straight-rail", "direction": 2, "position": {"x": 94, "y": 100}},
       {"name": "curved-rail", "direction": 3, "position": {"x": 99, "y": 101}},

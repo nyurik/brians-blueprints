@@ -7,7 +7,7 @@
     "absolute-snapping": true,
     "shift_x": 41,
     "shift_y": 41,
-    "version": 281479275610112,
+    "version": 281479275675648,
     "entities": [
       {"name": "stone-wall", "position": {"x": 6.5, "y": -11.5}},
       {"name": "stone-wall", "position": {"x": 4.5, "y": -9.5}},

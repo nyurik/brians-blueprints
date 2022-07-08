@@ -6,7 +6,7 @@
     "absolute-snapping": true,
     "shift_x": 33,
     "shift_y": -11,
-    "version": 281479275610112,
+    "version": 281479275675648,
     "entities": [
       {"name": "curved-rail", "direction": 6, "position": {"x": -21, "y": 1}},
       {"name": "rail-signal", "direction": 1, "position": {"x": -27.5, "y": 4.5}},

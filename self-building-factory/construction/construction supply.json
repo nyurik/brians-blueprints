@@ -6,7 +6,7 @@
     "description": "This CANNOT be applied over an existing \"supply\" station.  All combinators must be removed first -- only the roboports, power poles, chests, and train stop can remain.",
     "shift_x": -565,
     "shift_y": -247,
-    "version": 281479275610112,
+    "version": 281479275675648,
     "entities": [
       {"name": "medium-electric-pole", "neighbours": ["7,0", "0,9"], "position": {"x": 14.5, "y": -11.5}},
       {"name": "roboport", "position": {"x": 18, "y": -11}},

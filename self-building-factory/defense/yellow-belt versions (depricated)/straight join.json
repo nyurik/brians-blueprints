@@ -6,7 +6,7 @@
     "absolute-snapping": true,
     "shift_x": 54,
     "shift_y": 45,
-    "version": 281479275610112,
+    "version": 281479275675648,
     "entities": [
       {"name": "underground-belt", "type": "input", "position": {"x": 0.5, "y": 0.5}},
       {"name": "pipe-to-ground", "direction": 4, "position": {"x": 1.5, "y": 0.5}},

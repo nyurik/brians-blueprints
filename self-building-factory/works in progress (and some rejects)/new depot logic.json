@@ -5,7 +5,7 @@
     "label": "New Depot Logic",
     "shift_x": -373,
     "shift_y": 250,
-    "version": 281479275610112,
+    "version": 281479275675648,
     "entities": [
       {
         "name": "arithmetic-combinator",
